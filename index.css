@@ -92,6 +92,7 @@ body {
 }
 
 .resume .resume_left ul li .icon {
+  min-width: 20px;
   width: 20px;
   height: 20px;
   /* background: #fff; */
@@ -113,6 +114,11 @@ body {
 
 .resume .resume_left ul li .data {
   color: #fff;
+}
+
+.resume .resume_left ul li .data a{
+  color: #fff;
+  text-decoration: unset;
 }
 
 .resume .resume_left .resume_skills ul li {
