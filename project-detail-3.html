@@ -10,112 +10,91 @@
   <body>
     <main>
       <section class="projects">
-        <h2 class="header-text">Guzman y Gomez</h2>
+        <h2 class="header-text">Capauth: Django SSO Backend</h2>
 
         <div class="project" style="flex-direction: column">
           <div class="project-text">
-            <h3>Restaurant Management:</h3>
+            <h2>Organisation Management:</h2>
             <ul>
               <li>
-                Add and edit restaurant profiles, including details like
-                location, operating hours, and contact information.
+                <strong>Organisation Visibility:</strong> All users can view all
+                organisations, with potential for future modifications to
+                restrict visibility.
               </li>
               <li>
-                Manage multiple restaurant locations under one account for
-                centralized oversight.
+                <strong>Organisation Creation:</strong> Users can create new
+                organisations, automatically becoming admins of the
+                organisations they create.
+              </li>
+              <li>
+                <strong>Default Organisation:</strong> New users are initially
+                assigned to a default organisation before creating or joining
+                others.
+              </li>
+              <li>
+                <strong>Edit and Delete Control:</strong> Only the creator of an
+                organisation can edit or delete it.
               </li>
             </ul>
             <br>
 
-            <h3>Menu Management:</h3>
+            <h2>User Management:</h2>
             <ul>
-              <li>Create and modify menus for breakfast, lunch, and dinner.</li>
               <li>
-                Add individual items with detailed descriptions, pricing, and
-                dietary information to enhance customer engagement.
+                <strong>Intra-Organisation Access:</strong> Users within an
+                organisation can access information about other users in the
+                same organisation.
               </li>
               <li>
-                Categorize menu items into specific sections, such as
-                appetizers, mains, and desserts, for easy navigation.
+                <strong>User Addition Process:</strong>
+                <ol type="1">
+                  <li>Check if the new user belongs to the same company.</li>
+                  <li>Verify if the user already exists in the system.</li>
+                  <li>
+                    If present, assign the new organisation to the existing
+                    user.
+                  </li>
+                  <li>
+                    If not present, create a new user, assign to the default
+                    organisation, then add to the specified organisation.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <strong>Multi-System Registration:</strong> Users need to
+                register in Cap-ai and other integrated systems.
+              </li>
+              <li>
+                <strong>Edit and Delete Permissions:</strong> Only admins or the
+                user themselves can edit or delete user information.
               </li>
             </ul>
             <br>
 
-            <h3>Service Management:</h3>
+            <h2>Technologies Used:</h2>
             <ul>
               <li>
-                Enable or disable various service options such as delivery,
-                pickup, and table service to adapt to operational needs.
+                <strong>Back-end:</strong> Django for robust server-side
+                functionality.
               </li>
               <li>
-                Manage service availability based on restaurant hours or special
-                events.
-              </li>
-            </ul>
-            <br>
-
-            <h3>Equipment Management:</h3>
-            <ul>
-              <li>Keep track of essential kitchen equipment, including:</li>
-              <ol type="1">
-                <li>Liquor storage</li>
-                <li>Fryers</li>
-                <li>Quesadilla makers</li>
-                <li>Ice machines</li>
-                <li>Coffee machines</li>
-                <li>Soft serve machines</li>
-                <li>Gas types</li>
-              </ol >
-              <li>
-                Monitor the status and maintenance schedules of these machines
-                to ensure optimal performance.
-              </li>
-            </ul>
-            <br>
-
-            <h3>History Log Management:</h3>
-            <ul>
-              <li>
-                Maintain a comprehensive history log that records changes made
-                within the admin panel, including additions, modifications, and
-                deletions.
-              </li>
-              <li>
-                Access historical data to review past menu changes, service
-                status updates, and equipment management actions for better
-                decision-making.
-              </li>
-            </ul>
-            <br>
-
-            <h3>Technologies Used:</h3>
-            <ul>
-              <li>
-                <strong>Frontend:</strong> Next.js for a responsive and dynamic
-                user interface.
-              </li>
-              <li>
-                <strong>Backend:</strong> Nest.js and Express.js for robust
-                server-side functionality.
-              </li>
-              <li>
-                <strong>Database:</strong> Postgres for flexible data storage
+                <strong>Database:</strong> PostgreSQL for flexible data storage
                 and retrieval.
               </li>
               <li>
-                <strong>Authentication:</strong> Okta for secure user login and
-                access control.
+                <strong>Authentication:</strong> Django Oauth Toolkit for secure
+                user login and access control.
               </li>
             </ul>
+
             <a
-              href="https://resto365.prod.ops.gyg.com.au/"
-              class="button btn-color"
-              style="margin-top: 10px"
-              >Live  Project</a
-            >
+            href="https://capauth-staging.theadventus.com/"
+            class="button btn-color"
+            style="margin-top: 10px"
+            >Live  Project</a
+          >
           </div>
-          <div class="project-image">
-            <!-- <img src="img/123.png" alt="Project Image 1"> -->
+          <!-- <div class="project-image">
             <ul>
               <li>
                 <a href="">
@@ -208,7 +187,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </section>
       <footer>
