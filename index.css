@@ -14,7 +14,6 @@ body {
   line-height: 22px;
   color: #555555;
   font-family: 'Source Sans Pro', sans-serif !important;
-  gap: 20px;
 
 }
 
@@ -30,10 +29,10 @@ body {
 }
 
 .resume {
-  width: 1000px;
-  height: auto;
+  /* width: 1000px; */
+  height: 100%;
   display: flex;
-  margin: 50px auto;
+  /* margin: 50px auto; */
 }
 
 .resume .resume_left {
@@ -154,9 +153,8 @@ body {
 }
 
 .resume .resume_right {
-  width: 551px;
-  background: #fff;
-  padding: 25px;
+  /* width: 551px; */
+  padding: 15px;
 }
 
 .resume .resume_right .bold {
@@ -272,13 +270,13 @@ body {
   position: relative;
 }
 
-#download {
+.download {
   display: flex;
   justify-content: end;
   margin-top: 25px;
 }
 
-#download>button {
+.download>button {
   width: auto;
   height: 36px;
   border-radius: 28px;
@@ -304,28 +302,7 @@ body {
   height: 2px;
 }
 
-/* Printing */
-page {
-  /* background: white; */
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-}
 
-page[size="A4"] {
-  width: 21cm;
-  height: 29.7cm;
-}
-
-@page {
-  size: 21cm 29.7cm;
-  padding: 0;
-  margin: 0mm;
-  border: none;
-  border-collapse: collapse;
-}
-
-/* End Printing */
 
 .profile_title {
   display: flex;
@@ -385,3 +362,48 @@ page[size="A4"] {
 .experience_info li::after {
   display: none;
 }
+
+
+
+
+
+
+.a4-page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  /* padding: 20mm; */
+  box-sizing: border-box;
+  /* border: 1px solid #000; */
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  page-break-after: auto;
+page-break-inside: avoid; /* Avoid page breaks within an element */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Content styling */
+
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Print specific rules */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body, .a4-page {
+    margin: 0;
+    padding: 0;
+  }
+}
+
