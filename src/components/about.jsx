@@ -1,7 +1,14 @@
 import React from "react";
 import "../App.css";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const navigate = useNavigate();
+
+  const click = (path) => {
+    navigate(path);
+  };
+
   return (
     <section
       className="w3-animate-top profile-section"
@@ -28,9 +35,9 @@ function About() {
           >
             Resume
           </a>
-          <a href="/projects" className="button projects">
+          <span onClick={() => click("/projects")} className="button projects">
             Projects
-          </a>
+          </span>
         </div>
       </div>
     </section>

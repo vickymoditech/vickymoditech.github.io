@@ -1,8 +1,15 @@
 import React from "react";
-import "../App.css";
+import { useNavigate } from "react-router-dom";
 import projectsData from "./projectsData.json";
+import "../App.css";
 
 function Projects() {
+  const navigate = useNavigate();
+
+  const click = (path) => {
+    navigate(path);
+  };
+
   if (!projectsData) {
     return <div>Project not found.</div>;
   }
@@ -23,8 +30,8 @@ function Projects() {
                 <p>{project.description}</p>
               </div>
               <div className="button-group">
-                <a
-                  href={`/projectDetail/${project.id}`}
+                <span
+                  onClick={() => click(`/projectDetail/${project.id}`)}
                   className="button resume"
                   style={{
                     width: "150px",
@@ -32,8 +39,8 @@ function Projects() {
                     borderRadius: "28px",
                   }}
                 >
-                  View Projects
-                </a>
+                  View More
+                </span>
               </div>
             </div>
             <div className="w3-animate-bottom product-image">
