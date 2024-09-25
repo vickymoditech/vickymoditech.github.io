@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - develop # Change this to the branch you want to trigger the deployment
+      - Develop # Change this to the branch you want to trigger the deployment
 
 jobs:
   deploy:
