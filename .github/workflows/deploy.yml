@@ -27,4 +27,6 @@ jobs:
         run: npm install
 
       - name: Deploy application
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
         run: npm run deploy
