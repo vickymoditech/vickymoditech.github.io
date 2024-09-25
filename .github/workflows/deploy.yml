@@ -26,7 +26,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build
+        run: npm run predeploy
+
       - name: Deploy application
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
-        run: npm run deploy
+        run: gh-pages -d build
