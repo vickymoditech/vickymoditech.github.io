@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1,
+    "title": "CREAT: Restaurant Reservation",
+    "logo": "/img/creat/customer/CE_Logo.png",
+    "description": "Our restaurant reservation app provides a seamless and user-friendly experience for diners looking to book a table for breakfast, lunch, or dinner.",
+    "data": [
+      {
+        "heading": "Customer Side",
+        "bullets": [
+          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
+          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
+          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
+          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
+          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+        ]
+      },
+      {
+        "heading": "Admin Side",
+        "bullets": [
+          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
+          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
+          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
+          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
+          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
+          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Node Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Next Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Postgress",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Nest Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Express Js",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [
+      {
+        "src": "/img/creat/admin/CA1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/customer/CC1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/customer/CC2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/customer/CCP3.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://creat.sg/"
+  },
+  {
+    "id": 2,
+    "title": "Guzman y Gomez: Admin Panel for Restaurant Management",
+    "logo": "/img/gyg/gyg.png",
+    "description": "The Guzman y Gomez Admin Panel is a robust web application designed to streamline restaurant management operations. This intuitive interface allows administrators to efficiently manage restaurant profiles, menus, and service options, ensuring a seamless experience for both staff and customers.",
+
+    "data": [
+      {
+        "heading": "Restaurant Management",
+        "bullets": [
+          "Add and edit restaurant profiles, including details like location, operating hours, and contact information.",
+          "Manage multiple restaurant locations under one account for centralized oversight."
+        ]
+      },
+      {
+        "heading": "Menu Management",
+        "bullets": [
+          "Create and modify menus for breakfast, lunch, and dinner.",
+          "Add individual items with detailed descriptions, pricing, and dietary information to enhance customer engagement.",
+          "Categorize menu items into specific sections, such as appetizers, mains, and desserts, for easy navigation."
+        ]
+      },
+      {
+        "heading": "Service Management",
+        "bullets": [
+          "Enable or disable various service options such as delivery, pickup, and table service to adapt to operational needs.",
+          "Manage service availability based on restaurant hours or special events."
+        ]
+      },
+      {
+        "heading": "Equipment Management",
+        "bullets": [
+          "Keep track of essential kitchen equipment, including liquor storage, fryers, quesadilla makers, ice machines, coffee machines, soft serve machines, and gas types.",
+          "Monitor the status and maintenance schedules of these machines to ensure optimal performance."
+        ]
+      },
+      {
+        "heading": "History Log Management",
+        "bullets": [
+          "Maintain a comprehensive history log that records changes made within the admin panel, including additions, modifications, and deletions.",
+          "Access historical data to review past menu changes, service status updates, and equipment management actions for better decision-making."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Node Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Next Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Postgress",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Nest Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Express Js",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+
+    "images": [
+      {
+        "src": "/img/gyg/Resto_list.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/resto_profile.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/user_list.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/history_log.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/menu_management.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/equipment.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/trading_hours.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/customer_support.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://resto365.prod.ops.gyg.com.au/"
+  },
+  {
+    "id": 3,
+    "title": "Capauth: Django SSO Backend",
+    "logo": "/img/capauth/capabara.png",
+    "description": "A secure single sign-on solution for multiple applications.",
+    "data": [
+      {
+        "heading": "Organisation Management",
+        "bullets": [
+          "All users can view all organisations, with potential for future modifications to restrict visibility.",
+          "Users can create new organisations, automatically becoming admins of the organisations they create.",
+          "New users are initially assigned to a default organisation before creating or joining others.",
+          "Only the creator of an organisation can edit or delete it."
+        ]
+      },
+      {
+        "heading": "User Management",
+        "bullets": [
+          "Users within an organisation can access information about other users in the same organisation.",
+          "Check if the new user belongs to the same company, verify if the user already exists, and manage organisation assignments.",
+          "Users need to register in Cap-ai and other integrated systems.",
+          "Only admins or the user themselves can edit or delete user information."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Node Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Next Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Postgress",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Nest Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Express Js",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [],
+    "link": "https://capauth-staging.theadventus.com/"
+  }
+]
