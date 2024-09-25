@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/vickymoditech.github.io/static/css/main.5ba3fc88.css",
-    "main.js": "/vickymoditech.github.io/static/js/main.38ea431d.js",
-    "index.html": "/vickymoditech.github.io/index.html",
-    "main.5ba3fc88.css.map": "/vickymoditech.github.io/static/css/main.5ba3fc88.css.map",
-    "main.38ea431d.js.map": "/vickymoditech.github.io/static/js/main.38ea431d.js.map"
+    "main.css": "/static/css/main.5ba3fc88.css",
+    "main.js": "/static/js/main.38ea431d.js",
+    "index.html": "/index.html",
+    "main.5ba3fc88.css.map": "/static/css/main.5ba3fc88.css.map",
+    "main.38ea431d.js.map": "/static/js/main.38ea431d.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba3fc88.css",
