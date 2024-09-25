@@ -35,4 +35,4 @@ jobs:
       - name: Deploy application
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
-        run: gh-pages -d build
+        run: gh-pages -d build --repo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/vickymoditech/vickymoditech.github.io.git
