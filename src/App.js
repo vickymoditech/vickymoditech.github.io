@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/about";
 import Projects from "./components/projects";
 import ProjectDetail from "./components/projectDetail";
@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route exact path="/" element={<Home />}>
           <Route index element={<About />} />
