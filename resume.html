@@ -17,6 +17,7 @@
   <div class="download">
     <button id="download-btn">Download</button>
   </div>
+  <div id="content">
   <div class="a4-page">
     <div class="resume">
       <div class="resume_left">
@@ -191,7 +192,7 @@
               </li>
               <li>
                 <div class="skill_name">
-                  .net core
+                   core.net
                 </div>
                 <div class="skill_per">6 years</div>
               </li>
@@ -201,7 +202,7 @@
                 </div>
                 <div class="skill_per">6 years</div>
               </li>
-              <li>
+              <!-- <li>
                 <div class="skill_name">
                   Python Django
                 </div>
@@ -212,7 +213,7 @@
                   AWS
                 </div>
                 <div class="skill_per">6 years</div>
-              </li>
+              </li> -->
               <!-- Back-end end -->
             </ul>
           </div>
@@ -279,7 +280,26 @@
     <div class="resume">
       <div class="resume_left">
         <div class="resume_content">
+          
+           
+           
+          
           <div class="resume_item resume_skills">
+             <ul>
+              <li>
+                <div class="skill_name">
+                  Python Django
+                </div>
+                <div class="skill_per">6 years</div>
+              </li>
+              <li>
+                <div class="skill_name">
+                  AWS
+                </div>
+                <div class="skill_per">6 years</div>
+              </li>
+              <!-- Back-end end -->
+            </ul>
             <div class="title">
               <p class="bold">Languages's</p>
             </div>
@@ -403,68 +423,32 @@
       </div>
     </div>
   </div>
+  </div>
   <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
-  <script>
-    document.getElementById('download-btn').addEventListener('click', function () {
-      const { jsPDF } = window.jspdf;
-      const pdf = new jsPDF();
-      // Select both content divs
-      const contentDivs = document.querySelectorAll(".a4-page");
-      // Wait for all images inside the content to load
-      const loadImages = (div) => {
-        const images = div.querySelectorAll("img");
-        const promises = [];
-        images.forEach((img) => {
-          if (!img.complete) {
-            promises.push(new Promise((resolve) => {
-              img.onload = resolve;
-              img.onerror = resolve;  // Resolve even if there's an error (to avoid blocking)
-            }));
-          }
-        });
-        return Promise.all(promises);
-      };
-      // Function to add each page to the PDF
-      const addPageToPDF = (canvas, position) => {
-        const imgData = canvas.toDataURL("image/png");
-        const imgWidth = 209.85; // Adjust width
-        const pageHeight = pdf.internal.pageSize.height;
-        const imgHeight = (canvas.height * imgWidth) / canvas.width;
-        let heightLeft = imgHeight;
-        // Add first page
-        pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
-        heightLeft -= pageHeight;
-        // Add additional pages if needed
-        while (heightLeft >= 0) {
-          position = heightLeft - imgHeight;
-          pdf.addPage();
-          pdf.addImage(imgData, 'PNG', 10, position, imgWidth, imgHeight);
-          heightLeft -= pageHeight;
-        }
-      };
-      // Loop through each page div
-      let promises = [];
-      contentDivs.forEach((div, index) => {
-        promises.push(
-          loadImages(div).then(() => {
-            return html2canvas(div).then(canvas => {
-              if (index > 0) pdf.addPage(); // Add a new page for subsequent divs
-              addPageToPDF(canvas, 0);
-            });
-          })
-        );
-      });
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
-      // Once all pages are processed, save the PDF
-      Promise.all(promises).then(() => {
-        pdf.save("download.pdf");
-      });
-    });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+<script>
+        document.getElementById('download-btn').addEventListener('click', function () {
+            const element = document.getElementById('content'); // Select the container for all pages
+
+            // Configure options for html2pdf
+            const options = {
+                margin: 0,
+                filename: 'download.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+
+            // Generate PDF from the selected element
+            html2pdf()
+                .from(element)
+                .set(options)
+                .save();
+        });
+    </script>
+
   <script src="https://kit.fontawesome.com/64339cb32d.js" crossorigin="anonymous"></script>
 </body>
 

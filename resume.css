@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-
 }
 
 body {
@@ -13,8 +12,7 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: #555555;
-  font-family: 'Source Sans Pro', sans-serif !important;
-
+  font-family: "Source Sans Pro", sans-serif !important;
 }
 
 .bold {
@@ -63,7 +61,7 @@ body {
 
 .resume .resume_left .bold {
   color: #fff;
-  font-family: 'Archivo Narrow', sans-serif !important;
+  font-family: "Archivo Narrow", sans-serif !important;
 }
 
 .resume .resume_left .regular {
@@ -73,7 +71,6 @@ body {
 .resume .resume_item {
   padding: 25px 0;
   border-bottom: 2px solid #837c7c3b;
-
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -116,7 +113,7 @@ body {
   color: #fff;
 }
 
-.resume .resume_left ul li .data a{
+.resume .resume_left ul li .data a {
   color: #fff;
   text-decoration: unset;
 }
@@ -161,7 +158,7 @@ body {
 
 .resume .resume_right .bold {
   color: #484444;
-  font-family: 'Archivo Narrow', sans-serif !important;
+  font-family: "Archivo Narrow", sans-serif !important;
 }
 
 .resume .resume_right .resume_work ul,
@@ -211,8 +208,6 @@ body {
   background: #484444;
 }
 
-
-
 .resume .resume_right .resume_work ul li:nth-child(1):after {
   height: 322px !important;
 }
@@ -221,20 +216,9 @@ body {
   height: 366px !important;
 }
 
-
 .resume .resume_right .resume_work ul li:nth-child(3):after {
   height: 100% !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 .resume .resume_right .resume_hobby ul {
   display: flex;
@@ -278,7 +262,7 @@ body {
   margin-top: 25px;
 }
 
-.download>button {
+.download > button {
   width: auto;
   height: 36px;
   border-radius: 28px;
@@ -287,11 +271,9 @@ body {
   color: #484444;
   font-weight: 600;
   background-color: #fff;
-
 }
 
-
-.icon>svg {
+.icon > svg {
   fill: #18b6ef;
   width: 35px;
   height: 35px;
@@ -303,8 +285,6 @@ body {
   flex-grow: 1;
   height: 2px;
 }
-
-
 
 .profile_title {
   display: flex;
@@ -318,8 +298,7 @@ body {
   margin-bottom: 0.2cm;
   margin-top: 0.2cm;
   text-transform: uppercase;
-  font-family: 'Archivo Narrow', sans-serif !important;
-
+  font-family: "Archivo Narrow", sans-serif !important;
 }
 
 .w_700 {
@@ -365,14 +344,9 @@ body {
   display: none;
 }
 
-
-
-
-
-
 .a4-page {
   width: 210mm;
-  height: 297mm;
+  height: 278mm;
   margin: 0 auto;
   /* padding: 20mm; */
   box-sizing: border-box;
@@ -380,7 +354,7 @@ body {
   background-color: rgb(255, 255, 255);
   position: relative;
   page-break-after: auto;
-page-break-inside: avoid; /* Avoid page breaks within an element */
+  page-break-inside: avoid; /* Avoid page breaks within an element */
 }
 
 body {
@@ -389,7 +363,6 @@ body {
 }
 
 /* Content styling */
-
 
 p {
   font-size: 14px;
@@ -403,9 +376,9 @@ p {
     margin: 0;
   }
 
-  body, .a4-page {
+  body,
+  .a4-page {
     margin: 0;
     padding: 0;
   }
 }
-
