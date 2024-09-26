@@ -20,8 +20,20 @@ function Footer() {
         <div className="footer-social">
           <p>Follow Me</p>
           <div className="social-logo">
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-github"></i>
+            <a href="#no" target="_blank" rel="noopener noreferrer">
+              <i
+                style={{ color: "#0068f0", fontSize: "25px" }}
+                href=""
+                className="fab fa-linkedin"
+              ></i>
+            </a>
+            <a
+              href="https://github.com/vickymoditech/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i style={{ fontSize: "25px" }} className="fab fa-github"></i>
+            </a>
           </div>
         </div>
       </div>

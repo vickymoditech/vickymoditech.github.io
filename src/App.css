@@ -20,6 +20,7 @@ main {
   width: 100%;
   min-width: 980px;
   margin: 0 auto;
+  position: relative;
   /* height: 100vh; */
 }
 
@@ -31,6 +32,10 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+ 
 }
 
 .header .logo span {
@@ -75,7 +80,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 20px 150px;
+  padding: 70px 150px 100px 150px;
 }
 
 .profile-section {
@@ -117,13 +122,14 @@ display: block;
 .product-image {
   max-height: 360px;
   max-width: 360px;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   flex-direction: column;
+  align-self: center;
   }
   
   .product-image img {
@@ -143,7 +149,14 @@ display: block;
 .profile-details {
   display: flex;
   flex-direction: column;
+  gap: 5px;
   /* gap: 20px; */
+}
+
+.profile-details h4 {
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 
 .profile-content h1 {
@@ -183,6 +196,8 @@ display: block;
   display: flex;
   gap:10px;
   align-self: baseline;
+  justify-content: start;
+
 }
 .social-logo{
   display: flex;
@@ -227,9 +242,11 @@ footer {
   width: 100%;
   background-color: #f7f7f7;
   padding: 30px 50px 50px;
-  margin-top: 20px;
   display: flex;
   border-top: 1px solid #baa0a02e;
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
 }
 
 .footer-content {
@@ -262,4 +279,145 @@ footer {
   color: #333 !important;
 }
 
+/*read more button */
 
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #fff;
+ }
+
+
+ /*URL Button*/
+ .url-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+}
+
+.url-button svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.url-button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.url-button:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+.url-button:hover span {
+  transform: translateX(7px);
+}
+
+.background-blue{
+  background: #0074c3;
+  color: #ffffff;
+}
+
+.click-chip{
+  padding: 5px 10px;
+  border-radius: 40px;
+  display: inline-flex;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.click-chip:hover{
+  filter: brightness(85%);
+}
