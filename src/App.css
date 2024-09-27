@@ -70,9 +70,9 @@ main {
   text-decoration: unset;
 }
 
-.header .menu ul li:nth-child(2) {
+.header .menu ul li:nth-child(-n+2) {
  /* border-right: 1px solid #333333; */
- border-left: 1px solid #333333;
+ border-right: 1px solid #333333;
 }
 
 .product-section {
@@ -420,4 +420,26 @@ button {
 
 .click-chip:hover{
   filter: brightness(85%);
+}
+
+/*project not found style*/
+.project-not-found {
+  background-color: #f7f7f7; /* light gray background */
+  padding: 20px;
+  border: 1px solid #ddd; /* light gray border */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  text-align: center; /* center the text */
+}
+
+.project-not-found h2 {
+  color: #333; /* dark gray text */
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.project-not-found p {
+  color: #666; /* medium gray text */
+  font-size: 16px;
+  margin-bottom: 20px;
 }

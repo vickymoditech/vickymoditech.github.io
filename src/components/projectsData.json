@@ -256,5 +256,399 @@
     ],
     "images": [],
     "link": "https://capauth-staging.theadventus.com/"
+  },
+  {
+    "id": 4,
+    "title": "Lucky Minute : The One Minute Gaming App",
+    "logo": "/img/lucky-minute/Logo.svg",
+    "description": "Join Lucky Minute, the exhilarating online gaming platform where you can dive into thrilling rounds of Baccarat, Roulette, and Sic Bo! After a quick verification, you'll be randomly placed in groups to enjoy fast-paced, one-minute gameplay. Discover if you’ve won or lost in just a minute!",
+    "work": "Freelance",
+    "companyName": "Lucky Minute",
+    "companySite": "https://lucky-minute.com/",
+    "workLogo": "/img/capauth/freelance.png",
+    "data": [
+      {
+        "heading": "Frontend",
+        "bullets": [
+          "One-Minute Rounds: Experience the thrill with fast gameplay.",
+          "Instant Results: See if you’ve won or lost right after each round",
+          "Random Group Play: Join different players for a fresh experience each time.",
+          "Simple Verification: Quick and easy process to get started.",
+          "User-Friendly Design: Navigate seamlessly on any device.",
+          "Secure Gaming: Enjoy a safe and protected environment.",
+          "Real-Time Player Interaction: Engage with others while you play.",
+          "Mobile Friendly: Play anytime, anywhere on your mobile device.",
+          "Exciting Rewards: Win bonuses based on your performance.",
+          "Engaging Experience: Feel the rush of every game with every round!"
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "React Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Redux",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Fortawesome",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Jwt",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [
+      {
+        "src": "/img/lucky-minute/img0.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img8.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img9.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img7.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/lucky-minute/img6.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://lucky-minute.com/"
+  },
+  {
+    "id": 5,
+    "title": "FB LIVE : The Live Order System",
+    "logo": "/img/live-order/logo.png",
+    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "work": "Freelance",
+    "companyName": "FB LIVE",
+    "companySite": "https://liveorder.ordrstartr.com/",
+    "workLogo": "/img/capauth/freelance.png",
+    "data": [
+      {
+        "heading": "Customer Side",
+        "bullets": [
+          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
+          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
+          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
+          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
+          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+        ]
+      },
+      {
+        "heading": "Admin Side",
+        "bullets": [
+          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
+          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
+          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
+          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
+          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
+          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "React Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Redux Thunk",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Material Ui",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Jwt",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Jquery",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Crypto",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "React Bootstrap",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "React Tostify",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Socket",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "axios",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Babel",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Bluebird",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Ejs",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Express",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Mongoose",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [
+      {
+        "src": "/img/live-order/img0.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img8.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img9.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img7.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/live-order/img6.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://liveorder.ordrstartr.com/"
+  },
+  {
+    "id": 6,
+    "title": "NEEMIYA : Effective Lead Generation Platform",
+    "logo": "/img/neemiya/logo.png",
+    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "work": "Freelance",
+    "companyName": "NEEMIYA",
+    "companySite": "https://neemiya.com/",
+    "workLogo": "/img/capauth/freelance.png",
+    "data": [
+      {
+        "heading": "Customer Side",
+        "bullets": [
+          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
+          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
+          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
+          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
+          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+        ]
+      },
+      {
+        "heading": "Admin Side",
+        "bullets": [
+          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
+          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
+          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
+          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
+          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
+          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Wordpress",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Html",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Css",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Javascript",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Jquery",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [
+      {
+        "src": "/img/neemiya/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img6.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://neemiya.com/"
+  },
+  {
+    "id": 7,
+    "title": "ASME : Grow Your Bussiness Advertise With Asme",
+    "logo": "/img/asme/logo.png",
+    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "work": "Freelance",
+    "companyName": "ASME",
+    "companySite": "https://www.asme.org.sg/",
+    "workLogo": "/img/capauth/freelance.png",
+    "data": [
+      {
+        "heading": "Customer Side",
+        "bullets": [
+          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
+          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
+          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
+          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
+          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+        ]
+      },
+      {
+        "heading": "Admin Side",
+        "bullets": [
+          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
+          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
+          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
+          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
+          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
+          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "React Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Strapi",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Material Ui",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Jquery",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [
+      {
+        "src": "/img/asme/img0.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img6.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://www.asme.org.sg/"
   }
 ]

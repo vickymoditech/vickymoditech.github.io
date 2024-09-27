@@ -193,8 +193,8 @@ body {
 .resume .resume_right .resume_education ul li:before {
   content: "";
   position: absolute;
-  top: 5px;
-  left: -25px;
+  top: 8px;
+  left: -24px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -205,15 +205,19 @@ body {
 .resume .resume_right .resume_education ul li:after {
   content: "";
   position: absolute;
-  top: 14px;
+  top: 15px;
   left: -21px;
   width: 2px;
   height: 115px;
   background: #484444;
 }
 
+.resume .resume_right .resume_work .gyg-experience ul li:nth-child(1):after {
+  height: 505px !important;
+}
+
 .resume .resume_right .resume_work ul li:nth-child(1):after {
-  height: 322px !important;
+  height: 352px !important;
 }
 
 .resume .resume_right .resume_work ul li:nth-child(2):after {

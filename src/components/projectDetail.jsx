@@ -6,9 +6,15 @@ import { useParams } from "react-router-dom";
 function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find((proj) => proj.id === parseInt(id));
+  window.scroll(0, 0);
 
   if (!project) {
-    return <div>Project not found.</div>;
+    return (
+      <div class="project-not-found">
+        <h2>Project Not Found</h2>
+        <p>The project you are looking for does not exist.</p>
+      </div>
+    );
   }
   return (
     <div className="product-section">

@@ -21,7 +21,7 @@ function About() {
         <div className="profile-details">
           <h1>VICKY MODI</h1>
           <h2>A Bit About Me</h2>
-          <p>
+          <p style={{ width: "60%" }}>
             Developed, tested, deployed, and maintained scalable web and mobile
             applications. Designed and implemented complex menu structures for
             apps.
