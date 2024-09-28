@@ -15,15 +15,35 @@ function Header() {
       <div className="menu">
         <ul>
           <li>
-            <a onClick={() => click("/")}>About</a>
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                click("/");
+              }}
+            >
+              About
+            </a>
           </li>
           <li>
-            <a target="_blank" href="/resume/resume.html">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/resume/resume.html"
+            >
               Resume
             </a>
           </li>
           <li>
-            <a onClick={() => click("/projects")}>Projects</a>
+            <a
+              href="/projects"
+              onClick={(e) => {
+                e.preventDefault();
+                click("/projects");
+              }}
+            >
+              Projects
+            </a>
           </li>
         </ul>
       </div>
