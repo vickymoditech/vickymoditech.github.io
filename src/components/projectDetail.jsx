@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import projectsData from "./projectsData.json";
+import projectsData from "../Data/projects.json";
 import { useParams } from "react-router-dom";
 
 function ProjectDetail() {

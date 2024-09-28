@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
 import { useNavigate } from "react-router-dom";
+import "../App.css";
 
-function Header() {
+const Header = () => {
   const navigate = useNavigate();
 
   const click = (path) => {
@@ -15,40 +15,36 @@ function Header() {
       <div className="menu">
         <ul>
           <li>
-            <a
-              href="/"
-              onClick={(e) => {
-                e.preventDefault();
+            <span
+              onClick={() => {
                 click("/");
               }}
             >
               About
-            </a>
+            </span>
           </li>
           <li>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/resume/resume.html"
+            <span
+              onClick={() => {
+                click("/resume");
+              }}
             >
               Resume
-            </a>
+            </span>
           </li>
           <li>
-            <a
-              href="/projects"
-              onClick={(e) => {
-                e.preventDefault();
+            <span
+              onClick={() => {
                 click("/projects");
               }}
             >
               Projects
-            </a>
+            </span>
           </li>
         </ul>
       </div>
     </header>
   );
-}
+};
 
 export default Header;
