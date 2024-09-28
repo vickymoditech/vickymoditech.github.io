@@ -518,7 +518,7 @@ const Resume = () => {
           </div>
         </Page>
 
-        {/* page 3 */}
+        {/* page 4 */}
         <Page>
           <SideBar>
             <div class="resume_item resume_skills">
