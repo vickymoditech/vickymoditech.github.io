@@ -174,5 +174,47 @@
       "Provided technical expertise."
     ],
     "project": [2]
+  },
+  {
+    "id": 4,
+    "designation": "Software Developer - Training",
+    "name": "Lanet Team Software Solution",
+    "url": "#",
+    "date": "Sept 2017 – May 2018",
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "Node.Js",
+      "React.js",
+      "Vue Js",
+      "Redux",
+      "Jwt",
+      "AWS",
+      "S3 bucket",
+      "Axios",
+      "Mongodb",
+      "Mysql",
+      "Asp.net",
+      "ORM types",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Figma Design Implement",
+      "Design DataBase",
+      "Jest - Test Cases Integration",
+      "Python",
+      "Java",
+      "Mongodb",
+      "ORM",
+      "Socket"
+    ],
+    "work": [
+      "Designed and developed scalable web applications from scratch.",
+      "Integrated real-time functionalities using PubNub and other socket technologies.",
+      "Worked with MySQL and MongoDB databases, optimizing queries with indexing.",
+      "Built APIs, implemented business requirements, and conducted software quality testing.",
+      "Managed the full lifecycle of applications, from deployment to maintenance, and handled security measures."
+    ],
+    "project": [2]
   }
 ]

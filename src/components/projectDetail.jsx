@@ -1,12 +1,11 @@
 import React from "react";
 import "../App.css";
-import projectsData from "../Data/projects.json";
+import projectsData from "../data/projects.json";
 import { useParams } from "react-router-dom";
 
 function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find((proj) => proj.id === parseInt(id));
-  window.scroll(0, 0);
 
   if (!project) {
     return (
@@ -16,6 +15,7 @@ function ProjectDetail() {
       </div>
     );
   }
+
   return (
     <div className="product-section">
       <h1 className="w3-animate-bottom" style={{ fontSize: "45px" }}>

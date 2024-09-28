@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import projectsData from "../Data/projects.json";
+import projectsData from "../data/projects.json";
 import "../App.css";
 
 function Projects() {
@@ -13,6 +13,7 @@ function Projects() {
   if (!projectsData) {
     return <div>Project not found.</div>;
   }
+
   return (
     <div className="product-section">
       <h1 className="w3-animate-bottom" style={{ fontSize: "45px" }}>

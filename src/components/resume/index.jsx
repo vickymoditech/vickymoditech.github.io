@@ -1,11 +1,11 @@
 import html2pdf from "html2pdf.js";
 import React, { Fragment } from "react";
 import Company from "./company";
-import company from "../../Data/company.json";
-import "./resume.css";
 import Page from "./page";
 import About from "./about";
 import SideBar from "./side";
+import company from "../../data/company.json";
+import "./resume.css";
 
 const style = {
   skill_divider: {
@@ -225,6 +225,7 @@ const Resume = () => {
           </div>
         </Page>
 
+        {/* page 2 */}
         <Page>
           <SideBar>
             <div class="resume_item resume_skills">
@@ -318,6 +319,7 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
+
             <div class="resume_item resume_social">
               <div class="title">
                 <p class="bold">Social</p>
@@ -361,13 +363,16 @@ const Resume = () => {
 
           <div class="resume_right">
             <div class="resume_item resume_work">
-              {company.slice(1, 2).map((c) => (
-                <Company company={c} />
-              ))}
+              <div class="gyg-experience">
+                {company.slice(1, 2).map((c) => (
+                  <Company company={c} />
+                ))}
+              </div>
             </div>
           </div>
         </Page>
 
+        {/* page 3 */}
         <Page>
           <SideBar>
             <div class="resume_item resume_skills">
@@ -504,7 +509,153 @@ const Resume = () => {
 
           <div class="resume_right">
             <div class="resume_item resume_work">
-              {company.slice(2, 3).map((c) => (
+              <div class="gyg-experience">
+                {company.slice(2, 3).map((c) => (
+                  <Company company={c} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </Page>
+
+        {/* page 3 */}
+        <Page>
+          <SideBar>
+            <div class="resume_item resume_skills">
+              <ul>
+                <li style={style.gap_20}>
+                  <div class="main_skill">Databases</div>
+
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">SQL</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Mysql</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Mongodb</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Postgresql</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">SAML</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li style={style.skill_divider}>
+                  <div class="main_skill">Front End</div>
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">React</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Javascript</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Angular</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">JSP</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Html</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">CSS / SCSS</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li style={style.skill_divider}>
+                  <div class="main_skill">Back-end</div>
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">Node js</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">C#</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">ASP.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">vb.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">core.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Java hibernate</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+              </ul>
+            </div>
+            <div class="resume_item resume_social">
+              <div class="title">
+                <p class="bold">Social</p>
+              </div>
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="data">
+                    <p>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://github.com/vickymoditech/"
+                      >
+                        github.com/vickymoditech
+                      </a>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="data">
+                    <p>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/vicky-modi-a01885186"
+                      >
+                        vickymodi@linkedin
+                      </a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </SideBar>
+
+          <div class="resume_right">
+            <div class="resume_item resume_work">
+              {company.slice(3, 4).map((c) => (
                 <Company company={c} />
               ))}
             </div>
@@ -518,8 +669,7 @@ const Resume = () => {
                   <div class="date">Sep 2011 - Oct 2017</div>
                   <div class="info">
                     <p class="semi-bold">
-                      Master of Science in Information Technology (Integrated
-                      MSC IT degree)
+                      Master of Science in Information Technology (MSC IT)
                     </p>
                     <p>UKA TARSADIA UNIVERSITY</p>
                   </div>
@@ -528,202 +678,6 @@ const Resume = () => {
             </div>
           </div>
         </Page>
-
-        {/* page 2 */}
-        <div class="a4-page">
-          <div class="resume">
-            <div class="resume_left">
-              <div class="resume_content">
-                <div class="resume_item resume_skills">
-                  <ul>
-                    <li>
-                      <div class="skill_name">Python Django</div>
-                      <div class="skill_per">6 years</div>
-                    </li>
-                    <li>
-                      <div class="skill_name">AWS</div>
-                      <div class="skill_per">6 years</div>
-                    </li>
-                  </ul>
-
-                  <ul>
-                    <li style={style.gap_20}>
-                      <div class="skill_name">English, Hindi,Gujarati</div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="resume_item resume_social">
-                  <div class="title">
-                    <p class="bold">Social</p>
-                  </div>
-                  <ul>
-                    <li>
-                      <div class="icon">
-                        <i class="fab fa-github"></i>
-                      </div>
-                      <div class="data">
-                        <p>
-                          <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/vickymoditech/"
-                          >
-                            github.com/vickymoditech
-                          </a>
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="icon">
-                        <i class="fab fa-linkedin"></i>
-                      </div>
-                      <div class="data">
-                        <p>
-                          <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.linkedin.com/in/vicky-modi-a01885186"
-                          >
-                            vickymodi@linkedin
-                          </a>
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="resume_right">
-              <div class="resume_item resume_work">
-                <ul>
-                  <li>
-                    <div class="Experience_div">
-                      <div class="date mb-0 w_700">
-                        Senior Full Stack Developer
-                      </div>
-                      <div class="date mb-0 w_400">Oct 2018 – May 2021</div>
-                    </div>
-                    <p class="semi-bold w_500">Lanet Team Software Solution</p>
-                    <div class="info">
-                      <p class="mt-15">
-                        <p style={style.skill_style}>
-                          <strong> Skills: </strong> React JS , Next Js , Redux
-                          Toolkit , Jwt , Axios , Node Js , Express Js , Mongodb
-                          , Mysql
-                        </p>
-                        <ul class="experience_info">
-                          <li>
-                            Acted as a project lead across multiple initiatives,
-                            responsible for end-to-end project management,
-                            including requirement analysis, solution design,
-                            development, testing, deployment, and maintenance.
-                          </li>
-                          <li>
-                            Demonstrated proficiency in a wide range of
-                            technologies including React, Node.js, Python, C#,
-                            and various APIs (Stripe, Firebase, Mitto).
-                          </li>
-                          <li>
-                            Ensured high standards of quality through rigorous
-                            testing, code reviews, and documentation.
-                          </li>
-                          <li>
-                            Worked closely with clients, business analysts, and
-                            internal teams to translate business requirements
-                            into technical solutions, ensuring alignment with
-                            project goals.
-                          </li>
-                          <li>
-                            Contributed to system enhancements and
-                            optimizations, leveraging industry best practices
-                            and innovative technologies.
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="Experience_div">
-                      <div class="date mb-0 w_700">Software Developer</div>
-                      <div class="date mb-0 w_400">Sept 2017 – May 2018</div>
-                    </div>
-                    <p class="semi-bold w_500">
-                      Codenvision software private limited
-                    </p>
-                    <div class="info">
-                      <p class="mt-15">
-                        <p style={style.skill_style}>
-                          <strong> Skills: </strong>React JS , Jwt , Axios ,
-                          Node Js , Express Js , Mongodb , Mysql
-                        </p>
-
-                        <ul class="experience_info">
-                          <li>
-                            Designed and developed scalable web applications
-                            from scratch.
-                          </li>
-                          <li>
-                            Integrated real-time functionalities using PubNub
-                            and other socket technologies.
-                          </li>
-                          <li>
-                            Worked with MySQL and MongoDB databases, optimizing
-                            queries with indexing.
-                          </li>
-                          <li>
-                            Built APIs, implemented business requirements, and
-                            conducted software quality testing.
-                          </li>
-                          <li>
-                            Managed the full lifecycle of applications, from
-                            deployment to maintenance, and handled security
-                            measures.
-                          </li>
-
-                          <li>
-                            Managed the full lifecycle of applications, from
-                            deployment to maintenance, and handled security
-                            measures.
-                          </li>
-
-                          <li>
-                            Managed the full lifecycle of applications, from
-                            deployment to maintenance, and handled security
-                            measures.
-                          </li>
-
-                          <li>
-                            Managed the full lifecycle of applications, from
-                            deployment to maintenance, and handled security
-                            measures.
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="resume_item resume_education">
-                <div class="title">
-                  <p class="bold">Education</p>
-                </div>
-                <ul>
-                  <li>
-                    <div class="date">Sep 2011 - Oct 2017</div>
-                    <div class="info">
-                      <p class="semi-bold">
-                        Master of Science in Information Technology (Integrated
-                        MSC IT degree)
-                      </p>
-                      <p>UKA TARSADIA UNIVERSITY</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <button class="download" onClick={pdfDownload}>
         <i id="download-btn" class="fa-sharp fa-solid fa-circle-down"></i>
