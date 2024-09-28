@@ -347,12 +347,12 @@
   },
   {
     "id": 5,
-    "title": "FB LIVE : The Live Order System",
+    "title": "ORDRSTARTR : Facebook Live Selling System",
     "logo": "/img/live-order/logo.png",
     "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
     "work": "Freelance",
     "companyName": "FB LIVE",
-    "companySite": "https://liveorder.ordrstartr.com/",
+    "companySite": "https://ordrstartr-frontend.vercel.app/",
     "workLogo": "/img/capauth/freelance.png",
     "data": [
       {
@@ -481,7 +481,7 @@
         "alt": "Description of image 3"
       }
     ],
-    "link": "https://liveorder.ordrstartr.com/"
+    "link": "https://ordrstartr-frontend.vercel.app/"
   },
   {
     "id": 6,
@@ -650,5 +650,99 @@
       }
     ],
     "link": "https://www.asme.org.sg/"
+  },
+  {
+    "id": 8,
+    "title": "GLUU : GAuthorize in Real time",
+    "logo": "/img/gluu/logo.png",
+    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "work": "Freelance",
+    "companyName": "GLUU",
+    "companySite": "https://gluu.org/",
+    "workLogo": "/img/capauth/freelance.png",
+    "data": [
+      {
+        "heading": "Customer Side",
+        "bullets": [
+          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
+          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
+          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
+          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
+          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+        ]
+      },
+      {
+        "heading": "Admin Side",
+        "bullets": [
+          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
+          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
+          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
+          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
+          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
+          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "React Js",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Strapi",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Material Ui",
+        "icon": "fa-brands fa-node"
+      },
+      {
+        "name": "Jquery",
+        "icon": "fa-brands fa-node"
+      }
+    ],
+    "images": [
+      {
+        "src": "/img/gluu/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img6.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img7.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img8.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img9.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://gluu.org/"
   }
 ]

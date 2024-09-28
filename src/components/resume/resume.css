@@ -73,6 +73,12 @@ body {
   border-bottom: 2px solid #837c7c3b;
 }
 
+.resume .resume_item1 {
+  padding-top: 25px;
+  border-bottom: 2px solid #837c7c3b;
+}
+
+
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
   border-bottom: 0px;
@@ -175,6 +181,20 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
+}
+
+.resume .resume_right .projectList {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+
+.resume .resume_right .projectListInfo {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding-left: 30px;
 }
 
 .resume .resume_right ul li .info {
@@ -294,14 +314,11 @@ body {
 .profile_title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .profile_name {
   font-weight: 300;
   font-size: 1.2cm;
-  margin-bottom: 0.2cm;
-  margin-top: 0.2cm;
   text-transform: uppercase;
   font-family: "Archivo Narrow", sans-serif !important;
 }

@@ -12,7 +12,7 @@ function About() {
   return (
     <section
       className="w3-animate-top profile-section"
-      style={{ height: "calc(100vh - 222px)" }}
+      style={{ height: "calc(100vh - 192px)" }}
     >
       <div className="profile-image">
         <img src="/img/profile.jpg" alt="Profile" />
@@ -21,10 +21,17 @@ function About() {
         <div className="profile-details">
           <h1>VICKY MODI</h1>
           <h2>A Bit About Me</h2>
-          <p style={{ width: "60%" }}>
-            Developed, tested, deployed, and maintained scalable web and mobile
-            applications. Designed and implemented complex menu structures for
-            apps.
+          <p style={{ width: "60%", textAlign: "justify", display: "flex" }}>
+            I’m Vicky, your tech guru by day and a dedicated husband all the
+            time! I’ve been coding up a storm, but my latest project? Mastering
+            husband life! I’ve gone from tackling complex algorithms to solving
+            the mystery of “what’s for dinner.” <br />I bring my signature
+            brilliance to both the office and home.
+            <br /> Known for my sharp tech skills and smooth moves in keeping
+            the Wi-Fi and my partner’s patience running smoothly, I’m now
+            juggling the roles of innovator and world-class husband.
+            <br /> With my charm and humor, there’s no bug I can’t fix or chore
+            I can’t “debug”!
           </p>
         </div>
         <div className="button-group">
