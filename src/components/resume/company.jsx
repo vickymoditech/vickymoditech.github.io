@@ -59,6 +59,32 @@ const Company = ({ company }) => {
             </ul>
           </p>
         </div>
+        <ul style={{ marginTop: "30px" }}>
+          <li>
+            <div class="Experience_div">
+              <div class="date mb-0 w_700">Project Name</div>
+              {/* <div class="date mb-0 w_400">{company.date}</div> */}
+            </div>
+            <p class="semi-bold w_500">
+              <a rel="noreferrer" target="_blank" href={company.url}>
+                Project linke
+              </a>
+            </p>
+            <div class="info">
+              <p class="mt-15">
+                <p style={style.skill_style}>
+                  <strong> Technology : </strong>
+                  {company.skills.join(", ")}
+                </p>
+                <ul class="experience_info">
+                  {company.work.map((work) => (
+                    <li> {work} </li>
+                  ))}
+                </ul>
+              </p>
+            </div>
+          </li>
+        </ul>
       </li>
     </ul>
   );

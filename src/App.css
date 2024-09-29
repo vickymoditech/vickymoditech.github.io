@@ -139,7 +139,7 @@ display: block;
   }
 
 .profile-content {
-  /* max-width: 440px; */
+  max-width: 440px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -241,7 +241,7 @@ display: block;
 footer {
   width: 100%;
   background-color: #f7f7f7;
-  padding: 30px 50px 50px;
+  padding: 30px;
   display: flex;
   border-top: 1px solid #baa0a02e;
   position: sticky;

@@ -21,7 +21,7 @@ function About() {
         <div className="profile-details">
           <h1>VICKY MODI</h1>
           <h2>A Bit About Me</h2>
-          <p style={{ width: "60%", textAlign: "justify", display: "flex" }}>
+          <p style={{ textAlign: "justify", display: "flex" }}>
             I’m Vicky, your tech guru by day and a dedicated husband all the
             time! I’ve been coding up a storm, but my latest project? Mastering
             husband life! I’ve gone from tackling complex algorithms to solving
