@@ -25,7 +25,7 @@ function Projects() {
             className="w3-animate-bottom profile-section h_300"
             style={{ justifyContent: "space-around" }}
           >
-            <div className="profile-content">
+            <div className="profile-content" style={{ maxWidth: "unset" }}>
               <div className="profile-details">
                 <h3>{project.title}</h3>
                 <h4 style={{ gap: "5px" }}>

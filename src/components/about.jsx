@@ -12,7 +12,7 @@ function About() {
   return (
     <section
       className="w3-animate-top profile-section"
-      style={{ height: "calc(100vh - 192px)" }}
+      style={{ height: "calc(100vh - 152px)" }}
     >
       <div className="profile-image">
         <img src="/img/profile.jpg" alt="Profile" />
