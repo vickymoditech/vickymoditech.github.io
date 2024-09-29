@@ -35,14 +35,14 @@ function About() {
           </p>
         </div>
         <div className="button-group">
-          <a target="_blank" href="/resume/resume.html">
+          <span onClick={() => click("/resume")}>
             <button class="learn-more">
               <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
               </span>
               <span class="button-text">My Resume</span>
             </button>
-          </a>
+          </span>
           <span onClick={() => click("/projects")}>
             <button class="learn-more">
               <span class="circle" aria-hidden="true">
