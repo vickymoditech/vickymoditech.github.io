@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find((proj) => proj.id === parseInt(id));
+  window.scroll(0,0);
 
   if (!project) {
     return (
