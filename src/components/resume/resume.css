@@ -55,8 +55,8 @@ body {
   padding: 0 15px;
 }
 
-.resume .title {
-  margin-bottom: 20px;
+.resume .top-padding {
+  margin-top: 20px;
 }
 
 .resume .resume_left .bold {

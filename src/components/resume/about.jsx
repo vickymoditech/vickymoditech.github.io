@@ -49,7 +49,7 @@ const About = () => {
         <div class="title">
           <p class="bold">About Me</p>
         </div>
-        <p>
+        <p className="top-padding">
           I'm a Senior Full Stack Developer with 6+ years of experience building
           web and mobile apps that scale. I work with javaScript, typescript,
           Node.js, React.js, AWS serverless lambda, and Python and I’m great

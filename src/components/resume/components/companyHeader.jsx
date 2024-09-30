@@ -2,7 +2,7 @@ import React from "react";
 
 const CompanyHeader = ({ company }) => {
   return (
-    <ul className="CompanyHeader">
+    <ul className="CompanyHeader top-padding">
       <li style={{ display: "flex", flexDirection: "column" }}>
         <div class="Experience_div">
           <div class="date mb-0 w_700">{company.designation}</div>

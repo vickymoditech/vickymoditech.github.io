@@ -218,7 +218,7 @@ const Resume = () => {
                 <p class="bold w_700">Work Experience</p>
               </div>
 
-              <div class="gyg-experience">
+              <div class="gyg-experience top-padding">
                 {company.slice(0, 1).map((c) => (
                   <Company company={c} isProject={false} />
                 ))}
@@ -366,8 +366,12 @@ const Resume = () => {
           <div class="resume_right">
             <div class="resume_item resume_work">
               <div class="gyg-experience">
-                {company.slice(0, 2).map((c) => (
+                {company.slice(0, 1).map((c) => (
                   <Company company={c} isProject={true} isCompany={false} />
+                ))}
+
+                {company.slice(1, 2).map((c) => (
+                  <Company company={c} isProject={false} />
                 ))}
               </div>
             </div>
@@ -511,9 +515,14 @@ const Resume = () => {
 
           <div class="resume_right">
             <div class="resume_item resume_work">
-              <div class="gyg-experience">
-                {company.slice(2, 3).map((c) => (
-                  <Company company={c} />
+              <div class="gyg-experience top-padding">
+                {company.slice(1, 2).map((c) => (
+                  <Company
+                    company={c}
+                    min={0}
+                    max={4}
+                    isCompany={false}
+                  />
                 ))}
               </div>
             </div>
@@ -657,8 +666,304 @@ const Resume = () => {
 
           <div class="resume_right">
             <div class="resume_item resume_work">
+              {company.slice(1, 2).map((c) => (
+                <Company
+                  company={c}
+                  isCompany={false}
+                  min={4}
+                />
+              ))}
+            </div>
+          </div>
+        </Page>
+
+        {/* page 5 */}
+        <Page>
+          <SideBar>
+            <div class="resume_item resume_skills">
+              <ul>
+                <li style={style.gap_20}>
+                  <div class="main_skill">Databases</div>
+
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">SQL</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Mysql</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Mongodb</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Postgresql</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">SAML</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li style={style.skill_divider}>
+                  <div class="main_skill">Front End</div>
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">React</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Javascript</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Angular</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">JSP</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Html</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">CSS / SCSS</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li style={style.skill_divider}>
+                  <div class="main_skill">Back-end</div>
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">Node js</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">C#</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">ASP.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">vb.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">core.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Java hibernate</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+              </ul>
+            </div>
+            <div class="resume_item resume_social">
+              <div class="title">
+                <p class="bold">Social</p>
+              </div>
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="data">
+                    <p>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://github.com/vickymoditech/"
+                      >
+                        github.com/vickymoditech
+                      </a>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="data">
+                    <p>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/vicky-modi-a01885186"
+                      >
+                        vickymodi@linkedin
+                      </a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </SideBar>
+
+          <div class="resume_right">
+            <div class="resume_item resume_work">
+              {company.slice(2, 3).map((c) => (
+                <Company
+                  company={c}
+                />
+              ))}
+            </div>
+          </div>
+        </Page>
+
+         {/* page 6 */}
+         <Page>
+          <SideBar>
+            <div class="resume_item resume_skills">
+              <ul>
+                <li style={style.gap_20}>
+                  <div class="main_skill">Databases</div>
+
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">SQL</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Mysql</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Mongodb</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Postgresql</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">SAML</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li style={style.skill_divider}>
+                  <div class="main_skill">Front End</div>
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">React</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Javascript</div>
+
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Angular</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">JSP</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Html</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">CSS / SCSS</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li style={style.skill_divider}>
+                  <div class="main_skill">Back-end</div>
+                  <div class="skill_border"></div>
+                </li>
+                <li>
+                  <div class="skill_name">Node js</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">C#</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">ASP.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">vb.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">core.net</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+                <li>
+                  <div class="skill_name">Java hibernate</div>
+                  <div class="skill_per">6 years</div>
+                </li>
+              </ul>
+            </div>
+            <div class="resume_item resume_social">
+              <div class="title">
+                <p class="bold">Social</p>
+              </div>
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="data">
+                    <p>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://github.com/vickymoditech/"
+                      >
+                        github.com/vickymoditech
+                      </a>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="data">
+                    <p>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/vicky-modi-a01885186"
+                      >
+                        vickymodi@linkedin
+                      </a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </SideBar>
+
+          <div class="resume_right">
+            <div class="resume_item resume_work">
               {company.slice(3, 4).map((c) => (
-                <Company company={c} />
+                <Company
+                  company={c}
+                />
               ))}
             </div>
 

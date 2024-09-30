@@ -1,6 +1,97 @@
 [
   {
     "id": 1,
+    "title": "Resto 365: Admin Panel for Restaurant Management",
+    "logo": "/img/gyg/resto-365.jpg",
+    "description": "The Guzman y Gomez Admin Panel is a robust web application designed to streamline restaurant management operations. This intuitive interface allows administrators to efficiently manage restaurant profiles, menus, and service options, ensuring a seamless experience for both staff and customers.",
+    "work": "Company",
+    "companyName": "Guzman Y Gomez",
+    "companySite": "https://www.guzmanygomez.com/",
+    "workLogo": "/img/gyg/gyg.png",
+    "data": [
+      {
+        "heading": "Restaurant Management",
+        "bullets": [
+          "Add and edit restaurant profiles, including details like location, operating hours, and contact information.",
+          "Manage multiple restaurant locations under one account for centralized oversight."
+        ]
+      },
+      {
+        "heading": "Menu Management",
+        "bullets": [
+          "Create and modify menus for breakfast, lunch, and dinner.",
+          "Add individual items with detailed descriptions, pricing, and dietary information to enhance customer engagement.",
+          "Categorize menu items into specific sections, such as appetizers, mains, and desserts, for easy navigation."
+        ]
+      },
+      {
+        "heading": "Service Management",
+        "bullets": [
+          "Enable or disable various service options such as delivery, pickup, and table service to adapt to operational needs.",
+          "Manage service availability based on restaurant hours or special events."
+        ]
+      },
+      {
+        "heading": "Equipment Management",
+        "bullets": [
+          "Keep track of essential kitchen equipment, including liquor storage, fryers, quesadilla makers, ice machines, coffee machines, soft serve machines, and gas types.",
+          "Monitor the status and maintenance schedules of these machines to ensure optimal performance."
+        ]
+      },
+      {
+        "heading": "History Log Management",
+        "bullets": [
+          "Maintain a comprehensive history log that records changes made within the admin panel, including additions, modifications, and deletions.",
+          "Access historical data to review past menu changes, service status updates, and equipment management actions for better decision-making."
+        ]
+      }
+    ],
+    "technologies": [
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
+    ],
+    "images": [
+      {
+        "src": "/img/gyg/Resto_list.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/resto_profile.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/user_list.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/history_log.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/menu_management.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/equipment.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/trading_hours.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg/customer_support.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://resto365.prod.ops.gyg.com.au/"
+  },
+  {
+    "id": 2,
     "title": "CREAT: Restaurant Reservation",
     "logo": "/img/creat/customer/CE_Logo.png",
     "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
@@ -70,98 +161,6 @@
       }
     ],
     "link": "https://creat.sg/"
-  },
-  {
-    "id": 2,
-    "title": "Resto 365: Admin Panel for Restaurant Management",
-    "logo": "/img/gyg/resto-365.jpg",
-    "description": "The Guzman y Gomez Admin Panel is a robust web application designed to streamline restaurant management operations. This intuitive interface allows administrators to efficiently manage restaurant profiles, menus, and service options, ensuring a seamless experience for both staff and customers.",
-    "work": "Company",
-    "companyName": "Guzman Y Gomez",
-    "companySite": "https://www.guzmanygomez.com/",
-    "workLogo": "/img/gyg/gyg.png",
-    "data": [
-      {
-        "heading": "Restaurant Management",
-        "bullets": [
-          "Add and edit restaurant profiles, including details like location, operating hours, and contact information.",
-          "Manage multiple restaurant locations under one account for centralized oversight."
-        ]
-      },
-      {
-        "heading": "Menu Management",
-        "bullets": [
-          "Create and modify menus for breakfast, lunch, and dinner.",
-          "Add individual items with detailed descriptions, pricing, and dietary information to enhance customer engagement.",
-          "Categorize menu items into specific sections, such as appetizers, mains, and desserts, for easy navigation."
-        ]
-      },
-      {
-        "heading": "Service Management",
-        "bullets": [
-          "Enable or disable various service options such as delivery, pickup, and table service to adapt to operational needs.",
-          "Manage service availability based on restaurant hours or special events."
-        ]
-      },
-      {
-        "heading": "Equipment Management",
-        "bullets": [
-          "Keep track of essential kitchen equipment, including liquor storage, fryers, quesadilla makers, ice machines, coffee machines, soft serve machines, and gas types.",
-          "Monitor the status and maintenance schedules of these machines to ensure optimal performance."
-        ]
-      },
-      {
-        "heading": "History Log Management",
-        "bullets": [
-          "Maintain a comprehensive history log that records changes made within the admin panel, including additions, modifications, and deletions.",
-          "Access historical data to review past menu changes, service status updates, and equipment management actions for better decision-making."
-        ]
-      }
-    ],
-    "technologies": [
-      "React Js",
-      "Javascript",
-      "Postgress",
-      "Node Js",
-      "Express Js",
-      "Material Ui"
-    ],
-
-    "images": [
-      {
-        "src": "/img/gyg/Resto_list.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/resto_profile.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/user_list.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/history_log.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/menu_management.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/equipment.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/trading_hours.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg/customer_support.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://resto365.prod.ops.gyg.com.au/"
   },
   {
     "id": 3,
