@@ -1,4 +1,9 @@
 import React from "react";
+import CompanyHeader from "./components/companyHeader";
+import Skills from "./components/Skills";
+import Description from "./components/description";
+import ProjectsHeader from "./components/projectHeader";
+import ProjectDescription from "./components/projectDescription";
 
 const style = {
   skill_divider: {
@@ -35,58 +40,37 @@ const style = {
 
 const Company = ({ company }) => {
   return (
-    <ul>
-      <li>
-        <div class="Experience_div">
-          <div class="date mb-0 w_700">{company.designation}</div>
-          <div class="date mb-0 w_400">{company.date}</div>
-        </div>
-        <p class="semi-bold w_500">
-          <a rel="noreferrer" target="_blank" href={company.url}>
-            {company.name}
-          </a>
+    <React.Fragment>
+      <CompanyHeader company={company} />
+      <div className="info">
+        <p className="mt-15">
+          <Skills company={company} />
+          <Description company={company} />
         </p>
-        <div class="info">
-          <p class="mt-15">
-            <p style={style.skill_style}>
-              <strong> Skills : </strong>
-              {company.skills.join(", ")}
-            </p>
-            <ul class="experience_info">
-              {company.work.map((work) => (
-                <li> {work} </li>
-              ))}
-            </ul>
+        <React.Fragment>
+        {/* <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+            padding: "10px 30px 0",
+          }}
+        >
+          <p style={{ fontSize: "18px" }} class="bold w_700">
+            Projects
           </p>
-        </div>
-        <ul style={{ marginTop: "30px" }}>
-          <li>
-            <div class="Experience_div">
-              <div class="date mb-0 w_700">Project Name</div>
-              {/* <div class="date mb-0 w_400">{company.date}</div> */}
-            </div>
-            <p class="semi-bold w_500">
-              <a rel="noreferrer" target="_blank" href={company.url}>
-                Project linke
-              </a>
-            </p>
-            <div class="info">
-              <p class="mt-15">
-                <p style={style.skill_style}>
-                  <strong> Technology : </strong>
-                  {company.skills.join(", ")}
-                </p>
-                <ul class="experience_info">
-                  {company.work.map((work) => (
-                    <li> {work} </li>
-                  ))}
-                </ul>
-              </p>
-            </div>
-          </li>
-        </ul>
-      </li>
-    </ul>
+          <hr style={{ width: "100%" }} />
+        </div> */}
+
+
+        {/* <ProjectsHeader company={company} />
+        <p className="mt-15">
+          <Skills company={company} />
+          <ProjectDescription company={company} />
+        </p> */}
+        </React.Fragment>
+      </div>
+    </React.Fragment>
   );
 };
 
