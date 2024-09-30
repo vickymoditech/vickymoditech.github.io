@@ -48,7 +48,7 @@ const Company = ({ company }) => {
           <Description company={company} />
         </p>
         <React.Fragment>
-        {/* <div
+        <div
           style={{
             display: "flex",
             alignItems: "center",
@@ -60,14 +60,14 @@ const Company = ({ company }) => {
             Projects
           </p>
           <hr style={{ width: "100%" }} />
-        </div> */}
+        </div>
 
 
-        {/* <ProjectsHeader company={company} />
+        <ProjectsHeader company={company} />
         <p className="mt-15">
           <Skills company={company} />
           <ProjectDescription company={company} />
-        </p> */}
+        </p>
         </React.Fragment>
       </div>
     </React.Fragment>
