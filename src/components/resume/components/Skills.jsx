@@ -14,7 +14,7 @@ const style = {
   skill_style: {
     marginTop: "3px",
     marginBottom: "3px",
-    color: "#FFA500",
+    color: "brown",
   },
   margin_50: {
     marginTop: "50px",
@@ -33,13 +33,13 @@ const style = {
   },
 };
 
-const Skills = ({ company }) => {
+const Skills = ({ skills }) => {
   return (
     <ul style={{ paddingTop: "10px" }}>
       <li>
         <p style={style.skill_style}>
           <strong> Skills : </strong>
-          {company.skills.join(", ")}
+          {skills.join(", ")}
         </p>
       </li>
     </ul>

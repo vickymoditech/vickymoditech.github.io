@@ -1,52 +1,22 @@
 import React from "react";
 
-const style = {
-  skill_divider: {
-    gap: "20px",
-    marginTop: "25px",
-  },
-  gap_20: {
-    gap: "20px",
-  },
-  profile_margin: {
-    marginBottom: 0,
-  },
-  skill_style: {
-    marginTop: "3px",
-    marginBottom: "3px",
-    color: "#FFA500",
-  },
-  margin_50: {
-    marginTop: "50px",
-  },
-  margin_30: {
-    marginTop: "30px",
-  },
-  paddingLeft_50: {
-    paddingLeft: "50px",
-  },
-  list_style: {
-    marginBottom: "15px",
-  },
-  subheading: {
-    fontWeight: "bold",
-  },
-};
-
-const ProjectsHeader  = ({ company })  => {
+const ProjectsHeader = ({ project }) => {
   return (
     <ul className="projects-header" style={{ paddingTop: "10px" }}>
-    <li style={{display: "flex", flexDirection: "column"}}>
-     <div class="Experience_div">
-          <div class="date mb-0 w_700">1.&nbsp;{company.designation}</div>
-          {/* <div class="date mb-0 w_400">{company.date}</div> */}
+      <li style={{ display: "flex", flexDirection: "column" }}>
+        <div class="Experience_div">
+          <div class="date mb-0 w_700">1.&nbsp;{project.title}</div>
         </div>
         <p class="semi-bold w_500">
-          <a rel="noreferrer" target="_blank" href={company.url}>
-            {company.name}
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href={`https://vickymoditech.github.io/#/projectDetail/${project.id}`}
+          >
+            {project.title}
           </a>
         </p>
-    </li>
+      </li>
     </ul>
   );
 };

@@ -41,6 +41,8 @@ const style = {
 };
 
 const Resume = () => {
+  window.scroll(0, 0);
+
   const pdfDownload = () => {
     window.scroll(0, 0);
     const element = document.getElementById("content"); // Select the container for all pages
@@ -64,7 +66,7 @@ const Resume = () => {
         {/* page 1 */}
         <Page>
           <SideBar>
-            <div class="resume_item resume_info">
+            {/* <div class="resume_item resume_info">
               <div class="title">
                 <p class="bold">CONTACT</p>
               </div>
@@ -112,7 +114,7 @@ const Resume = () => {
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div class="resume_item resume_skills">
               <div class="title">
                 <p class="bold">skills</p>
@@ -218,7 +220,7 @@ const Resume = () => {
 
               <div class="gyg-experience">
                 {company.slice(0, 1).map((c) => (
-                  <Company company={c} />
+                  <Company company={c} isProject={false} />
                 ))}
               </div>
             </div>
@@ -364,8 +366,8 @@ const Resume = () => {
           <div class="resume_right">
             <div class="resume_item resume_work">
               <div class="gyg-experience">
-                {company.slice(1, 2).map((c) => (
-                  <Company company={c} />
+                {company.slice(0, 2).map((c) => (
+                  <Company company={c} isProject={true} isCompany={false} />
                 ))}
               </div>
             </div>

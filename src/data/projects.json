@@ -32,30 +32,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "React Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Javascript",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Postgress",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Node Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Express Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Material Ui",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [
       {
@@ -137,34 +119,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "Node Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Next Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Postgress",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Nest Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Express Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Material Ui",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Typescript",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
 
     "images": [
@@ -233,26 +193,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "Python",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Django",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Postgress",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Postman",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Oauth Toolkit",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [],
     "link": "https://capauth-staging.theadventus.com/"
@@ -284,22 +230,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "React Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Redux",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Fortawesome",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Jwt",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [
       {
@@ -378,66 +314,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "React Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Redux Thunk",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Material Ui",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Jwt",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Jquery",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Crypto",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "React Bootstrap",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "React Tostify",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Socket",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "axios",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Babel",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Bluebird",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Ejs",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Express",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Mongoose",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [
       {
@@ -516,26 +398,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "Wordpress",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Html",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Css",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Javascript",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Jquery",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [
       {
@@ -598,26 +466,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "React Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Strapi",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Tailwind",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Material Ui",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Jquery",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [
       {
@@ -684,26 +538,12 @@
       }
     ],
     "technologies": [
-      {
-        "name": "React Js",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Strapi",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Tailwind",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Material Ui",
-        "icon": "fa-brands fa-node"
-      },
-      {
-        "name": "Jquery",
-        "icon": "fa-brands fa-node"
-      }
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material Ui"
     ],
     "images": [
       {

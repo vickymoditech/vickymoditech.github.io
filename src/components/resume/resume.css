@@ -78,7 +78,6 @@ body {
   border-bottom: 2px solid #837c7c3b;
 }
 
-
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
   border-bottom: 0px;
@@ -221,33 +220,6 @@ body {
   border: 2px solid #484444;
 }
 
-/* .resume .resume_right .resume_work .CompanyHeader li:after,
-.resume .resume_right .resume_education .CompanyHeader li:after {
-  content: "";
-  position: absolute;
-  top: 16px;
-  left: -20px;
-  width: 2px;
-  height: 100%;
-  background: #484444;
-} */
-
-/* .resume .resume_right .resume_work .gyg-experience ul li:nth-child(1):after {
-  height: 505px !important;
-}
-
-.resume .resume_right .resume_work ul li:nth-child(1):after {
-  height: 352px !important;
-}
-
-.resume .resume_right .resume_work ul li:nth-child(2):after {
-  height: 366px !important;
-}
-
-.resume .resume_right .resume_work ul li:nth-child(3):after {
-  height: 100% !important;
-} */
-
 .resume .resume_right .resume_hobby ul {
   display: flex;
   justify-content: space-between;
@@ -292,13 +264,13 @@ body {
   justify-content: end;
 }
 
-.download>i {
+.download > i {
   font-size: 50px;
   color: #000;
   cursor: pointer;
 }
 
-.icon>svg {
+.icon > svg {
   fill: #18b6ef;
   width: 35px;
   height: 35px;
@@ -406,34 +378,7 @@ p {
   }
 }
 
-
-
 .CompanyHeader {
   display: flex;
   flex-direction: column;
-
-
 }
-
-
-/* .CompanyHeader:after {
-  border: 2px solid #484444;
-  border-radius: 50%;
-  content: "";
-  height: 6px;
-  left: -24px;
-  position: absolute;
-  top: 8px;
-  width: 6px;
-} */
-
-/* .dot {
-  border: 2px solid #484444;
-  border-radius: 50%;
-  content: "";
-  height: 6px;
-  left: -24px;
-  position: absolute;
-  top: 8px;
-  width: 6px;
-} */

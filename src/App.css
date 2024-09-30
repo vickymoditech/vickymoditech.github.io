@@ -10,7 +10,6 @@ body {
   color: #333;
 }
 
-
 main {
   display: flex;
   flex-direction: column;
@@ -35,7 +34,6 @@ main {
   position: sticky;
   top: 0;
   z-index: 1000;
- 
 }
 
 .header .logo span {
@@ -61,7 +59,7 @@ main {
   color: #333333;
   display: inline-block;
   padding: 0 10px;
-  transition: var(--trans, color .4s ease 0s);
+  transition: var(--trans, color 0.4s ease 0s);
   cursor: pointer;
 }
 
@@ -70,9 +68,9 @@ main {
   text-decoration: unset;
 }
 
-.header .menu ul li:nth-child(-n+2) {
- /* border-right: 1px solid #333333; */
- border-right: 1px solid #333333;
+.header .menu ul li:nth-child(-n + 2) {
+  /* border-right: 1px solid #333333; */
+  border-right: 1px solid #333333;
 }
 
 .product-section {
@@ -92,34 +90,26 @@ main {
   padding: 20px;
   gap: 50px;
   background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 @media only screen and (max-width: 1250px) {
-
   .profile-section {
     flex-direction: column;
   }
-
-
 }
-
-
-
 
 .h_300 {
   height: 400px;
 }
 
-
-
 .profile-image {
-max-width: 480px;
-max-height: 480px;
-width: 100%;
-height: 100vh;
-display: block;
+  max-width: 480px;
+  max-height: 480px;
+  width: 100%;
+  height: 100vh;
+  display: block;
 }
 
 .profile-image img {
@@ -129,7 +119,6 @@ display: block;
   object-fit: cover;
   /* filter: grayscale(100%); */
 }
-
 
 .product-image {
   max-height: 360px;
@@ -142,20 +131,19 @@ display: block;
   gap: 10px;
   flex-direction: column;
   align-self: center;
-  }
-  
-  .product-image img {
-    border-radius: 3px;
-    width: 100%;
-    height: auto;
-  }
+}
+
+.product-image img {
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
 
 .profile-content {
   max-width: 600px;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  
 }
 
 .profile-details {
@@ -173,45 +161,44 @@ display: block;
 
 .profile-content h1 {
   font-size: 70px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
 }
 
 .profile-content h2 {
   font-size: 22px;
   font-weight: bold;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .profile-content h3 {
   font-size: 24px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .profile-content p {
   line-height: 1.6em;
   font-size: 16px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
-.technologies{
+.technologies {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.technologies-logo{
+.technologies-logo {
   display: flex;
-  gap:10px;
+  gap: 10px;
 }
 
 .button-group {
   display: flex;
-  gap:10px;
+  gap: 10px;
   align-self: baseline;
   justify-content: start;
-
 }
-.social-logo{
+.social-logo {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -245,10 +232,11 @@ display: block;
   background-color: #8cd8db;
 }
 
-.resume:hover, .projects:hover, .contact:hover {
+.resume:hover,
+.projects:hover,
+.contact:hover {
   background-color: #96d8dc05;
 }
-
 
 footer {
   width: 100%;
@@ -271,8 +259,6 @@ footer {
   gap: 20px;
 }
 
-
-
 .footer-info p,
 .footer-social p {
   font-size: 16px;
@@ -280,7 +266,6 @@ footer {
   line-height: 22px;
   color: #333;
   text-align: left;
-
 }
 
 .footer-info p:nth-child(2) a,
@@ -305,14 +290,14 @@ button {
   padding: 0;
   font-size: inherit;
   font-family: inherit;
- }
- 
- button.learn-more {
+}
+
+button.learn-more {
   width: 12rem;
   height: auto;
- }
- 
- button.learn-more .circle {
+}
+
+button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -321,26 +306,26 @@ button {
   height: 3rem;
   background: #282936;
   border-radius: 1.625rem;
- }
- 
- button.learn-more .circle .icon {
+}
+
+button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
   background: #fff;
- }
- 
- button.learn-more .circle .icon.arrow {
+}
+
+button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
- }
- 
- button.learn-more .circle .icon.arrow::before {
+}
+
+button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.29rem;
@@ -350,9 +335,9 @@ button {
   border-top: 0.125rem solid #fff;
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
- }
- 
- button.learn-more .button-text {
+}
+
+button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -366,24 +351,23 @@ button {
   line-height: 1.6;
   text-align: center;
   text-transform: uppercase;
- }
- 
- button:hover .circle {
+}
+
+button:hover .circle {
   width: 100%;
- }
- 
- button:hover .circle .icon.arrow {
+}
+
+button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
- }
- 
- button:hover .button-text {
+}
+
+button:hover .button-text {
   color: #fff;
- }
+}
 
-
- /*URL Button*/
- .url-button {
+/*URL Button*/
+.url-button {
   display: flex;
   align-items: center;
   font-family: inherit;
@@ -417,12 +401,12 @@ button {
   transform: translateX(7px);
 }
 
-.background-blue{
+.background-blue {
   background: #0074c3;
   color: #ffffff;
 }
 
-.click-chip{
+.click-chip {
   padding: 5px 10px;
   border-radius: 40px;
   display: inline-flex;
@@ -430,7 +414,7 @@ button {
   cursor: pointer;
 }
 
-.click-chip:hover{
+.click-chip:hover {
   filter: brightness(85%);
 }
 
