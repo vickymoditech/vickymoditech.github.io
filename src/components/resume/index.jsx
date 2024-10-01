@@ -6,6 +6,7 @@ import About from "./about";
 import SideBar from "./side";
 import company from "../../data/company.json";
 import "./resume.css";
+import Project from "./project";
 
 const style = {
   skill_divider: {
@@ -66,7 +67,7 @@ const Resume = () => {
         {/* page 1 */}
         <Page>
           <SideBar>
-            {/* <div class="resume_item resume_info">
+            <div class="resume_item resume_info">
               <div class="title">
                 <p class="bold">CONTACT</p>
               </div>
@@ -114,7 +115,7 @@ const Resume = () => {
                   </div>
                 </li>
               </ul>
-            </div> */}
+            </div>
             <div class="resume_item resume_skills">
               <div class="title">
                 <p class="bold">skills</p>
@@ -222,13 +223,16 @@ const Resume = () => {
                 {company.slice(0, 1).map((c) => (
                   <Company company={c} isProject={false} />
                 ))}
+                {company.slice(0, 1).map((c) => (
+                  <Project company={c} />
+                ))}
               </div>
             </div>
           </div>
         </Page>
 
         {/* page 2 */}
-        <Page>
+        {/* <Page>
           <SideBar>
             <div class="resume_item resume_skills">
               <ul>
@@ -376,10 +380,10 @@ const Resume = () => {
               </div>
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 3 */}
-        <Page>
+        {/* <Page>
           <SideBar>
             <div class="resume_item resume_skills">
               <ul>
@@ -517,20 +521,15 @@ const Resume = () => {
             <div class="resume_item resume_work">
               <div class="gyg-experience top-padding">
                 {company.slice(1, 2).map((c) => (
-                  <Company
-                    company={c}
-                    min={0}
-                    max={4}
-                    isCompany={false}
-                  />
+                  <Company company={c} min={0} max={4} isCompany={false} />
                 ))}
               </div>
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 4 */}
-        <Page>
+        {/* <Page>
           <SideBar>
             <div class="resume_item resume_skills">
               <ul>
@@ -667,18 +666,14 @@ const Resume = () => {
           <div class="resume_right">
             <div class="resume_item resume_work">
               {company.slice(1, 2).map((c) => (
-                <Company
-                  company={c}
-                  isCompany={false}
-                  min={4}
-                />
+                <Company company={c} isCompany={false} min={4} />
               ))}
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 5 */}
-        <Page>
+        {/* <Page>
           <SideBar>
             <div class="resume_item resume_skills">
               <ul>
@@ -815,16 +810,14 @@ const Resume = () => {
           <div class="resume_right">
             <div class="resume_item resume_work">
               {company.slice(2, 3).map((c) => (
-                <Company
-                  company={c}
-                />
+                <Company company={c} />
               ))}
             </div>
           </div>
-        </Page>
+        </Page> */}
 
-         {/* page 6 */}
-         <Page>
+        {/* page 6 */}
+        {/* <Page>
           <SideBar>
             <div class="resume_item resume_skills">
               <ul>
@@ -961,9 +954,7 @@ const Resume = () => {
           <div class="resume_right">
             <div class="resume_item resume_work">
               {company.slice(3, 4).map((c) => (
-                <Company
-                  company={c}
-                />
+                <Company company={c} />
               ))}
             </div>
 
@@ -984,7 +975,7 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-        </Page>
+        </Page> */}
       </div>
       <button class="download" onClick={pdfDownload}>
         <i id="download-btn" class="fa-sharp fa-solid fa-circle-down"></i>

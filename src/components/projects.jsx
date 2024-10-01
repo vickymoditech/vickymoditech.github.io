@@ -29,16 +29,7 @@ function Projects() {
               <div className="profile-details">
                 <h3>{project.title}</h3>
                 <h4 style={{ gap: "5px" }}>
-                  Company / Freelance : {project.work}{" "}
-                  <img
-                    style={{ height: "50px" }}
-                    alt="freelance logo"
-                    src={project.workLogo}
-                  />
-                </h4>
-
-                <h4 style={{ marginBottom: "5px" }}>
-                  Company Name : &nbsp;
+                  Company / Freelance :{" "}
                   <a
                     href={project.companySite}
                     target="_blank"
@@ -46,8 +37,12 @@ function Projects() {
                   >
                     {project.companyName}{" "}
                   </a>
+                  <img
+                    style={{ height: "50px" }}
+                    alt="freelance logo"
+                    src={project.workLogo}
+                  />
                 </h4>
-
                 <p>{project.description}</p>
               </div>
               <div className="button-group">

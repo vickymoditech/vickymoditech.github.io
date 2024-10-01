@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 function ProjectDetail() {
   const { id } = useParams();
   const project = projectsData.find((proj) => proj.id === parseInt(id));
-  window.scroll(0,0);
+  window.scroll(0, 0);
 
   if (!project) {
     return (
@@ -36,7 +36,7 @@ function ProjectDetail() {
                 <h2>{dt.heading}</h2>
                 <ul style={{ paddingLeft: "50px" }}>
                   {dt.bullets.map((item) => (
-                    <li>
+                    <li style={{ listStyle: "disc" }}>
                       <p>{item}</p>
                     </li>
                   ))}
@@ -53,7 +53,7 @@ function ProjectDetail() {
             <h2>Technologies</h2>
             <div className="technologies-logo">
               {project.technologies.map((technology) => (
-                <div class="click-chip background-blue">{technology.name}</div>
+                <div class="click-chip background-blue">{technology}</div>
               ))}
             </div>
           </div>
