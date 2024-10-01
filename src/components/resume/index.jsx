@@ -1,12 +1,13 @@
 import html2pdf from "html2pdf.js";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Company from "./company";
 import Page from "./page";
 import About from "./about";
 import SideBar from "./side";
 import company from "../../data/company.json";
-import "./resume.css";
+import projects from "../../data/projects";
 import Project from "./project";
+import "./resume.css";
 
 const style = {
   skill_divider: {
@@ -42,7 +43,12 @@ const style = {
 };
 
 const Resume = () => {
-  window.scroll(0, 0);
+  const [projectList, setProjectList] = useState([]);
+
+  useEffect(() => {
+    window.scroll(0, 0);
+    setProjectList([...projects.sort((a, b) => a.id - b.id)]);
+  }, []);
 
   const pdfDownload = () => {
     window.scroll(0, 0);
@@ -61,50 +67,52 @@ const Resume = () => {
     html2pdf().from(element).set(options).save();
   };
 
+  console.log("outerLink", projectList);
+
   return (
     <Fragment>
       <div id="content">
         {/* page 1 */}
         <Page>
           <SideBar>
-            <div class="resume_item resume_info">
-              <div class="title">
-                <p class="bold">CONTACT</p>
+            <div className="resume_item resume_info">
+              <div className="title">
+                <p className="bold">CONTACT</p>
               </div>
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="fa-solid fa-location-dot"></i>
+                  <div className="icon">
+                    <i className="fa-solid fa-location-dot"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     A2-1004 Nakshatra Galaxia,
                     <br />
                     Adajan, Gujarat, Surat
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fas fa-mobile-alt"></i>
+                  <div className="icon">
+                    <i className="fas fa-mobile-alt"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <a href="tel:+918401060120">+91 8401060120</a>
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
+                  <div className="icon">
+                    <i className="fa fa-envelope"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <a href="mailto:vickymoditech@gmail.com">
                       vickymoditech@gmail.com
                     </a>
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-weebly"></i>
+                  <div className="icon">
+                    <i className="fab fa-weebly"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <a
                       href="https://vickymoditech.github.io"
                       rel="noreferrer"
@@ -116,115 +124,112 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
-            <div class="resume_item resume_skills">
-              <div class="title">
-                <p class="bold">skills</p>
+            <div className="resume_item resume_skills">
+              <div className="title">
+                <p className="bold">skills</p>
               </div>
               <ul>
                 <li style={style.gap_20}>
-                  <div class="main_skill">Databases</div>
+                  <div className="main_skill">Databases</div>
 
-                  <div class="skill_border"></div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">SQL</div>
+                  <div className="skill_name">SQL</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mysql</div>
+                  <div className="skill_name">Mysql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mongodb</div>
+                  <div className="skill_name">Mongodb</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Postgresql</div>
+                  <div className="skill_name">Postgresql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">SAML</div>
+                  <div className="skill_name">SAML</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Front End</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Front End</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">React</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">React</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Javascript</div>
+                  <div className="skill_name">Javascript</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Angular</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Angular</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">JSP</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">JSP</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Html</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Html</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">CSS / SCSS</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">CSS / SCSS</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Back-end</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Back-end</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">Node js</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Node js</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">C#</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">C#</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">ASP.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">ASP.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">vb.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">vb.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">core.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">core.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Java hibernate</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Java hibernate</div>
+                  <div className="skill_per">6 years</div>
                 </li>
               </ul>
             </div>
           </SideBar>
 
-          <div class="resume_right">
+          <div className="resume_right">
             <About />
-            <div class="resume_item resume_work">
-              <div class="title">
-                <p class="bold w_700">Work Experience</p>
+            <div className="resume_item resume_work">
+              <div className="title">
+                <p className="bold w_700">Work Experience</p>
               </div>
 
-              <div class="gyg-experience top-padding">
-                {company.slice(0, 1).map((c) => (
-                  <Company company={c} isProject={false} />
-                ))}
-                {company.slice(0, 1).map((c) => (
-                  <Project company={c} />
+              <div className="gyg-experience top-padding">
+                {company.slice(0, 1).map((c, index) => (
+                  <Company company={c} key={index} />
                 ))}
               </div>
             </div>
@@ -232,110 +237,110 @@ const Resume = () => {
         </Page>
 
         {/* page 2 */}
-        {/* <Page>
+        <Page>
           <SideBar>
-            <div class="resume_item resume_skills">
+            <div className="resume_item resume_skills">
               <ul>
                 <li style={style.gap_20}>
-                  <div class="main_skill">Databases</div>
+                  <div className="main_skill">Databases</div>
 
-                  <div class="skill_border"></div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">SQL</div>
+                  <div className="skill_name">SQL</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mysql</div>
+                  <div className="skill_name">Mysql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mongodb</div>
+                  <div className="skill_name">Mongodb</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Postgresql</div>
+                  <div className="skill_name">Postgresql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">SAML</div>
+                  <div className="skill_name">SAML</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Front End</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Front End</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">React</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">React</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Javascript</div>
+                  <div className="skill_name">Javascript</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Angular</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Angular</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">JSP</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">JSP</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Html</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Html</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">CSS / SCSS</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">CSS / SCSS</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Back-end</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Back-end</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">Node js</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Node js</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">C#</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">C#</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">ASP.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">ASP.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">vb.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">vb.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">core.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">core.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Java hibernate</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Java hibernate</div>
+                  <div className="skill_per">6 years</div>
                 </li>
               </ul>
             </div>
 
-            <div class="resume_item resume_social">
-              <div class="title">
-                <p class="bold">Social</p>
+            <div className="resume_item resume_social">
+              <div className="title">
+                <p className="bold">Social</p>
               </div>
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-github"></i>
+                  <div className="icon">
+                    <i className="fab fa-github"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -348,10 +353,10 @@ const Resume = () => {
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-linkedin"></i>
+                  <div className="icon">
+                    <i className="fab fa-linkedin"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -367,125 +372,121 @@ const Resume = () => {
             </div>
           </SideBar>
 
-          <div class="resume_right">
-            <div class="resume_item resume_work">
-              <div class="gyg-experience">
-                {company.slice(0, 1).map((c) => (
-                  <Company company={c} isProject={true} isCompany={false} />
-                ))}
-
-                {company.slice(1, 2).map((c) => (
-                  <Company company={c} isProject={false} />
+          <div className="resume_right">
+            <div className="resume_item resume_work">
+              <div className="gyg-experience">
+                {company.slice(1, 2).map((c, index) => (
+                  <Company company={c} key={index} />
                 ))}
               </div>
             </div>
           </div>
-        </Page> */}
+        </Page>
 
         {/* page 3 */}
-        {/* <Page>
+        <Page>
           <SideBar>
-            <div class="resume_item resume_skills">
+            <div className="resume_item resume_skills">
               <ul>
                 <li style={style.gap_20}>
-                  <div class="main_skill">Databases</div>
+                  <div className="main_skill">Databases</div>
 
-                  <div class="skill_border"></div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">SQL</div>
+                  <div className="skill_name">SQL</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mysql</div>
+                  <div className="skill_name">Mysql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mongodb</div>
+                  <div className="skill_name">Mongodb</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Postgresql</div>
+                  <div className="skill_name">Postgresql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">SAML</div>
+                  <div className="skill_name">SAML</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Front End</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Front End</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">React</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">React</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Javascript</div>
+                  <div className="skill_name">Javascript</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Angular</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Angular</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">JSP</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">JSP</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Html</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Html</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">CSS / SCSS</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">CSS / SCSS</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Back-end</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Back-end</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">Node js</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Node js</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">C#</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">C#</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">ASP.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">ASP.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">vb.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">vb.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">core.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">core.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Java hibernate</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Java hibernate</div>
+                  <div className="skill_per">6 years</div>
                 </li>
               </ul>
             </div>
-            <div class="resume_item resume_social">
-              <div class="title">
-                <p class="bold">Social</p>
+            <div className="resume_item resume_social">
+              <div className="title">
+                <p className="bold">Social</p>
               </div>
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-github"></i>
+                  <div className="icon">
+                    <i className="fab fa-github"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -498,10 +499,10 @@ const Resume = () => {
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-linkedin"></i>
+                  <div className="icon">
+                    <i className="fab fa-linkedin"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -517,121 +518,121 @@ const Resume = () => {
             </div>
           </SideBar>
 
-          <div class="resume_right">
-            <div class="resume_item resume_work">
-              <div class="gyg-experience top-padding">
-                {company.slice(1, 2).map((c) => (
-                  <Company company={c} min={0} max={4} isCompany={false} />
+          <div className="resume_right">
+            <div className="resume_item resume_work">
+              <div className="gyg-experience top-padding">
+                {company.slice(2, 3).map((c, index) => (
+                  <Company company={c} key={index} />
                 ))}
               </div>
             </div>
           </div>
-        </Page> */}
+        </Page>
 
         {/* page 4 */}
-        {/* <Page>
+        <Page>
           <SideBar>
-            <div class="resume_item resume_skills">
+            <div className="resume_item resume_skills">
               <ul>
                 <li style={style.gap_20}>
-                  <div class="main_skill">Databases</div>
+                  <div className="main_skill">Databases</div>
 
-                  <div class="skill_border"></div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">SQL</div>
+                  <div className="skill_name">SQL</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mysql</div>
+                  <div className="skill_name">Mysql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mongodb</div>
+                  <div className="skill_name">Mongodb</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Postgresql</div>
+                  <div className="skill_name">Postgresql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">SAML</div>
+                  <div className="skill_name">SAML</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Front End</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Front End</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">React</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">React</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Javascript</div>
+                  <div className="skill_name">Javascript</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Angular</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Angular</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">JSP</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">JSP</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Html</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Html</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">CSS / SCSS</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">CSS / SCSS</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Back-end</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Back-end</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">Node js</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Node js</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">C#</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">C#</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">ASP.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">ASP.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">vb.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">vb.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">core.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">core.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Java hibernate</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Java hibernate</div>
+                  <div className="skill_per">6 years</div>
                 </li>
               </ul>
             </div>
-            <div class="resume_item resume_social">
-              <div class="title">
-                <p class="bold">Social</p>
+            <div className="resume_item resume_social">
+              <div className="title">
+                <p className="bold">Social</p>
               </div>
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-github"></i>
+                  <div className="icon">
+                    <i className="fab fa-github"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -644,10 +645,10 @@ const Resume = () => {
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-linkedin"></i>
+                  <div className="icon">
+                    <i className="fab fa-linkedin"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -663,119 +664,121 @@ const Resume = () => {
             </div>
           </SideBar>
 
-          <div class="resume_right">
-            <div class="resume_item resume_work">
-              {company.slice(1, 2).map((c) => (
-                <Company company={c} isCompany={false} min={4} />
+          <div className="resume_right">
+            <div className="resume_item resume_work">
+              {company.slice(3, 4).map((c, index) => (
+                <Company company={c} key={index} />
               ))}
+
+              <Project projects={[...projectList]} min={0} max={10} />
             </div>
           </div>
-        </Page> */}
+        </Page>
 
         {/* page 5 */}
-        {/* <Page>
+        <Page>
           <SideBar>
-            <div class="resume_item resume_skills">
+            <div className="resume_item resume_skills">
               <ul>
                 <li style={style.gap_20}>
-                  <div class="main_skill">Databases</div>
+                  <div className="main_skill">Databases</div>
 
-                  <div class="skill_border"></div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">SQL</div>
+                  <div className="skill_name">SQL</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mysql</div>
+                  <div className="skill_name">Mysql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mongodb</div>
+                  <div className="skill_name">Mongodb</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Postgresql</div>
+                  <div className="skill_name">Postgresql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">SAML</div>
+                  <div className="skill_name">SAML</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Front End</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Front End</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">React</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">React</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Javascript</div>
+                  <div className="skill_name">Javascript</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Angular</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Angular</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">JSP</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">JSP</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Html</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Html</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">CSS / SCSS</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">CSS / SCSS</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Back-end</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Back-end</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">Node js</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Node js</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">C#</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">C#</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">ASP.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">ASP.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">vb.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">vb.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">core.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">core.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Java hibernate</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Java hibernate</div>
+                  <div className="skill_per">6 years</div>
                 </li>
               </ul>
             </div>
-            <div class="resume_item resume_social">
-              <div class="title">
-                <p class="bold">Social</p>
+            <div className="resume_item resume_social">
+              <div className="title">
+                <p className="bold">Social</p>
               </div>
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-github"></i>
+                  <div className="icon">
+                    <i className="fab fa-github"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -788,10 +791,10 @@ const Resume = () => {
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-linkedin"></i>
+                  <div className="icon">
+                    <i className="fab fa-linkedin"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -807,119 +810,117 @@ const Resume = () => {
             </div>
           </SideBar>
 
-          <div class="resume_right">
-            <div class="resume_item resume_work">
-              {company.slice(2, 3).map((c) => (
-                <Company company={c} />
-              ))}
+          <div className="resume_right">
+            <div className="resume_item resume_work">
+              {/* <Project projects={projects} min={2} max={3} /> */}
             </div>
           </div>
-        </Page> */}
+        </Page>
 
         {/* page 6 */}
         {/* <Page>
           <SideBar>
-            <div class="resume_item resume_skills">
+            <div className="resume_item resume_skills">
               <ul>
                 <li style={style.gap_20}>
-                  <div class="main_skill">Databases</div>
+                  <div className="main_skill">Databases</div>
 
-                  <div class="skill_border"></div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">SQL</div>
+                  <div className="skill_name">SQL</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mysql</div>
+                  <div className="skill_name">Mysql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Mongodb</div>
+                  <div className="skill_name">Mongodb</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Postgresql</div>
+                  <div className="skill_name">Postgresql</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">SAML</div>
+                  <div className="skill_name">SAML</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Front End</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Front End</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">React</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">React</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Javascript</div>
+                  <div className="skill_name">Javascript</div>
 
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Angular</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Angular</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">JSP</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">JSP</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Html</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Html</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">CSS / SCSS</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">CSS / SCSS</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li style={style.skill_divider}>
-                  <div class="main_skill">Back-end</div>
-                  <div class="skill_border"></div>
+                  <div className="main_skill">Back-end</div>
+                  <div className="skill_border"></div>
                 </li>
                 <li>
-                  <div class="skill_name">Node js</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Node js</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">C#</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">C#</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">ASP.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">ASP.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">vb.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">vb.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">core.net</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">core.net</div>
+                  <div className="skill_per">6 years</div>
                 </li>
                 <li>
-                  <div class="skill_name">Java hibernate</div>
-                  <div class="skill_per">6 years</div>
+                  <div className="skill_name">Java hibernate</div>
+                  <div className="skill_per">6 years</div>
                 </li>
               </ul>
             </div>
-            <div class="resume_item resume_social">
-              <div class="title">
-                <p class="bold">Social</p>
+            <div className="resume_item resume_social">
+              <div className="title">
+                <p className="bold">Social</p>
               </div>
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-github"></i>
+                  <div className="icon">
+                    <i className="fab fa-github"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -932,10 +933,10 @@ const Resume = () => {
                   </div>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="fab fa-linkedin"></i>
+                  <div className="icon">
+                    <i className="fab fa-linkedin"></i>
                   </div>
-                  <div class="data">
+                  <div className="data">
                     <p>
                       <a
                         rel="noreferrer"
@@ -951,22 +952,22 @@ const Resume = () => {
             </div>
           </SideBar>
 
-          <div class="resume_right">
-            <div class="resume_item resume_work">
+          <div className="resume_right">
+            <div className="resume_item resume_work">
               {company.slice(3, 4).map((c) => (
                 <Company company={c} />
               ))}
             </div>
 
-            <div class="resume_item resume_education">
-              <div class="title">
-                <p class="bold">Education</p>
+            <div className="resume_item resume_education">
+              <div className="title">
+                <p className="bold">Education</p>
               </div>
               <ul>
                 <li>
-                  <div class="date">Sep 2011 - Oct 2017</div>
-                  <div class="info">
-                    <p class="semi-bold">
+                  <div className="date">Sep 2011 - Oct 2017</div>
+                  <div className="info">
+                    <p className="semi-bold">
                       Master of Science in Information Technology (MSC IT)
                     </p>
                     <p>UKA TARSADIA UNIVERSITY</p>
@@ -977,8 +978,8 @@ const Resume = () => {
           </div>
         </Page> */}
       </div>
-      <button class="download" onClick={pdfDownload}>
-        <i id="download-btn" class="fa-sharp fa-solid fa-circle-down"></i>
+      <button className="download" onClick={pdfDownload}>
+        <i id="download-btn" className="fa-sharp fa-solid fa-circle-down"></i>
       </button>
     </Fragment>
   );

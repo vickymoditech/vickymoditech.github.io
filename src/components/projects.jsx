@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import projectsData from "../data/projects.json";
+import projectsData from "../data/projects";
 import "../App.css";
 
 function Projects() {
@@ -48,12 +48,12 @@ function Projects() {
               <div className="button-group">
                 <button
                   onClick={() => click(`/projectDetail/${project.id}`)}
-                  class="learn-more"
+                  className="learn-more"
                 >
-                  <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
+                  <span className="circle" aria-hidden="true">
+                    <span className="icon arrow"></span>
                   </span>
-                  <span class="button-text">Read More</span>
+                  <span className="button-text">Read More</span>
                 </button>
                 <button
                   className="url-button"

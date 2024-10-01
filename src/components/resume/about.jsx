@@ -37,17 +37,17 @@ const About = () => {
   return (
     <Fragment>
       {/* name */}
-      <div class="resume_item1 resume_about">
-        <div class="title profile_title">
-          <p class="profile_name">Vicky Modi</p>
+      <div className="resume_item1 resume_about">
+        <div className="title profile_title">
+          <p className="profile_name">Vicky Modi</p>
           <p style={style.subheading}>Full Stack Developer</p>
         </div>
       </div>
 
       {/* about me */}
-      <div class="resume_item resume_about">
-        <div class="title">
-          <p class="bold">About Me</p>
+      <div className="resume_item resume_about">
+        <div className="title">
+          <p className="bold">About Me</p>
         </div>
         <p className="top-padding">
           I'm a Senior Full Stack Developer with 6+ years of experience building

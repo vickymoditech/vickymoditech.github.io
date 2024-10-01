@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import projectsData from "../data/projects.json";
+import projectsData from "../data/projects";
 import { useParams } from "react-router-dom";
 
 function ProjectDetail() {
@@ -10,7 +10,7 @@ function ProjectDetail() {
 
   if (!project) {
     return (
-      <div class="project-not-found">
+      <div className="project-not-found">
         <h2>Project Not Found</h2>
         <p>The project you are looking for does not exist.</p>
       </div>
@@ -53,7 +53,7 @@ function ProjectDetail() {
             <h2>Technologies</h2>
             <div className="technologies-logo">
               {project.technologies.map((technology) => (
-                <div class="click-chip background-blue">{technology}</div>
+                <div className="click-chip background-blue">{technology}</div>
               ))}
             </div>
           </div>

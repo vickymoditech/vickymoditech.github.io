@@ -36,19 +36,19 @@ function About() {
         </div>
         <div className="button-group">
           <span onClick={() => click("/resume")}>
-            <button class="learn-more">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
+            <button className="learn-more">
+              <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
               </span>
-              <span class="button-text">My Resume</span>
+              <span className="button-text">My Resume</span>
             </button>
           </span>
           <span onClick={() => click("/projects")}>
-            <button class="learn-more">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
+            <button className="learn-more">
+              <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
               </span>
-              <span class="button-text">My Projects</span>
+              <span className="button-text">My Projects</span>
             </button>
           </span>
         </div>
