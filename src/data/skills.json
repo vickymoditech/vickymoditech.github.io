@@ -1,0 +1,45 @@
+[
+  { "name": "Mysql", "year": 6 },
+  { "name": "MariaDB", "year": 6 },
+  { "name": "MongoDB", "year": 5 },
+  { "name": "Postgresql", "year": 5 },
+  { "name": "Sql", "year": 5 },
+  { "name": "Dynamo DB", "year": 3 },
+  { "name": "Redis", "year": 3 },
+  { "name": "Orcle", "year": 1 },
+
+  { "name": "Javascript", "year": 6 },
+  { "name": "Typescript", "year": 5 },
+  { "name": "Node Js", "year": 6 },
+  { "name": "Java", "year": 3 },
+  { "name": "JSP", "year": 2 },
+  { "name": "Python", "year": 2 },
+  { "name": "ASP.NET", "year": 2 },
+  { "name": "VB.NET", "year": 2 },
+  { "name": "c#", "year": 2 },
+
+  { "name": "React Js", "year": 5 },
+  { "name": "Angular Js", "year": 2 },
+  { "name": "HTML", "year": 5 },
+  { "name": "CSS", "year": 5 },
+  { "name": "SCSS", "year": 3 },
+  { "name": "JSP", "year": 1 },
+
+  { "name": "AWS EC2", "year": 5 },
+  { "name": "AWS Cognito", "year": 3 },
+  { "name": "AWS Lambda", "year": 3 },
+  { "name": "AWS Cloudmonitor", "year": 3 },
+  { "name": "AWS Cloudwatch", "year": 3 },
+  { "name": "AWS StepFunction", "year": 3 },
+  { "name": "AWS SNS", "year": 3 },
+  { "name": "AWS SP", "year": 3 },
+  { "name": "AWS PM", "year": 3 },
+
+  { "name": "Strapi", "year": 3 },
+  { "name": "BrainTree", "year": 2 },
+
+  { "name": "API Integration", "year": 5 },
+  { "name": "Test case Integration", "year": 4 },
+  { "name": "Socket", "year": 3 },
+  { "name": "CI/CD PipeLine", "year": 2 }
+]

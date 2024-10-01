@@ -1,7 +1,7 @@
 import React from "react";
-import "../App.css";
-import projectsData from "../data/projects";
+import projectsData from "../data/projects.json";
 import { useParams } from "react-router-dom";
+import "../App.css";
 
 function ProjectDetail() {
   const { id } = useParams();

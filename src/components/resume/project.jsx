@@ -3,8 +3,7 @@ import ProjectsHeader from "./components/projectHeader";
 import ProjectDescription from "./components/projectDescription";
 import ProjectSkills from "./components/projectSkills";
 
-const Project = ({ projects, min, max }) => {
-  console.log(projects.length, projects.splice(min, max), min, max);
+const Project = ({ projects }) => {
 
   if (!projects.length) return <h4> not found </h4>;
 
@@ -24,7 +23,7 @@ const Project = ({ projects, min, max }) => {
         <hr style={{ width: "100%" }} />
       </div>
 
-      {projects.slice(min, max).map((p) => (
+      {projects.map((p) => (
         <Fragment>
           <ProjectsHeader project={p} key={p.id} />
           <p className="mt-15" style={{ paddingLeft: "30px" }}>

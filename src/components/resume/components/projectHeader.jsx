@@ -15,7 +15,7 @@ const ProjectsHeader = ({ project }) => {
             target="_blank"
             href={`https://vickymoditech.github.io/#/projectDetail/${project.id}`}
           >
-            {project.title}
+            Read More
           </a>
         </p>
       </li>
