@@ -1,12 +1,13 @@
 [
   {
     "id": 1,
-    "title": "GYG - Resto 365: Admin Panel for Restaurant Management",
+    "title": "GYG - Admin Panel for Restaurant Management (Resto 365)",
     "logo": "/img/gyg/resto-365.jpg",
     "description": "The Guzman y Gomez Admin Panel is a robust web application designed to streamline restaurant management operations. This intuitive interface allows administrators to efficiently manage restaurant profiles, menus, and service options, ensuring a seamless experience for both staff and customers.",
     "companyName": "Guzman Y Gomez",
     "companySite": "https://www.guzmanygomez.com/",
     "workLogo": "/img/gyg/gyg.png",
+    "role": "Senior Software Engineer",
     "data": [
       {
         "heading": "Restaurant Management",
@@ -55,7 +56,7 @@
       "Mysql",
       "Node Js",
       "Express Js",
-      "Material Ui",
+      "Material UI",
       "Type ORM",
       "CI/CD",
       "AWS SM",
@@ -117,6 +118,7 @@
     "companyName": "Guzman Y Gomez",
     "companySite": "https://order.guzmanygomez.com.au/",
     "workLogo": "/img/gyg-order/logo.png",
+    "role": "Senior Software Engineer",
     "data": [
       {
         "heading": "Frontend",
@@ -153,8 +155,8 @@
       "AWS RDS",
       "AWS PS",
       "AWS DynamoDB",
-      "Sequelize ORM", 
-      "NPM packages",
+      "Sequelize ORM",
+      "Private npm packages",
       "CI/CD",
       "Redis"
     ],
@@ -218,6 +220,7 @@
     "companyName": "Guzman Y Gomez",
     "companySite": "https://order.guzmanygomez.com.au/",
     "workLogo": "/img/gyg-order/logo.png",
+    "role": "Senior Software Engineer",
     "data": [
       {
         "heading": "Order Ingestion via Node.js API",
@@ -267,7 +270,7 @@
       "Node Js",
       "Express Js",
       "Jest test Cases",
-      "Material Ui"
+      "Material UI"
     ],
     "images": [
       {
@@ -281,6 +284,18 @@
       {
         "src": "/img/delivery-partner/D3.png",
         "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D4.png",
+        "alt": "Description of image 4"
+      },
+      {
+        "src": "/img/delivery-partner/D5.png",
+        "alt": "Description of image 5"
+      },
+      {
+        "src": "/img/delivery-partner/D6.png",
+        "alt": "Description of image 6"
       }
     ],
     "link": "https://neemiya.com/"
@@ -293,6 +308,7 @@
     "companyName": "Freelance",
     "companySite": "https://creat.sg/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
     "data": [
       {
         "heading": "Customer Side",
@@ -326,8 +342,7 @@
       "Node Js",
       "Express Js",
       "Jest test Cases",
-      "Material Ui",
-      "Material Ui",
+      "Material UI",
       "IVRS integration",
       "Strapi Payment",
       "CI/CD"
@@ -347,6 +362,30 @@
       },
       {
         "src": "/img/creat/admin/CA4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA6.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA7.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA8.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA9.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/creat/admin/CA10.png",
         "alt": "Description of image 3"
       },
       {
@@ -372,6 +411,7 @@
     "companyName": "Freelance",
     "companySite": "https://capauth-staging.theadventus.com/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
     "data": [
       {
         "heading": "Organisation Management",
@@ -398,7 +438,7 @@
       "React Js",
       "Redux",
       "Postgress",
-      "Material Ui",
+      "Material UI",
       "Python",
       "Django"
     ],
@@ -413,6 +453,7 @@
     "companyName": "Freelance",
     "companySite": "https://lucky-minute.com/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Senior Software Engineer",
     "data": [
       {
         "heading": "Frontend",
@@ -501,36 +542,91 @@
     "companyName": "Freelance",
     "companySite": "https://ordrstartr-frontend.vercel.app/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
     "data": [
       {
-        "heading": "Customer Side",
+        "heading": "Order Management",
         "bullets": [
-          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
-          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
-          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
-          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
-          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+          "Edit and update orders in real-time.",
+          "Manage the order status and history."
         ]
       },
       {
-        "heading": "Admin Side",
+        "heading": "Communication",
         "bullets": [
-          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
-          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
-          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
-          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
-          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
-          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+          "Send personalized messages to customers.",
+          "Send notifications and alerts to customers."
+        ]
+      },
+      {
+        "heading": "Product Management",
+        "bullets": [
+          "Add, edit, or remove products from the catalog.",
+          "Manage product inventory and availability."
+        ]
+      },
+      {
+        "heading": "Payment and Checkout",
+        "bullets": [
+          "Oversee and manage the payment processing.",
+          "Handle refunds, payment confirmations, and checkout issues."
+        ]
+      },
+      {
+        "heading": "User Profile Management",
+        "bullets": [
+          "Manage customer profiles with loyalty points and history.",
+          "Implement loyalty management and coupon distribution."
+        ]
+      },
+      {
+        "heading": "Promotions and Discounts",
+        "bullets": [
+          "Create and apply discount codes and special offers.",
+          "Track promotional campaigns and their effectiveness."
+        ]
+      },
+      {
+        "heading": "Live Stream Shopping",
+        "bullets": [
+          "Browse and interact with products showcased during live sessions.",
+          "View product details and ask questions in real-time."
+        ]
+      },
+      {
+        "heading": "Seamless Purchase Experience",
+        "bullets": [
+          "Purchase products directly from live streaming.",
+          "Receive instant checkout links for quick transactions."
+        ]
+      },
+      {
+        "heading": "Order Placement and Tracking",
+        "bullets": [
+          "Place orders during the live session without leaving the stream.",
+          "Track order status and receive updates on delivery."
+        ]
+      },
+      {
+        "heading": "Secure Checkout Process",
+        "bullets": [
+          "Complete the checkout using secure payment gateways.",
+          "Apply discounts and coupon codes during checkout."
         ]
       }
     ],
     "technologies": [
-      "React Js",
       "Javascript",
-      "Postgress",
+      "Typescript",
+      "React Js",
       "Node Js",
       "Express Js",
-      "Material Ui"
+      "MongoDB",
+      "Mongoose",
+      "Swagger",
+      "Docker",
+      "Jest test",
+      "Material UI"
     ],
     "images": [
       {
@@ -592,40 +688,61 @@
     "id": 8,
     "title": "NEEMIYA : Effective Lead Generation Platform",
     "logo": "/img/neemiya/logo.png",
-    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "description": "Neemiya is a platform that helps businesses create and manage landing pages to capture leads effectively. It provides tools like drag-and-drop builders, analytics, and CRM integrations, making it easier to optimize marketing campaigns and track performance. The platform is suitable for agencies and businesses aiming to enhance their lead generation and streamline client management.",
     "companyName": "Freelance",
     "companySite": "https://neemiya.com/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Senior Software Engineer",
     "data": [
       {
-        "heading": "Customer Side",
+        "heading": "Landing Page Builder",
         "bullets": [
-          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
-          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
-          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
-          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
-          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+          "Create high-converting landing pages with a drag-and-drop interface.",
+          "Customize templates to fit your brand and campaign needs."
         ]
       },
       {
-        "heading": "Admin Side",
+        "heading": "Lead Management",
         "bullets": [
-          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
-          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
-          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
-          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
-          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
-          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+          "Track and manage leads in one place.",
+          "Integrates with CRM systems like Salesforce, Pipedrive, and Hubspot."
+        ]
+      },
+      {
+        "heading": "A/B Testing",
+        "bullets": [
+          "Run A/B tests to identify the best-performing page variants.",
+          "Optimize campaigns based on performance data."
+        ]
+      },
+      {
+        "heading": "Analytics and Tracking",
+        "bullets": [
+          "Monitor page performance with in-depth analytics.",
+          "Gain insights into visitor behavior and conversion rates."
+        ]
+      },
+      {
+        "heading": "Agency Features",
+        "bullets": [
+          "Manage multiple client projects from a single dashboard.",
+          "Provide detailed performance reports for clients."
         ]
       }
     ],
     "technologies": [
-      "React Js",
       "Javascript",
-      "Postgress",
+      "Typescript",
+      "React Js",
       "Node Js",
       "Express Js",
-      "Material Ui"
+      "Postgress",
+      "Strapi",
+      "Swagger",
+      "Docker",
+      "Jest test",
+      "Material UI",
+      "CI/CD"
     ],
     "images": [
       {
@@ -659,31 +776,38 @@
     "id": 9,
     "title": "ASME : Grow Your Bussiness Advertise With Asme",
     "logo": "/img/asme/logo.png",
-    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "description": "The Association of Small & Medium Enterprises (ASME) is a non-profit organization in Singapore that supports the growth and development of SMEs. It provides resources, networking opportunities, training, and advocacy to help businesses thrive in the competitive market. ASME aims to promote entrepreneurship and strengthen the SME community through various initiatives and programs.",
     "companyName": "Freelance",
-
     "companySite": "https://www.asme.org.sg/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
     "data": [
       {
-        "heading": "Customer Side",
+        "heading": "Business Support",
         "bullets": [
-          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
-          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
-          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
-          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
-          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+          "Provides resources and support for SMEs.",
+          "Offers business advisory and consultancy services."
         ]
       },
       {
-        "heading": "Admin Side",
+        "heading": "Networking Opportunities",
         "bullets": [
-          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
-          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
-          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
-          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
-          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
-          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+          "Hosts events for business networking and partnerships.",
+          "Connects SMEs with industry leaders and professionals."
+        ]
+      },
+      {
+        "heading": "Training and Development",
+        "bullets": [
+          "Conducts workshops and seminars for skills development.",
+          "Offers leadership and management training programs."
+        ]
+      },
+      {
+        "heading": "Advocacy and Representation",
+        "bullets": [
+          "Represents the interests of SMEs in policy discussions.",
+          "Works with the government to create a conducive business environment."
         ]
       }
     ],
@@ -693,7 +817,7 @@
       "Postgress",
       "Node Js",
       "Express Js",
-      "Material Ui"
+      "Material UI"
     ],
     "images": [
       {
@@ -729,12 +853,13 @@
   },
   {
     "id": 10,
-    "title": "GLUU : GAuthorize in Real time",
-    "logo": "/img/gluu/logo.png",
+    "title": "SHC - Singapore Home Cooks",
+    "logo": "/img/shc/SHC.jpg",
     "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
     "companyName": "Freelance",
-    "companySite": "https://gluu.org/",
+    "companySite": "https://neemiya.com/",
     "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
     "data": [
       {
         "heading": "Customer Side",
@@ -764,7 +889,71 @@
       "Postgress",
       "Node Js",
       "Express Js",
-      "Material Ui"
+      "Material UI"
+    ],
+    "images": [
+      {
+        "src": "/img/shc/SH1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH5.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://neemiya.com/"
+  },
+  {
+    "id": 11,
+    "title": "GLUU : GAuthorize in Real time",
+    "logo": "/img/gluu/logo.png",
+    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "companyName": "Freelance",
+    "companySite": "https://gluu.org/",
+    "workLogo": "/img/capauth/freelance.png",
+    "role": "Software Engineer",
+    "data": [
+      {
+        "heading": "Customer Side",
+        "bullets": [
+          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
+          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
+          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
+          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
+          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+        ]
+      },
+      {
+        "heading": "Admin Side",
+        "bullets": [
+          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
+          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
+          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
+          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
+          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
+          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+        ]
+      }
+    ],
+    "technologies": [
+      "React Js",
+      "Javascript",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material UI"
     ],
     "images": [
       {
@@ -805,68 +994,5 @@
       }
     ],
     "link": "https://gluu.org/"
-  },
-  {
-    "id": 11,
-    "title": "SHC  - Singapore Home Cooks",
-    "logo": "/img/neemiya/logo.png",
-    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
-    "companyName": "Freelance",
-    "companySite": "https://neemiya.com/",
-    "workLogo": "/img/capauth/freelance.png",
-    "data": [
-      {
-        "heading": "Customer Side",
-        "bullets": [
-          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
-          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
-          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
-          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
-          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
-        ]
-      },
-      {
-        "heading": "Admin Side",
-        "bullets": [
-          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
-          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
-          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
-          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
-          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
-          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
-        ]
-      }
-    ],
-    "technologies": [
-      "React Js",
-      "Javascript",
-      "Postgress",
-      "Node Js",
-      "Express Js",
-      "Material Ui"
-    ],
-    "images": [
-      {
-        "src": "/img/shc/SH1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH5.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://neemiya.com/"
   }
 ]

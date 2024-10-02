@@ -19,15 +19,17 @@ function Projects() {
       <h1 className="w3-animate-bottom" style={{ fontSize: "45px" }}>
         What I Built
       </h1>
-      {projectsData.map((project) => {
+      {projectsData.map((project, index) => {
         return (
           <section
             className="w3-animate-bottom profile-section h_300"
             style={{ justifyContent: "space-around" }}
+            key={index}
           >
             <div className="profile-content" style={{ maxWidth: "unset" }}>
               <div className="profile-details">
                 <h3>{project.title}</h3>
+                <h4 style={{ gap: "5px" }}>Role : {project.role}</h4>
                 <h4 style={{ gap: "5px" }}>
                   Company / Freelance :{" "}
                   <a

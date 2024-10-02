@@ -72,7 +72,7 @@ const Resume = () => {
         <Page>
           <SideBar>
             <div className="resume_item resume_info">
-              <div className="title" style={{paddingBottom:"10px"}}>
+              <div className="title" style={{ paddingBottom: "10px" }}>
                 <p className="bold">CONTACT</p>
               </div>
               <ul>
@@ -121,7 +121,7 @@ const Resume = () => {
               </ul>
             </div>
             <div className="resume_item resume_skills">
-              <div className="title" style={{paddingBottom:"10px"}}>
+              <div className="title" style={{ paddingBottom: "10px" }}>
                 <p className="bold">skills</p>
               </div>
               <ul>
@@ -231,7 +231,7 @@ const Resume = () => {
             </div>
 
             <div className="resume_item resume_social">
-              <div className="title">
+              <div className="title" style={{ paddingBottom: "10px" }}>
                 <p className="bold">Social</p>
               </div>
               <ul>
@@ -284,8 +284,8 @@ const Resume = () => {
 
         {/* page 3 */}
         <Page>
-          <SideBar/>
-          
+          <SideBar />
+
           <div className="resume_right">
             <div className="resume_item resume_work">
               <div className="gyg-experience top-padding">
@@ -299,7 +299,7 @@ const Resume = () => {
 
         {/* page 4 */}
         <Page>
-          <SideBar/>
+          <SideBar />
 
           <div className="resume_right">
             <div className="resume_item resume_work">
@@ -314,7 +314,7 @@ const Resume = () => {
 
         {/* page 5 */}
         <Page>
-          <SideBar/>
+          <SideBar />
 
           <div className="resume_right">
             <div className="resume_item resume_work">
@@ -325,8 +325,8 @@ const Resume = () => {
 
         {/* page 6 */}
         <Page>
-          <SideBar/>
-          
+          <SideBar />
+
           <div className="resume_right">
             <div className="resume_item resume_work">
               <Project projects={[...projects.slice(6, 10)]} />
@@ -336,7 +336,7 @@ const Resume = () => {
 
         {/* page 7 */}
         <Page>
-          <SideBar/>
+          <SideBar />
 
           <div className="resume_right">
             <div className="resume_item resume_work">

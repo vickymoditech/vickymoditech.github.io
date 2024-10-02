@@ -26,17 +26,37 @@ function ProjectDetail() {
         className="profile-section"
         style={{ flexDirection: "column", justifyContent: "space-around" }}
       >
-        {project.data.map((dt) => {
+        <div
+          className="profile-content"
+          style={{ width: "100%", maxWidth: "unset" }}
+        >
+          <div className="w3-animate-bottom profile-details">
+            <h2>Description</h2>
+            <ul style={{ paddingLeft: "50px" }}>
+              <li style={{ listStyle: "disc" }}>
+                {project.description
+                  .split(".")
+                  .filter((d) => d)
+                  .map((d) => (
+                    <p>{d}.</p>
+                  ))}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {project.data.map((dt, index) => {
           return (
             <div
               className="profile-content"
               style={{ width: "100%", maxWidth: "unset" }}
+              key={index}
             >
               <div className="w3-animate-bottom profile-details">
                 <h2>{dt.heading}</h2>
                 <ul style={{ paddingLeft: "50px" }}>
-                  {dt.bullets.map((item) => (
-                    <li style={{ listStyle: "disc" }}>
+                  {dt.bullets.map((item, index) => (
+                    <li style={{ listStyle: "disc" }} key={index}>
                       <p>{item}</p>
                     </li>
                   ))}
@@ -52,8 +72,10 @@ function ProjectDetail() {
           <div className="technologies">
             <h2>Technologies</h2>
             <div className="technologies-logo">
-              {project.technologies.map((technology) => (
-                <div className="click-chip background-blue">{technology}</div>
+              {project.technologies.map((technology, index) => (
+                <div className="click-chip background-blue" key={index}>
+                  {technology}
+                </div>
               ))}
             </div>
           </div>
@@ -88,8 +110,8 @@ function ProjectDetail() {
         style={{ maxWidth: "unset", maxHeight: "unset", height: "auto" }}
       >
         {project.images &&
-          project.images.map((img) => (
-            <img src={img.src} alt="Restaurant Reservation" />
+          project.images.map((img, index) => (
+            <img src={img.src} alt="Restaurant Reservation" key={index} />
           ))}
       </div>
     </div>
