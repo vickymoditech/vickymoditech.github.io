@@ -221,7 +221,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(34, 38).map((s) => (
+                {skill.slice(34, 39).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -285,7 +285,6 @@ const Resume = () => {
         {/* page 3 */}
         <Page>
           <SideBar />
-
           <div className="resume_right">
             <div className="resume_item resume_work">
               <div className="gyg-experience top-padding">
@@ -329,7 +328,7 @@ const Resume = () => {
 
           <div className="resume_right">
             <div className="resume_item resume_work">
-              <Project projects={[...projects.slice(6, 10)]} />
+              <Project projects={[...projects.slice(6, 9)]} />
             </div>
           </div>
         </Page>
@@ -340,7 +339,7 @@ const Resume = () => {
 
           <div className="resume_right">
             <div className="resume_item resume_work">
-              <Project projects={[...projects.slice(10, 11)]} />
+              <Project projects={[...projects.slice(9, 11)]} />
             </div>
 
             <div className="resume_item resume_education">

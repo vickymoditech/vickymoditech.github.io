@@ -853,107 +853,81 @@
   },
   {
     "id": 10,
-    "title": "SHC - Singapore Home Cooks",
-    "logo": "/img/shc/SHC.jpg",
-    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
-    "companyName": "Freelance",
-    "companySite": "https://neemiya.com/",
-    "workLogo": "/img/capauth/freelance.png",
-    "role": "Project Manager & Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Customer Side",
-        "bullets": [
-          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
-          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
-          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
-          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
-          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
-        ]
-      },
-      {
-        "heading": "Admin Side",
-        "bullets": [
-          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
-          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
-          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
-          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
-          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
-          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
-        ]
-      }
-    ],
-    "technologies": [
-      "React Js",
-      "Javascript",
-      "Postgress",
-      "Node Js",
-      "Express Js",
-      "Material UI"
-    ],
-    "images": [
-      {
-        "src": "/img/shc/SH1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH5.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://neemiya.com/"
-  },
-  {
-    "id": 11,
     "title": "GLUU : GAuthorize in Real time",
     "logo": "/img/gluu/logo.png",
-    "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
+    "description": "Gluu is an open-source Identity and Access Management (IAM) platform offering solutions for secure authentication, authorization, and identity management. It supports OAuth2, OpenID Connect, and SAML protocols, making it ideal for single sign-on (SSO) implementations. Gluu's flexibility allows for deployment in on-premises, cloud, or hybrid environments, and it offers advanced capabilities like adaptive authentication, real-time policy enforcement, and centralized identity orchestration.",
     "companyName": "Freelance",
     "companySite": "https://gluu.org/",
     "workLogo": "/img/capauth/freelance.png",
     "role": "Software Engineer",
     "data": [
       {
-        "heading": "Customer Side",
+        "heading": "Protocol Support",
         "bullets": [
-          "Intuitive Booking Process: Users can easily select their preferred date, time, and party size for their reservation.",
-          "Meal-Specific Options: The app caters to different dining experiences by offering separate booking options for breakfast, lunch, and dinner.",
-          "Real-Time Availability: Users can view up-to-date table availability, ensuring they can make informed decisions about their reservations.",
-          "Special Requests: A feature allowing users to note any special requirements or preferences when making a reservation.",
-          "Confirmation System: Automatic confirmation emails or SMS messages are sent to users upon successful booking."
+          "Supports OAuth2, OpenID Connect, and SAML for secure authentication and authorization.",
+          "Provides Single Sign-On (SSO) capability across multiple applications."
         ]
       },
       {
-        "heading": "Admin Side",
+        "heading": "Scalability",
         "bullets": [
-          "Reservation Dashboard: A comprehensive view of all current and upcoming reservations, sortable by date, time, and party size.",
-          "Table Management: Ability to assign and reassign tables based on party size and restaurant layout.",
-          "Customer Database: A database storing customer information, reservation history, and preferences for personalized service.",
-          "Customizable Settings: Options to set restaurant capacity, opening hours, and special event dates.",
-          "Reporting Tools: Analytics and reporting tools to track reservation trends, peak hours, and revenue generated.",
-          "Staff Management: Assign roles and permissions to different staff members for using the admin interface."
+          "Handles large-scale enterprise traffic with optimized performance.",
+          "Deployable in cloud, on-premises, or hybrid environments for flexibility."
+        ]
+      },
+      {
+        "heading": "Security",
+        "bullets": [
+          "Enables FIDO2 and passwordless authentication for enhanced security.",
+          "Supports multi-factor authentication (MFA) with adaptive policies."
+        ]
+      },
+      {
+        "heading": "Identity Orchestration",
+        "bullets": [
+          "Customizable identity flows for complex use cases.",
+          "Real-time policy enforcement with centralized access management."
+        ]
+      },
+      {
+        "heading": "Integration",
+        "bullets": [
+          "Easily integrates with third-party identity providers (e.g., Azure AD, Okta).",
+          "Supports diverse applications and custom plugins for extensibility."
+        ]
+      },
+      {
+        "heading": "User Experience",
+        "bullets": [
+          "Self-service portals for easy user and admin management.",
+          "Automated workflows for user provisioning and de-provisioning."
         ]
       }
     ],
     "technologies": [
-      "React Js",
-      "Javascript",
-      "Postgress",
-      "Node Js",
-      "Express Js",
-      "Material UI"
+      "React",
+      "JavaScript",
+      "Java",
+      "Python",
+      "Node.js",
+      "OpenID Connect",
+      "SAML",
+      "OAuth 2.0",
+      "FIDO2/WebAuthn",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "LDAP",
+      "OpenDJ",
+      "OpenLDAP",
+      "MySQL",
+      "PostgreSQL",
+      "Multi-Factor Authentication",
+      "Cryptographic Challenges",
+      "Passwordless Authentication",
+      "Push Notifications"
     ],
     "images": [
       {
@@ -994,5 +968,123 @@
       }
     ],
     "link": "https://gluu.org/"
+  },
+  {
+    "id": 11,
+    "title": "SHC - Singapore Home Cooks",
+    "logo": "/img/shc/SHC.jpg",
+    "description": "this is an innovative social commerce platform specifically designed to capture and process orders during Facebook Live sessions. It utilizes a powerful tech stack, including React and Redux on the frontend for a highly interactive and responsive user interface, while the backend is powered by Node.js. The system relies on PostgreSQL as the primary database, managed through Sequelize ORM to ensure efficient data handling and integrity. With this architecture, ORDRSTARTR provides a seamless, real-time shopping experience, enabling businesses to boost engagement and streamline purchases directly from live interactions.",
+    "companyName": "Freelance",
+    "companySite": "https://neemiya.com/",
+    "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Order Management",
+        "bullets": [
+          "Edit and update orders in real-time.",
+          "Manage the order status and history."
+        ]
+      },
+      {
+        "heading": "Communication",
+        "bullets": [
+          "Send personalized messages to customers.",
+          "Send notifications and alerts to customers."
+        ]
+      },
+      {
+        "heading": "Product Management",
+        "bullets": [
+          "Add, edit, or remove products from the catalog.",
+          "Manage product inventory and availability."
+        ]
+      },
+      {
+        "heading": "Payment and Checkout",
+        "bullets": [
+          "Oversee and manage the payment processing.",
+          "Handle refunds, payment confirmations, and checkout issues."
+        ]
+      },
+      {
+        "heading": "User Profile Management",
+        "bullets": [
+          "Manage customer profiles with loyalty points and history.",
+          "Implement loyalty management and coupon distribution."
+        ]
+      },
+      {
+        "heading": "Promotions and Discounts",
+        "bullets": [
+          "Create and apply discount codes and special offers.",
+          "Track promotional campaigns and their effectiveness."
+        ]
+      },
+      {
+        "heading": "Live Stream Shopping",
+        "bullets": [
+          "Browse and interact with products showcased during live sessions.",
+          "View product details and ask questions in real-time."
+        ]
+      },
+      {
+        "heading": "Seamless Purchase Experience",
+        "bullets": [
+          "Purchase products directly from live streaming.",
+          "Receive instant checkout links for quick transactions."
+        ]
+      },
+      {
+        "heading": "Order Placement and Tracking",
+        "bullets": [
+          "Place orders during the live session without leaving the stream.",
+          "Track order status and receive updates on delivery."
+        ]
+      },
+      {
+        "heading": "Secure Checkout Process",
+        "bullets": [
+          "Complete the checkout using secure payment gateways.",
+          "Apply discounts and coupon codes during checkout."
+        ]
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "Typescript",
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Mongoose",
+      "Swagger",
+      "Docker",
+      "Jest test",
+      "Material UI"
+    ],
+    "images": [
+      {
+        "src": "/img/shc/SH1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH5.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://neemiya.com/"
   }
 ]
