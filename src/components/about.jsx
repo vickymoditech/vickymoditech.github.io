@@ -11,7 +11,7 @@ function About() {
 
   return (
     <section
-      className="w3-animate-top profile-section"
+      className="w3-animate-top profile-section mobile-view"
       style={{ height: "calc(100vh - 152px)" }}
     >
       <div className="profile-image">

@@ -94,21 +94,16 @@ main {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-@media only screen and (max-width: 1250px) {
-  .profile-section {
-    flex-direction: column;
-  }
-}
 
 .h_300 {
-  height: 400px;
+  min-height: 400px;
 }
 
 .profile-image {
   max-width: 480px;
   max-height: 480px;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: block;
 }
 
@@ -439,3 +434,23 @@ button:hover .button-text {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+
+@media only screen and (max-width: 1250px) {
+  .profile-section {
+    flex-direction: column-reverse;
+  }
+  .mobile-view {
+    height: unset !important;
+    flex-direction: column !important;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+.profile-content h1 {
+  font-size: 56px;
+}
+}
+
+
