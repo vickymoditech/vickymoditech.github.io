@@ -184,6 +184,7 @@ main {
 
 .technologies-logo {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -444,12 +445,19 @@ button:hover .button-text {
     height: unset !important;
     flex-direction: column !important;
   }
+
+  .product-section {
+    padding: 50px;
+  }
   
 }
 
 @media only screen and (max-width: 767px) {
 .profile-content h1 {
   font-size: 56px;
+}
+.product-section {
+  padding: 20px;
 }
 }
 
