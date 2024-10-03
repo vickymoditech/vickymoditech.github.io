@@ -5,6 +5,7 @@ import "../App.css";
 
 function Projects() {
   const navigate = useNavigate();
+  window.scroll(0, 0);
 
   const click = (path) => {
     navigate(path);

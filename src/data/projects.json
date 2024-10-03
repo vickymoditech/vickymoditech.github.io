@@ -345,6 +345,7 @@
       "Material UI",
       "IVRS integration",
       "Strapi Payment",
+      "Union Pay",
       "CI/CD"
     ],
     "images": [
@@ -626,7 +627,9 @@
       "Swagger",
       "Docker",
       "Jest test",
-      "Material UI"
+      "Material UI",
+      "Strapi Payment",
+      "Union Pay"
     ],
     "images": [
       {
@@ -812,12 +815,15 @@
       }
     ],
     "technologies": [
-      "React Js",
       "Javascript",
+      "Typescript",
+      "React Js",
+      "Next Js",
       "Postgress",
       "Node Js",
       "Express Js",
-      "Material UI"
+      "Material UI",
+      "Stripe CRM"
     ],
     "images": [
       {
@@ -1061,7 +1067,9 @@
       "Swagger",
       "Docker",
       "Jest test",
-      "Material UI"
+      "Material UI",
+      "Strapi Payment",
+      "Stripe CRM"
     ],
     "images": [
       {
