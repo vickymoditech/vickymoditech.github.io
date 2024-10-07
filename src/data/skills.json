@@ -42,5 +42,6 @@
   { "name": "Test case Integration", "year": 4 },
   { "name": "Query Optimization", "year": 4 },
   { "name": "Socket", "year": 3 },
-  { "name": "CI/CD PipeLine", "year": 2 }
+  { "name": "CI/CD PipeLine", "year": 2 },
+  { "name": "Kubernetes", "year": 2 }
 ]
