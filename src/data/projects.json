@@ -742,7 +742,7 @@
       "Postgress",
       "Strapi",
       "Swagger",
-      "Docker",
+      "Kubernetes",
       "Jest test",
       "Material UI",
       "CI/CD"
@@ -817,6 +817,7 @@
     "technologies": [
       "Javascript",
       "Typescript",
+      "Kubernetes",
       "React Js",
       "Next Js",
       "Postgress",
