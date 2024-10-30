@@ -4,7 +4,6 @@ import ProjectDescription from "./components/projectDescription";
 import ProjectSkills from "./components/projectSkills";
 
 const Project = ({ projects }) => {
-
   if (!projects.length) return <h4> not found </h4>;
 
   return (

@@ -33,16 +33,17 @@
       "ORM"
     ],
     "work": [
-      "Acted as a Senior Node.js Developer in the scrum team.",
+      "Work as a Senior Full Stack Developer in the scrum team.",
       "Developed, tested, deployed, and maintained scalable web and mobile applications.",
       "Maintained existing software systems by identifying and correcting software defects.",
-      "Designed and implemented complex menu structures for apps.",
+      "Designed & Implemented complex menu structures for apps.",
       "Built AWS step functions to sync product data from the POS(TASK) system.",
-      "Designed/Implemented social authentication flow using AWS Cognito (Google, Apple, Facebook).",
-      "Worked with AWS Lambda, MySQL, and AWS Cognito for user management.",
-      "Developed order processing flows for external vendors (Ubereats, Doordash, MenuLog, and Deliveroo)",
-      "Implemented order processing and validating flow.",
-      "Implemented offer/coupon flow."
+      "Designed & Implemented social authentication flow using AWS Cognito (Google, Apple, Facebook).",
+      "Worked with AWS Lambda, AWS StepFunction, Sequelize + MySQL, and AWS Cognito for user management.",
+      "Designed & Implemented order processing flows for external vendors (Ubereats, Doordash, MenuLog, and Deliveroo)",
+      "Implemented Complex ETL process to bring the data from POS system",
+      "Implemented order processing, order validating and offer/coupon flow",
+      "Implemented Test cases for Micro services"
     ],
     "project": [1]
   },

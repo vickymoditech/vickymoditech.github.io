@@ -130,7 +130,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(0, 8).map((s) => (
+                {skill.slice(0, 7).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -142,7 +142,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(8, 17).map((s) => (
+                {skill.slice(8, 16).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -154,7 +154,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(17, 22).map((s) => (
+                {skill.slice(17, 24).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -185,7 +185,7 @@ const Resume = () => {
           <SideBar>
             <div className="resume_item resume_skills">
               <ul>
-                {skill.slice(22, 23).map((s) => (
+                {skill.slice(24, 27).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -197,7 +197,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(23, 32).map((s) => (
+                {skill.slice(27, 37).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -209,7 +209,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(32, 34).map((s) => (
+                {skill.slice(37, 39).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
@@ -221,7 +221,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(34, 45).map((s) => (
+                {skill.slice(39, 50).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>

@@ -40,7 +40,7 @@ const About = () => {
       <div className="resume_item1 resume_about">
         <div className="title profile_title">
           <p className="profile_name">Vicky Modi</p>
-          <p style={style.subheading}>Full Stack Developer</p>
+          <p style={style.subheading}>Senior Full-Stack Developer</p>
         </div>
       </div>
 
