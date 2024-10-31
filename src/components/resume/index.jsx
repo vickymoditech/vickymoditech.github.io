@@ -348,7 +348,7 @@ const Resume = () => {
               </div>
               <ul>
                 <li>
-                  <div className="date">Sep 2011 - Oct 2017</div>
+                  <div className="date">Sep 2012 - Oct 2017</div>
                   <div className="info">
                     <p className="semi-bold">
                       Master of Science in Information Technology (MSC IT)
