@@ -154,7 +154,7 @@ const Resume = () => {
                   <div className="skill_border"></div>
                 </li>
 
-                {skill.slice(17, 24).map((s) => (
+                {skill.slice(16, 24).map((s) => (
                   <li>
                     <div className="skill_name">{s.name}</div>
                     <div className="skill_per">{s.year} years</div>
