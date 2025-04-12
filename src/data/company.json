@@ -1,10 +1,86 @@
 [
+
+
+
+  {
+    "id": 15,
+    "designation": "Senior/Lead Full Stack Developer (Remote)",
+    "name": "Freelance",
+    "url": "https://vickymoditech.github.io/#/projects",
+    "date": "Sept 2024 – Present",
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "Nest.js",
+      "Node.Js",
+      "React.js",
+      "Next.Js",
+      "Redux",
+      "Jwt",
+      "AWS",
+      "AWS Cognito",
+      "AWS lambda",
+      "Cloudmonitor",
+      "Cloudwatch",
+      "Secretmanager",
+      "Simple Notification Service",
+      "S3 bucket",
+      "Store parameter",
+      "RDS",
+      "EC2",
+      "Axios",
+      "Mongodb",
+      "Mysql",
+      "Asp.net",
+      "ORM types",
+      "CI/CD",
+      "Payment Integration",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Figma Design Implement",
+      "Design DataBase",
+      "Jest - Test Cases Integration",
+      "Python",
+      "Django",
+      "PHP",
+      "Java",
+      "Socket",
+      "Postgresql",
+      "Mongodb",
+      "ORM"
+    ],
+    "work": [
+      "Work closely with Clients and business analysts to analyze the problem and to propose it’s related solution in a timely manner under an agile environment.",
+      "Project Planning and Management",
+      "Team Leadership and Mentoring",
+      "Technical Architecture and Design",
+      "Client Communication and Stakeholder Management",
+      "Code Review and Quality Assurance",
+      "Strategic Planning and Decision Making",
+      "Resource and Time Management",
+      "Problem Solving and Issue Resolution",
+      "Implementation of Agile/Scrum Methodologies",
+      "Documentation and Knowledge Sharing",
+      "Deployment and Release Management",
+      "Hiring and Talent Management",
+      "Business Development and Client Relations",
+      "Financial and Budget Management",
+      "Ensuring Compliance and Security"
+    ],
+    "project": [1]
+  },
+
+
+
+
+
   {
     "id": 1,
     "name": "Guzman y Gomez (Australia)",
     "url": "https://order.guzmanygomez.com.au",
     "designation": "Senior Full Stack Developer (Remote)",
-    "date": "April 2021 – Present",
+    "date": "April 2021 – Sept 2024",
     "skills": [
       "Javascript",
       "Typescript",

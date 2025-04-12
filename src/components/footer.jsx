@@ -26,7 +26,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <i
-                style={{ color: "#0068f0", fontSize: "25px" }}
+                style={{ color: "#fff", fontSize: "25px" }}
                 className="fab fa-linkedin"
               ></i>
             </a>
@@ -35,7 +35,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i style={{ fontSize: "25px" }} className="fab fa-github"></i>
+              <i style={{ color: "#fff", fontSize: "25px" }} className="fab fa-github"></i>
             </a>
           </div>
         </div>

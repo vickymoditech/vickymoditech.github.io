@@ -25,7 +25,7 @@ main {
 
 .header {
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: #189eef;
   padding: 20px 50px;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   display: flex;
@@ -56,7 +56,7 @@ main {
 .header .menu ul li {
   text-align: center;
   line-height: 24px;
-  color: #333333;
+  color: #fff;
   display: inline-block;
   padding: 0 10px;
   transition: var(--trans, color 0.4s ease 0s);
@@ -70,7 +70,7 @@ main {
 
 .header .menu ul li:nth-child(-n + 2) {
   /* border-right: 1px solid #333333; */
-  border-right: 1px solid #333333;
+  border-right: 1px solid #fff;
 }
 
 .product-section {
@@ -89,7 +89,7 @@ main {
   align-items: center;
   padding: 20px;
   gap: 50px;
-  background-color: #fff;
+  background-color: #d1ecfc;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
@@ -236,7 +236,7 @@ main {
 
 footer {
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: #189eef;
   padding: 20px 50px;
   display: flex;
   border-top: 1px solid #baa0a02e;
@@ -260,7 +260,7 @@ footer {
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
-  color: #333;
+  color: #fff;
   text-align: left;
 }
 
@@ -269,7 +269,7 @@ footer {
   font-size: 14px;
   font-weight: 500;
   text-decoration: unset;
-  color: #333 !important;
+  color: #fff !important;
 }
 
 /*read more button */
@@ -443,7 +443,7 @@ button:hover .button-text {
   }
   .mobile-view {
     height: unset !important;
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
   }
 
   .product-section {
