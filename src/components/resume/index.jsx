@@ -306,7 +306,7 @@ const Resume = () => {
                 <Company company={c} key={index} />
               ))}
 
-              <Project projects={[...projects.slice(0, 2)]} />
+              {/* <Project projects={[...projects.slice(0, 2)]} /> */}
             </div>
           </div>
         </Page>
@@ -317,7 +317,7 @@ const Resume = () => {
 
           <div className="resume_right">
             <div className="resume_item resume_work">
-              <Project projects={[...projects.slice(2, 6)]} />
+              <Project projects={[...projects.slice(0, 3)]} />
             </div>
           </div>
         </Page>
@@ -328,7 +328,7 @@ const Resume = () => {
 
           <div className="resume_right">
             <div className="resume_item resume_work">
-              <Project projects={[...projects.slice(6, 9)]} />
+              <Project projects={[...projects.slice(3, 6)]} />
             </div>
           </div>
         </Page>
@@ -339,7 +339,7 @@ const Resume = () => {
 
           <div className="resume_right">
             <div className="resume_item resume_work">
-              <Project projects={[...projects.slice(9, 11)]} />
+              <Project projects={[...projects.slice(6, 9)]} />
             </div>
           </div>
         </Page>
@@ -349,7 +349,34 @@ const Resume = () => {
 
           <div className="resume_right">
             <div className="resume_item resume_work">
-              <Project projects={[...projects.slice(11, 13)]} />
+              <Project projects={[...projects.slice(9, 12)]} />
+            </div>
+
+            {/* <div className="resume_item resume_education">
+              <div className="title">
+                <p className="bold">Education</p>
+              </div>
+              <ul>
+                <li>
+                  <div className="date">Sep 2012 - Oct 2017</div>
+                  <div className="info">
+                    <p className="semi-bold">
+                      Master of Science in Information Technology (MSC IT)
+                    </p>
+                    <p>UKA TARSADIA UNIVERSITY</p>
+                  </div>
+                </li>
+              </ul>
+            </div> */}
+          </div>
+        </Page>
+
+        <Page>
+          <SideBar />
+
+          <div className="resume_right">
+            <div className="resume_item resume_work">
+              <Project projects={[...projects.slice(12, 13)]} />
             </div>
 
             <div className="resume_item resume_education">
