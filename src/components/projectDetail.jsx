@@ -1,7 +1,8 @@
-import React from "react";
+// import React from "react";
 import projectsData from "../data/projects.json";
 import { useParams } from "react-router-dom";
 import "../App.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 function ProjectDetail() {
   const { id } = useParams();
@@ -16,6 +17,11 @@ function ProjectDetail() {
       </div>
     );
   }
+
+  // https://www.npmjs.com/package/react-responsive-carousel
+  var React = require("react");
+  // var ReactDOM = require("react-dom");
+  var Carousel = require("react-responsive-carousel").Carousel;
 
   return (
     <div className="product-section">
@@ -105,7 +111,17 @@ function ProjectDetail() {
           </button>
         </div>
       </section>
-      <div
+
+      <Carousel>
+        {project.images &&
+          project.images.map((img, index) => (
+            <div key={index} style={{ width: "auto", height: "500px" }}>
+              <img src={img.src} alt="Restaurant Reservation" />
+            </div>
+          ))}
+      </Carousel>
+
+      {/* <div
         className="product-image"
         style={{ maxWidth: "unset", maxHeight: "unset", height: "auto" }}
       >
@@ -113,7 +129,7 @@ function ProjectDetail() {
           project.images.map((img, index) => (
             <img src={img.src} alt="Restaurant Reservation" key={index} />
           ))}
-      </div>
+      </div> */}
     </div>
   );
 }

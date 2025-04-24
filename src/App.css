@@ -472,5 +472,44 @@ button:hover .button-text {
   flex: 0 0 100%;
   min-width: 0;
 }
+.animated .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated .slide img {
+  width: auto;
+  height: 500px;
+}
+
+.control-arrow {
+  width: 50px;
+  height: 50px;
+  top: 45% !important;
+  background: #474545 !important;
+}
+
+.carousel-slider {
+  width: auto !important;
+  height: 500px;
+}
 
 
+.thumbs-wrapper .thumbs .thumb {
+  width: unset !important;
+ 
+}
+
+.thumbs-wrapper .thumbs .thumb img {
+  width: 120px;
+  height: 80px;
+}
+
+
+.carousel .carousel-status {
+  right: 45px !important;
+  font-size: 12px !important;
+  text-shadow: unset !important;
+  color: #000 !important;
+}
