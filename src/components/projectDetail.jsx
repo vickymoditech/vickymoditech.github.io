@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+// import React from "react";
 import projectsData from "../data/projects.json";
 import { useParams } from "react-router-dom";
 import "../App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 
 function ProjectDetail() {
   const { id } = useParams();
@@ -21,7 +20,7 @@ function ProjectDetail() {
 
   // https://www.npmjs.com/package/react-responsive-carousel
   var React = require("react");
-  var ReactDOM = require("react-dom");
+  // var ReactDOM = require("react-dom");
   var Carousel = require("react-responsive-carousel").Carousel;
 
   return (
