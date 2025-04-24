@@ -3,45 +3,45 @@ import React, { Fragment, useEffect } from "react";
 import Company from "./company";
 import Page from "./page";
 import About from "./about";
-import SideBar from "./side";
+// import SideBar from "./side";
 import company from "../../data/company.json";
 import projects from "../../data/projects.json";
 import skill from "../../data/skills.json";
 import Project from "./project";
 import "./resume.css";
 
-const style = {
-  skill_divider: {
-    gap: "20px",
-    marginTop: "25px",
-  },
-  gap_20: {
-    gap: "20px",
-  },
-  profile_margin: {
-    marginBottom: 0,
-  },
-  skill_style: {
-    marginTop: "3px",
-    marginBottom: "3px",
-    color: "#FFA500",
-  },
-  margin_50: {
-    marginTop: "50px",
-  },
-  margin_30: {
-    marginTop: "30px",
-  },
-  paddingLeft_50: {
-    paddingLeft: "50px",
-  },
-  list_style: {
-    marginBottom: "15px",
-  },
-  subheading: {
-    fontWeight: "bold",
-  },
-};
+// const style = {
+//   skill_divider: {
+//     gap: "20px",
+//     marginTop: "25px",
+//   },
+//   gap_20: {
+//     gap: "20px",
+//   },
+//   profile_margin: {
+//     marginBottom: 0,
+//   },
+//   skill_style: {
+//     marginTop: "3px",
+//     marginBottom: "3px",
+//     color: "#FFA500",
+//   },
+//   margin_50: {
+//     marginTop: "50px",
+//   },
+//   margin_30: {
+//     marginTop: "30px",
+//   },
+//   paddingLeft_50: {
+//     paddingLeft: "50px",
+//   },
+//   list_style: {
+//     marginBottom: "15px",
+//   },
+//   subheading: {
+//     fontWeight: "bold",
+//   },
+// };
 
 const Resume = () => {
   useEffect(() => {
