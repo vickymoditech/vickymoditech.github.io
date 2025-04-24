@@ -6,15 +6,15 @@ import Description from "./components/description";
 const Company = ({ company, isCompany = true }) => {
   return (
     <Fragment>
+      <div class="job">
       {isCompany && <CompanyHeader company={company} />}
-      <div className="info">
-        {isCompany && (
-          <p className="mt-15">
+      {isCompany && (
+          <p class="job-description">
             <Skills skills={company.skills} />
             <Description company={company} />
           </p>
         )}
-      </div>
+        </div>
     </Fragment>
   );
 };

@@ -2,24 +2,21 @@ import React from "react";
 
 const ProjectsHeader = ({ project }) => {
   return (
-    <ul className="projects-header" style={{ paddingTop: "10px" }}>
-      <li style={{ display: "flex", flexDirection: "column" }}>
-        <div className="Experience_div">
-          <div className="date mb-0 w_700">
-            {project.id}.&nbsp;{project.title}
-          </div>
-        </div>
-        <p className="semi-bold w_500" style={{ paddingLeft: "20px" }}>
-          <a
+    <>
+    <h3 class="job-title">{project.id}.&nbsp;{project.title}</h3>
+      {/* <p class="company">Harvey</p> */}
+      <div class="job-meta">
+        <span>
+        <a
             rel="noreferrer"
             target="_blank"
             href={`https://vickymoditech.github.io/#/projectDetail/${project.id}`}
           >
             Read More
           </a>
-        </p>
-      </li>
-    </ul>
+        </span>
+      </div>
+    </>
   );
 };
 
