@@ -30,7 +30,9 @@ body {
   /* width: 1000px; */
   height: 100%;
   display: flex;
+  flex-direction: column;
   /* margin: 50px auto; */
+  padding: 20px;
 }
 
 .resume .resume_left {
@@ -342,7 +344,7 @@ body {
   width: 210mm;
   height: 278mm;
   margin: 0 auto;
-  /* padding: 20mm; */
+  /* padding: 20px; */
   box-sizing: border-box;
   /* border: 1px solid #000; */
   background-color: rgb(255, 255, 255);
@@ -381,4 +383,260 @@ p {
 .CompanyHeader {
   display: flex;
   flex-direction: column;
+}
+
+
+
+
+/* new csss */
+
+
+  /* Reset and base styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    /* padding: 30px;
+    max-width: 900px;
+    margin: 0 auto; */
+}
+
+/* Header styles */
+.headers {
+    margin-bottom: 30px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-item a{
+  text-decoration: unset;
+  color: #000;
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+/* Experience styles */
+.job {
+    margin-bottom: 25px;
+    padding-left: 30px;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.job-titles:before {
+  border: 2px solid #484444;
+  border-radius: 50%;
+  content: "";
+  height: 6px;
+  left: -24px;
+  position: absolute;
+  top: 8px;
+  width: 6px;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.job-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.achievements {
+  padding: 10px 0 10px 30px;
+}
+
+.achievements li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    position: relative;
+}
+
+.achievements li:before {
+  background-color: #000;
+  border: initial !important;
+  border-radius: 50%;
+  content: "";
+  height: 6px;
+  left: -25px;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+
+/* Education styles */
+.education-item {
+    margin-bottom: 15px;
+}
+
+.degree {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.school {
+    font-size: 15px;
+    color: #555;
+}
+
+.education-years {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Skills styles */
+.skills-lists {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.skill {
+  max-width: 32%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Strengths styles */
+.strengths-container {
+    display: flex;
+    gap: 30px;
+}
+
+.strength {
+    flex: 1;
+}
+
+.strength-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.strength-description {
+    font-size: 14px;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #888;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    .strengths-container {
+        flex-direction: column;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skill {
+      max-width: 48%;
+      width: 100%;
+      
+    }
+
+}
+
+@media (max-width: 410px) {
+ 
+
+  .skill {
+    max-width: 100%;
+    width: 100%;
+    
+  }
+
 }

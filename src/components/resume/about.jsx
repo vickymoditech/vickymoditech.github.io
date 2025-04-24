@@ -36,20 +36,40 @@ const style = {
 const About = () => {
   return (
     <Fragment>
-      {/* name */}
-      <div className="resume_item1 resume_about">
-        <div className="title profile_title">
-          <p className="profile_name">Vicky Modi</p>
-          <p style={style.subheading}>Senior Full-Stack Developer</p>
+      <div class="headers">
+        <div>
+        <h1 class="name">Vicky Modi</h1>
+        <p class="title">Senior Full-Stack Developer</p>
+        </div>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span><a href="tel:+918401060120">+91 8401060120</a></span>
+          </div>
+          <div class="contact-item">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <span> <a href="mailto:vickymoditech@gmail.com">
+                      vickymoditech@gmail.com
+                    </a></span>
+          </div>
+          <div class="contact-item">
+            <span><i class="fa-solid fa-link"></i></span>
+            <span>
+              <a
+                href="https://vickymoditech.github.io"
+                rel="noreferrer"
+                target="_blank"
+              >
+                vickymoditech.github.io
+              </a>
+            </span>
+          </div>
         </div>
       </div>
 
-      {/* about me */}
-      <div className="resume_item resume_about">
-        <div className="title">
-          <p className="bold">About Me</p>
-        </div>
-        <p className="top-padding">
+      <div class="section">
+        <h2 class="section-header">About Me</h2>
+        <p>
           I'm a Senior Full Stack Developer with 6+ years of experience building
           web and mobile apps that scale. I work with javaScript, typescript,
           Node.js, React.js, AWS serverless lambda, and Python and I’m great

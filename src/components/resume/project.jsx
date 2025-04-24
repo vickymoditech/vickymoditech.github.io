@@ -8,27 +8,13 @@ const Project = ({ projects }) => {
 
   return (
     <Fragment>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "10px",
-          padding: "10px 30px 0",
-        }}
-      >
-        <p style={{ fontSize: "18px" }} className="bold w_700">
-          Projects
-        </p>
-        <hr style={{ width: "100%" }} />
-      </div>
-
       {projects.map((p) => (
         <Fragment>
           <ProjectsHeader project={p} key={p.id} />
-          <p className="mt-15" style={{ paddingLeft: "30px" }}>
+         <div style={{display: "flex", flexDirection: "column", gap: "10px", padding: "10px 0 30px"}}>
             <ProjectDescription description={p.description} />
             <ProjectSkills skills={p.technologies} />
-          </p>
+            </div>
         </Fragment>
       ))}
     </Fragment>

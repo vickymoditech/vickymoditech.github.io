@@ -35,10 +35,10 @@ const style = {
 
 const ProjectSkills = ({ skills }) => {
   return (
-    <ul style={{ paddingTop: "10px", paddingLeft: "20px" }}>
+    <ul style={{ paddingLeft: "30px" }}>
       <li>
         <p style={style.skill_style}>
-          <strong> Skills : </strong>
+          <strong> Technologies : </strong>
           {skills.join(", ")}
         </p>
       </li>

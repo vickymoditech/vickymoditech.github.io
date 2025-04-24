@@ -67,9 +67,215 @@ const Resume = () => {
 
   return (
     <Fragment>
-      <div id="content">
-        {/* page 1 */}
+      <div id="content" >
         <Page>
+          <About />
+          <div class="section">
+            <h2 class="section-header">Work Experience</h2>
+            {company.slice(0, 1).map((c, index) => (
+              <Company company={c} key={index} />
+            ))}
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Work Experience</h2> */}
+            {company.slice(1, 2).map((c, index) => (
+              <Company company={c} key={index} />
+            ))}
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Work Experience</h2> */}
+            {company.slice(2, 3).map((c, index) => (
+              <Company company={c} key={index} />
+            ))}
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Work Experience</h2> */}
+            {company.slice(3, 4).map((c, index) => (
+              <Company company={c} key={index} />
+            ))}
+          </div>
+          <div class="section">
+            <h2 class="section-header">Projects</h2>
+            <Project projects={[...projects.slice(0, 1)]} />
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Projects</h2> */}
+            <Project projects={[...projects.slice(1, 5)]} />
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Projects</h2> */}
+            <Project projects={[...projects.slice(5, 9)]} />
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Projects</h2> */}
+            <Project projects={[...projects.slice(9, 12)]} />
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            {/* <h2 class="section-header">Projects</h2> */}
+            <Project projects={[...projects.slice(12, 13)]} />
+          </div>
+
+          <div class="section">
+            <h2 class="section-header">EDUCATION</h2>
+
+            <div class="education-item">
+              <h3 class="degree">
+                Master of Science in Information Technology (MSC IT)
+              </h3>
+              <p class="school">UKA TARSADIA UNIVERSITY</p>
+              <p class="education-years">Sep 2012 - Oct 2017</p>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2 class="section-header">SKILLS</h2>
+
+            <div class="skills-lists">
+              <div className="main_skill">Databases&nbsp;:</div>
+              <div class="skills-list">
+                {skill.slice(0, 7).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} years</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">Back-end&nbsp;:</div>
+              <div class="skills-list">
+                {skill.slice(8, 16).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} years</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+            <h2 class="section-header">SKILLS</h2>
+
+            <div class="skills-lists">
+              <div className="main_skill">Front-end&nbsp;:</div>
+              <div class="skills-list">
+                {skill.slice(16, 27).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} years</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">AWS&nbsp;:</div>
+              <div class="skills-list">
+                {skill.slice(27, 37).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} years</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">Payment Integration&nbsp;:</div>
+              <div class="skills-list">
+                {skill.slice(37, 39).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} years</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">Extra&nbsp;:</div>
+              <div class="skills-list">
+                {skill.slice(39, 50).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} years</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <h2 class="section-header">Social</h2>
+
+            <div class="contact-info" style={{ flexDirection: "row" }}>
+              <div class="contact-item">
+                <span>
+                  <i class="fa-brands fa-github"></i>
+                </span>
+                <span>
+                  {" "}
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/vickymoditech/"
+                  >
+                    github.com/vickymoditech
+                  </a>
+                </span>
+              </div>
+              <div class="contact-item">
+                <span>
+                  <i class="fa-brands fa-linkedin"></i>
+                </span>
+                <span>
+                  {" "}
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/vicky-modi-a01885186"
+                  >
+                    vickymodi@linkedin
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </Page>
+
+        {/* <div class="footer">
+          <span>www.enhancv.com</span>
+          <span>Powered by Enhancv</span>
+        </div> */}
+      </div>
+
+      <div>
+        {/* page 1 */}
+        {/* <Page>
           <SideBar>
             <div className="resume_item resume_info">
               <div className="title" style={{ paddingBottom: "10px" }}>
@@ -178,10 +384,10 @@ const Resume = () => {
               </div>
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 2 */}
-        <Page>
+        {/* <Page>
           <SideBar>
             <div className="resume_item resume_skills">
               <ul>
@@ -280,10 +486,10 @@ const Resume = () => {
               </div>
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 3 */}
-        <Page>
+        {/* <Page>
           <SideBar />
           <div className="resume_right">
             <div className="resume_item resume_work">
@@ -294,10 +500,10 @@ const Resume = () => {
               </div>
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 4 */}
-        <Page>
+        {/* <Page>
           <SideBar />
 
           <div className="resume_right">
@@ -306,13 +512,13 @@ const Resume = () => {
                 <Company company={c} key={index} />
               ))}
 
-              {/* <Project projects={[...projects.slice(0, 2)]} /> */}
+              <Project projects={[...projects.slice(0, 2)]} />
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 5 */}
-        <Page>
+        {/* <Page>
           <SideBar />
 
           <div className="resume_right">
@@ -320,10 +526,10 @@ const Resume = () => {
               <Project projects={[...projects.slice(0, 3)]} />
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 6 */}
-        <Page>
+        {/* <Page>
           <SideBar />
 
           <div className="resume_right">
@@ -331,10 +537,10 @@ const Resume = () => {
               <Project projects={[...projects.slice(3, 6)]} />
             </div>
           </div>
-        </Page>
+        </Page> */}
 
         {/* page 7 */}
-        <Page>
+        {/* <Page>
           <SideBar />
 
           <div className="resume_right">
@@ -342,9 +548,9 @@ const Resume = () => {
               <Project projects={[...projects.slice(6, 9)]} />
             </div>
           </div>
-        </Page>
+        </Page> */}
 
-        <Page>
+        {/* <Page>
           <SideBar />
 
           <div className="resume_right">
@@ -352,7 +558,7 @@ const Resume = () => {
               <Project projects={[...projects.slice(9, 12)]} />
             </div>
 
-            {/* <div className="resume_item resume_education">
+            <div className="resume_item resume_education">
               <div className="title">
                 <p className="bold">Education</p>
               </div>
@@ -367,11 +573,11 @@ const Resume = () => {
                   </div>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div>
-        </Page>
+        </Page> */}
 
-        <Page>
+        {/* <Page>
           <SideBar />
 
           <div className="resume_right">
@@ -396,7 +602,7 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-        </Page>
+        </Page> */}
       </div>
       <button className="download" onClick={pdfDownload}>
         <i id="download-btn" className="fa-sharp fa-solid fa-circle-down"></i>

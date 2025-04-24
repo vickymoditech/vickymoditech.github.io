@@ -1,6 +1,109 @@
 [
   {
     "id": 1,
+    "title": "GYG - Online Ordering System",
+    "logo": "/img/gyg-order/logo.png",
+    "description": "The Guzman y Gomez online ordering system is a robust and scalable web application designed to provide a seamless and user-friendly experience for customers. Built with cutting-edge technologies, it efficiently handles high-traffic demand and complex menu structures while ensuring smooth and secure order processing.",
+    "companyName": "Guzman Y Gomez",
+    "companySite": "https://order.guzmanygomez.com.au/",
+    "workLogo": "/img/gyg-order/logo.png",
+    "role": "Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Frontend",
+        "bullets": [
+          "Developed using React and enhanced with custom components to deliver a dynamic and highly interactive user interface.",
+          "Integrated Braze for advanced customer engagement and personalized experiences.",
+          "Ensured responsiveness and cross-browser compatibility, creating an intuitive, visually appealing interface for users across devices."
+        ]
+      },
+      {
+        "heading": "Backend",
+        "bullets": [
+          "Powered by AWS Lambda functions, leveraging the scalability and cost-efficiency of serverless architecture.",
+          "Utilized AWS Step Functions to orchestrate complex workflows, ensuring seamless order processing and management.",
+          "Secured sensitive data with AWS Secrets Manager and handled configuration management with AWS Parameter Store.",
+          "Implemented AWS RDS for relational database needs, ensuring high availability and strong data consistency.",
+          "Integrated with Redis for caching and optimizing performance by reducing the load on primary databases."
+        ]
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "Typescript",
+      "Redux",
+      "React Js",
+      "Jest test cases",
+      "Mysql",
+      "Node Js",
+      "Custom Ui",
+      "AWS Lambda",
+      "AWS StepFunction",
+      "AWS Cloudmonitor",
+      "AWA SP",
+      "AWS RDS",
+      "AWS PS",
+      "AWS DynamoDB",
+      "Sequelize ORM",
+      "Private npm packages",
+      "CI/CD",
+      "Redis"
+    ],
+    "images": [
+      {
+        "src": "/img/gyg-order/img0.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/all.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img11.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img12.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img13.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img14.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img15.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img16.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gyg-order/img17.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://order.guzmanygomez.com.au/"
+  },
+
+  {
+    "id": 2,
     "title": "GYG - Admin Panel for Restaurant Management (Resto 365)",
     "logo": "/img/gyg/resto-365.jpg",
     "description": "The Guzman y Gomez Admin Panel is a robust web application designed to streamline restaurant management operations. This intuitive interface allows administrators to efficiently manage restaurant profiles, menus, and service options, ensuring a seamless experience for both staff and customers.",
@@ -110,198 +213,9 @@
     ],
     "link": "https://resto365.prod.ops.gyg.com.au/"
   },
-  {
-    "id": 2,
-    "title": "GYG - Online Ordering System",
-    "logo": "/img/gyg-order/logo.png",
-    "description": "The Guzman y Gomez online ordering system is a robust and scalable web application designed to provide a seamless and user-friendly experience for customers. Built with cutting-edge technologies, it efficiently handles high-traffic demand and complex menu structures while ensuring smooth and secure order processing.",
-    "companyName": "Guzman Y Gomez",
-    "companySite": "https://order.guzmanygomez.com.au/",
-    "workLogo": "/img/gyg-order/logo.png",
-    "role": "Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Frontend",
-        "bullets": [
-          "Developed using React and enhanced with custom components to deliver a dynamic and highly interactive user interface.",
-          "Integrated Braze for advanced customer engagement and personalized experiences.",
-          "Ensured responsiveness and cross-browser compatibility, creating an intuitive, visually appealing interface for users across devices."
-        ]
-      },
-      {
-        "heading": "Backend",
-        "bullets": [
-          "Powered by AWS Lambda functions, leveraging the scalability and cost-efficiency of serverless architecture.",
-          "Utilized AWS Step Functions to orchestrate complex workflows, ensuring seamless order processing and management.",
-          "Secured sensitive data with AWS Secrets Manager and handled configuration management with AWS Parameter Store.",
-          "Implemented AWS RDS for relational database needs, ensuring high availability and strong data consistency.",
-          "Integrated with Redis for caching and optimizing performance by reducing the load on primary databases."
-        ]
-      }
-    ],
-    "technologies": [
-      "Javascript",
-      "Typescript",
-      "Redux",
-      "React Js",
-      "Jest test cases",
-      "Mysql",
-      "Node Js",
-      "Custom Ui",
-      "AWS Lambda",
-      "AWS StepFunction",
-      "AWS Cloudmonitor",
-      "AWA SP",
-      "AWS RDS",
-      "AWS PS",
-      "AWS DynamoDB",
-      "Sequelize ORM",
-      "Private npm packages",
-      "CI/CD",
-      "Redis"
-    ],
-    "images": [
-      {
-        "src": "/img/gyg-order/img0.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/all.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img11.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img12.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img13.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img14.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img15.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img16.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gyg-order/img17.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://order.guzmanygomez.com.au/"
-  },
+
   {
     "id": 3,
-    "title": "GYG - Third-party delivery partners integration",
-    "logo": "/img/gyg-order/logo.png",
-    "description": "The integration system efficiently connects Guzman y Gomez’s internal infrastructure with third-party delivery partners to streamline order management and maintain real-time data synchronization with the restaurant’s POS system. The architecture is built to handle multiple external delivery platforms, such as UberEats, DoorDash, and Menulog, ensuring that orders are ingested, validated, and processed accurately.",
-    "companyName": "Guzman Y Gomez",
-    "companySite": "https://order.guzmanygomez.com.au/",
-    "workLogo": "/img/gyg-order/logo.png",
-    "role": "Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Order Ingestion via Node.js API",
-        "bullets": [
-          "The system begins by fetching orders from various delivery partners using a Node.js API.",
-          "Node.js handles communication with third-party APIs, parsing incoming data, and normalizing order details to match a consistent schema.",
-          "The Node API is designed to be highly resilient, employing retries, rate-limiting, and error handling to ensure orders are reliably ingested even under adverse network conditions."
-        ]
-      },
-      {
-        "heading": "Order Processing and Validation with .NET Service:",
-        "bullets": [
-          "Once the orders are received and standardized, the data is handed off to a .NET Service, which performs in-depth order processing and validation.",
-          "This service includes business logic for menu item mapping, price validation, discount handling, and other rules that need to be enforced before the orders are committed to the POS system.",
-          "The .NET service also ensures that each order adheres to internal requirements, such as menu availability and order timing constraints, providing a robust mechanism to flag and handle any discrepancies."
-        ]
-      },
-      {
-        "heading": "Database and Data Management:",
-        "bullets": [
-          "Validated order data is then stored using MySQL, leveraging ORM types for strong typing and simplified data access patterns.",
-          "The MySQL database acts as a centralized store for managing incoming orders, tracking order history, and maintaining logs for auditing and troubleshooting."
-        ]
-      },
-      {
-        "heading": "Internal System Integration:",
-        "bullets": [
-          "After processing and validation, the orders are inserted into the TASK POS system using the appropriate API endpoints.",
-          "This ensures that all validated orders are synchronized in real-time with the POS system, enabling restaurant staff to view, manage, and fulfill orders efficiently."
-        ]
-      },
-      {
-        "heading": "Monitoring and Logging:",
-        "bullets": [
-          "The system includes comprehensive monitoring using CloudWatch and custom logging mechanisms to track order states, API calls, and processing errors.",
-          "Alerts are configured to notify the support team of any anomalies, ensuring swift resolution of any issues that may arise."
-        ]
-      }
-    ],
-    "technologies": [
-      "Javascript",
-      "Typescript",
-      "React Js",
-      "C# services",
-      "Mysql",
-      "Sequelize ORM",
-      "Node Js",
-      "Express Js",
-      "Jest test Cases",
-      "Material UI"
-    ],
-    "images": [
-      {
-        "src": "/img/delivery-partner/D1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/delivery-partner/D2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/delivery-partner/D3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/delivery-partner/D4.png",
-        "alt": "Description of image 4"
-      },
-      {
-        "src": "/img/delivery-partner/D5.png",
-        "alt": "Description of image 5"
-      },
-      {
-        "src": "/img/delivery-partner/D6.png",
-        "alt": "Description of image 6"
-      }
-    ],
-    "link": "https://neemiya.com/"
-  },
-  {
-    "id": 4,
     "title": "CREAT: Restaurant Reservation",
     "logo": "/img/creat/customer/CE_Logo.png",
     "description": "Our restaurant reservation app offers a seamless and user-friendly experience, allowing diners to easily book tables for breakfast, lunch, or dinner. With a few taps, users can discover and reserve their favorite restaurants, making dining out a breeze.",
@@ -404,32 +318,52 @@
     ],
     "link": "https://creat.sg/"
   },
+
   {
-    "id": 5,
-    "title": "Capauth: Django SSO Backend",
-    "logo": "/img/capauth/capabara.png",
-    "description": "Capabara is a comprehensive organisation and user management system designed to facilitate efficient handling of multi-organisational structures, user access controls, and subscription management. The system provides a robust framework for creating, managing, and navigating complex organisational hierarchies while maintaining granular control over user permissions and access.",
-    "companyName": "Freelance",
-    "companySite": "https://capauth-staging.theadventus.com/",
-    "workLogo": "/img/capauth/freelance.png",
-    "role": "Project Manager & Senior Software Engineer",
+    "id": 4,
+    "title": "GYG - Third-party delivery partners integration",
+    "logo": "/img/gyg-order/logo.png",
+    "description": "The integration system efficiently connects Guzman y Gomez’s internal infrastructure with third-party delivery partners to streamline order management and maintain real-time data synchronization with the restaurant’s POS system. The architecture is built to handle multiple external delivery platforms, such as UberEats, DoorDash, and Menulog, ensuring that orders are ingested, validated, and processed accurately.",
+    "companyName": "Guzman Y Gomez",
+    "companySite": "https://order.guzmanygomez.com.au/",
+    "workLogo": "/img/gyg-order/logo.png",
+    "role": "Senior Software Engineer",
     "data": [
       {
-        "heading": "Organisation Management",
+        "heading": "Order Ingestion via Node.js API",
         "bullets": [
-          "All users can view all organisations, with potential for future modifications to restrict visibility.",
-          "Users can create new organisations, automatically becoming admins of the organisations they create.",
-          "New users are initially assigned to a default organisation before creating or joining others.",
-          "Only the creator of an organisation can edit or delete it."
+          "The system begins by fetching orders from various delivery partners using a Node.js API.",
+          "Node.js handles communication with third-party APIs, parsing incoming data, and normalizing order details to match a consistent schema.",
+          "The Node API is designed to be highly resilient, employing retries, rate-limiting, and error handling to ensure orders are reliably ingested even under adverse network conditions."
         ]
       },
       {
-        "heading": "User Management",
+        "heading": "Order Processing and Validation with .NET Service:",
         "bullets": [
-          "Users within an organisation can access information about other users in the same organisation.",
-          "Check if the new user belongs to the same company, verify if the user already exists, and manage organisation assignments.",
-          "Users need to register in Cap-ai and other integrated systems.",
-          "Only admins or the user themselves can edit or delete user information."
+          "Once the orders are received and standardized, the data is handed off to a .NET Service, which performs in-depth order processing and validation.",
+          "This service includes business logic for menu item mapping, price validation, discount handling, and other rules that need to be enforced before the orders are committed to the POS system.",
+          "The .NET service also ensures that each order adheres to internal requirements, such as menu availability and order timing constraints, providing a robust mechanism to flag and handle any discrepancies."
+        ]
+      },
+      {
+        "heading": "Database and Data Management:",
+        "bullets": [
+          "Validated order data is then stored using MySQL, leveraging ORM types for strong typing and simplified data access patterns.",
+          "The MySQL database acts as a centralized store for managing incoming orders, tracking order history, and maintaining logs for auditing and troubleshooting."
+        ]
+      },
+      {
+        "heading": "Internal System Integration:",
+        "bullets": [
+          "After processing and validation, the orders are inserted into the TASK POS system using the appropriate API endpoints.",
+          "This ensures that all validated orders are synchronized in real-time with the POS system, enabling restaurant staff to view, manage, and fulfill orders efficiently."
+        ]
+      },
+      {
+        "heading": "Monitoring and Logging:",
+        "bullets": [
+          "The system includes comprehensive monitoring using CloudWatch and custom logging mechanisms to track order states, API calls, and processing errors.",
+          "Alerts are configured to notify the support team of any anomalies, ensuring swift resolution of any issues that may arise."
         ]
       }
     ],
@@ -437,17 +371,45 @@
       "Javascript",
       "Typescript",
       "React Js",
-      "Redux",
-      "Postgress",
-      "Material UI",
-      "Python",
-      "Django"
+      "C# services",
+      "Mysql",
+      "Sequelize ORM",
+      "Node Js",
+      "Express Js",
+      "Jest test Cases",
+      "Material UI"
     ],
-    "images": [],
-    "link": "https://capauth-staging.theadventus.com/"
+    "images": [
+      {
+        "src": "/img/delivery-partner/D1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D4.png",
+        "alt": "Description of image 4"
+      },
+      {
+        "src": "/img/delivery-partner/D5.png",
+        "alt": "Description of image 5"
+      },
+      {
+        "src": "/img/delivery-partner/D6.png",
+        "alt": "Description of image 6"
+      }
+    ],
+    "link": "https://order.guzmanygomez.com.au/"
   },
+
   {
-    "id": 6,
+    "id": 5,
     "title": "Lucky Minute : The One Minute Gaming App",
     "logo": "/img/lucky-minute/Logo.svg",
     "description": "Join Lucky Minute, the exhilarating online gaming platform where you can dive into thrilling rounds of Baccarat, Roulette, and Sic Bo! After a quick verification, you'll be randomly placed in groups to enjoy fast-paced, one-minute gameplay. Discover if you’ve won or lost in just a minute!",
@@ -535,8 +497,9 @@
     ],
     "link": "https://lucky-minute.com/"
   },
+
   {
-    "id": 7,
+    "id": 6,
     "title": "ORDRSTARTR : Facebook Live Selling System",
     "logo": "/img/live-order/logo.png",
     "description": "ORDRSTARTR is an innovative social commerce platform specifically designed to capture and process orders during Facebook Live sessions. It utilizes a powerful tech stack, including React and Redux on the frontend for a highly interactive and responsive user interface, while the backend is powered by Node.js. The system relies on PostgreSQL as the primary database, managed through Sequelize ORM to ensure efficient data handling and integrity. With this architecture, ORDRSTARTR provides a seamless, real-time shopping experience, enabling businesses to boost engagement and streamline purchases directly from live interactions.",
@@ -687,418 +650,52 @@
     ],
     "link": "https://ordrstartr-frontend.vercel.app/"
   },
+
   {
-    "id": 8,
-    "title": "NEEMIYA : Effective Lead Generation Platform",
-    "logo": "/img/neemiya/logo.png",
-    "description": "Neemiya is a platform that helps businesses create and manage landing pages to capture leads effectively. It provides tools like drag-and-drop builders, analytics, and CRM integrations, making it easier to optimize marketing campaigns and track performance. The platform is suitable for agencies and businesses aiming to enhance their lead generation and streamline client management.",
+    "id": 7,
+    "title": "Capauth: Django SSO Backend",
+    "logo": "/img/capauth/capabara.png",
+    "description": "Capabara is a comprehensive organisation and user management system designed to facilitate efficient handling of multi-organisational structures, user access controls, and subscription management. The system provides a robust framework for creating, managing, and navigating complex organisational hierarchies while maintaining granular control over user permissions and access.",
     "companyName": "Freelance",
-    "companySite": "https://neemiya.com/",
-    "workLogo": "/img/capauth/freelance.png",
-    "role": "Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Landing Page Builder",
-        "bullets": [
-          "Create high-converting landing pages with a drag-and-drop interface.",
-          "Customize templates to fit your brand and campaign needs."
-        ]
-      },
-      {
-        "heading": "Lead Management",
-        "bullets": [
-          "Track and manage leads in one place.",
-          "Integrates with CRM systems like Salesforce, Pipedrive, and Hubspot."
-        ]
-      },
-      {
-        "heading": "A/B Testing",
-        "bullets": [
-          "Run A/B tests to identify the best-performing page variants.",
-          "Optimize campaigns based on performance data."
-        ]
-      },
-      {
-        "heading": "Analytics and Tracking",
-        "bullets": [
-          "Monitor page performance with in-depth analytics.",
-          "Gain insights into visitor behavior and conversion rates."
-        ]
-      },
-      {
-        "heading": "Agency Features",
-        "bullets": [
-          "Manage multiple client projects from a single dashboard.",
-          "Provide detailed performance reports for clients."
-        ]
-      }
-    ],
-    "technologies": [
-      "Javascript",
-      "Typescript",
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "Postgress",
-      "Strapi",
-      "Swagger",
-      "Kubernetes",
-      "Jest test",
-      "Material UI",
-      "CI/CD"
-    ],
-    "images": [
-      {
-        "src": "/img/neemiya/img1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/neemiya/img2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/neemiya/img3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/neemiya/img4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/neemiya/img5.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/neemiya/img6.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://neemiya.com/"
-  },
-  {
-    "id": 9,
-    "title": "ASME : Grow Your Bussiness Advertise With Asme",
-    "logo": "/img/asme/logo.png",
-    "description": "The Association of Small & Medium Enterprises (ASME) is a non-profit organization in Singapore that supports the growth and development of SMEs. It provides resources, networking opportunities, training, and advocacy to help businesses thrive in the competitive market. ASME aims to promote entrepreneurship and strengthen the SME community through various initiatives and programs.",
-    "companyName": "Freelance",
-    "companySite": "https://www.asme.org.sg/",
+    "companySite": "https://staging.platform.capabara.com/?next=/users",
     "workLogo": "/img/capauth/freelance.png",
     "role": "Project Manager & Senior Software Engineer",
     "data": [
       {
-        "heading": "Business Support",
+        "heading": "Organisation Management",
         "bullets": [
-          "Provides resources and support for SMEs.",
-          "Offers business advisory and consultancy services."
+          "All users can view all organisations, with potential for future modifications to restrict visibility.",
+          "Users can create new organisations, automatically becoming admins of the organisations they create.",
+          "New users are initially assigned to a default organisation before creating or joining others.",
+          "Only the creator of an organisation can edit or delete it."
         ]
       },
       {
-        "heading": "Networking Opportunities",
+        "heading": "User Management",
         "bullets": [
-          "Hosts events for business networking and partnerships.",
-          "Connects SMEs with industry leaders and professionals."
-        ]
-      },
-      {
-        "heading": "Training and Development",
-        "bullets": [
-          "Conducts workshops and seminars for skills development.",
-          "Offers leadership and management training programs."
-        ]
-      },
-      {
-        "heading": "Advocacy and Representation",
-        "bullets": [
-          "Represents the interests of SMEs in policy discussions.",
-          "Works with the government to create a conducive business environment."
+          "Users within an organisation can access information about other users in the same organisation.",
+          "Check if the new user belongs to the same company, verify if the user already exists, and manage organisation assignments.",
+          "Users need to register in Cap-ai and other integrated systems.",
+          "Only admins or the user themselves can edit or delete user information."
         ]
       }
     ],
     "technologies": [
       "Javascript",
       "Typescript",
-      "Kubernetes",
       "React Js",
-      "Next Js",
+      "Redux",
       "Postgress",
-      "Node Js",
-      "Express Js",
       "Material UI",
-      "Stripe CRM"
-    ],
-    "images": [
-      {
-        "src": "/img/asme/img0.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/asme/img1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/asme/img2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/asme/img3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/asme/img4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/asme/img5.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/asme/img6.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://www.asme.org.sg/"
-  },
-  {
-    "id": 10,
-    "title": "GLUU : GAuthorize in Real time",
-    "logo": "/img/gluu/logo.png",
-    "description": "Gluu is an open-source Identity and Access Management (IAM) platform offering solutions for secure authentication, authorization, and identity management. It supports OAuth2, OpenID Connect, and SAML protocols, making it ideal for single sign-on (SSO) implementations. Gluu's flexibility allows for deployment in on-premises, cloud, or hybrid environments, and it offers advanced capabilities like adaptive authentication, real-time policy enforcement, and centralized identity orchestration.",
-    "companyName": "Freelance",
-    "companySite": "https://gluu.org/",
-    "workLogo": "/img/capauth/freelance.png",
-    "role": "Software Engineer",
-    "data": [
-      {
-        "heading": "Protocol Support",
-        "bullets": [
-          "Supports OAuth2, OpenID Connect, and SAML for secure authentication and authorization.",
-          "Provides Single Sign-On (SSO) capability across multiple applications."
-        ]
-      },
-      {
-        "heading": "Scalability",
-        "bullets": [
-          "Handles large-scale enterprise traffic with optimized performance.",
-          "Deployable in cloud, on-premises, or hybrid environments for flexibility."
-        ]
-      },
-      {
-        "heading": "Security",
-        "bullets": [
-          "Enables FIDO2 and passwordless authentication for enhanced security.",
-          "Supports multi-factor authentication (MFA) with adaptive policies."
-        ]
-      },
-      {
-        "heading": "Identity Orchestration",
-        "bullets": [
-          "Customizable identity flows for complex use cases.",
-          "Real-time policy enforcement with centralized access management."
-        ]
-      },
-      {
-        "heading": "Integration",
-        "bullets": [
-          "Easily integrates with third-party identity providers (e.g., Azure AD, Okta).",
-          "Supports diverse applications and custom plugins for extensibility."
-        ]
-      },
-      {
-        "heading": "User Experience",
-        "bullets": [
-          "Self-service portals for easy user and admin management.",
-          "Automated workflows for user provisioning and de-provisioning."
-        ]
-      }
-    ],
-    "technologies": [
-      "React",
-      "JavaScript",
-      "Java",
       "Python",
-      "Node.js",
-      "OpenID Connect",
-      "SAML",
-      "OAuth 2.0",
-      "FIDO2/WebAuthn",
-      "Kubernetes",
-      "Docker",
-      "AWS",
-      "Google Cloud",
-      "Azure",
-      "LDAP",
-      "OpenDJ",
-      "OpenLDAP",
-      "MySQL",
-      "PostgreSQL",
-      "Multi-Factor Authentication",
-      "Cryptographic Challenges",
-      "Passwordless Authentication",
-      "Push Notifications"
+      "Django"
     ],
-    "images": [
-      {
-        "src": "/img/gluu/img1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img5.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img6.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img7.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img8.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img9.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://gluu.org/"
-  },
-  {
-    "id": 11,
-    "title": "SHC - Singapore Home Cooks",
-    "logo": "/img/shc/SHC.jpg",
-    "description": "this is an innovative social commerce platform specifically designed to capture and process orders during Facebook Live sessions. It utilizes a powerful tech stack, including React and Redux on the frontend for a highly interactive and responsive user interface, while the backend is powered by Node.js. The system relies on PostgreSQL as the primary database, managed through Sequelize ORM to ensure efficient data handling and integrity. With this architecture, ORDRSTARTR provides a seamless, real-time shopping experience, enabling businesses to boost engagement and streamline purchases directly from live interactions.",
-    "companyName": "Freelance",
-    "companySite": "https://neemiya.com/",
-    "workLogo": "/img/capauth/freelance.png",
-    "role": "Project Manager & Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Order Management",
-        "bullets": [
-          "Edit and update orders in real-time.",
-          "Manage the order status and history."
-        ]
-      },
-      {
-        "heading": "Communication",
-        "bullets": [
-          "Send personalized messages to customers.",
-          "Send notifications and alerts to customers."
-        ]
-      },
-      {
-        "heading": "Product Management",
-        "bullets": [
-          "Add, edit, or remove products from the catalog.",
-          "Manage product inventory and availability."
-        ]
-      },
-      {
-        "heading": "Payment and Checkout",
-        "bullets": [
-          "Oversee and manage the payment processing.",
-          "Handle refunds, payment confirmations, and checkout issues."
-        ]
-      },
-      {
-        "heading": "User Profile Management",
-        "bullets": [
-          "Manage customer profiles with loyalty points and history.",
-          "Implement loyalty management and coupon distribution."
-        ]
-      },
-      {
-        "heading": "Promotions and Discounts",
-        "bullets": [
-          "Create and apply discount codes and special offers.",
-          "Track promotional campaigns and their effectiveness."
-        ]
-      },
-      {
-        "heading": "Live Stream Shopping",
-        "bullets": [
-          "Browse and interact with products showcased during live sessions.",
-          "View product details and ask questions in real-time."
-        ]
-      },
-      {
-        "heading": "Seamless Purchase Experience",
-        "bullets": [
-          "Purchase products directly from live streaming.",
-          "Receive instant checkout links for quick transactions."
-        ]
-      },
-      {
-        "heading": "Order Placement and Tracking",
-        "bullets": [
-          "Place orders during the live session without leaving the stream.",
-          "Track order status and receive updates on delivery."
-        ]
-      },
-      {
-        "heading": "Secure Checkout Process",
-        "bullets": [
-          "Complete the checkout using secure payment gateways.",
-          "Apply discounts and coupon codes during checkout."
-        ]
-      }
-    ],
-    "technologies": [
-      "Javascript",
-      "Typescript",
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Mongoose",
-      "Swagger",
-      "Docker",
-      "Jest test",
-      "Material UI",
-      "Strapi Payment",
-      "Stripe CRM"
-    ],
-    "images": [
-      {
-        "src": "/img/shc/SH1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/shc/SH5.png",
-        "alt": "Description of image 3"
-      }
-    ],
-    "link": "https://neemiya.com/"
+    "images": [],
+    "link": "https://staging.platform.capabara.com/?next=/users"
   },
 
   {
-    "id": 12,
+    "id": 8,
     "title": "Cadabams Doctor App",
     "logo": "/img/cadabams/logo.png",
     "description": "The Cadabams Doctor App represents a sophisticated healthcare management platform designed to integrate multiple specialized medical services under a single, cohesive digital ecosystem. This enterprise-grade solution bridges the gap between healthcare providers and patients while streamlining clinical operations and administrative workflows.",
@@ -1270,7 +867,7 @@
   },
 
   {
-    "id": 13,
+    "id": 9,
     "title": "MyUiversalLab",
     "logo": "/img/patientPortal/logo.png",
     "description": "PatientPortal is a comprehensive digital healthcare platform designed to streamline access to medical services for patients, families, administrators, and employees. It offers secure login, appointment scheduling, lab results, telemedicine, and robust reporting tools to enhance patient care and operational efficiency.",
@@ -1388,5 +985,418 @@
       }
     ],
     "link": "https://myuniversallab.app/login.aspx"
+  },
+
+  {
+    "id": 10,
+    "title": "ASME : Grow Your Bussiness Advertise With Asme",
+    "logo": "/img/asme/logo.png",
+    "description": "The Association of Small & Medium Enterprises (ASME) is a non-profit organization in Singapore that supports the growth and development of SMEs. It provides resources, networking opportunities, training, and advocacy to help businesses thrive in the competitive market. ASME aims to promote entrepreneurship and strengthen the SME community through various initiatives and programs.",
+    "companyName": "Freelance",
+    "companySite": "https://www.asme.org.sg/",
+    "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Business Support",
+        "bullets": [
+          "Provides resources and support for SMEs.",
+          "Offers business advisory and consultancy services."
+        ]
+      },
+      {
+        "heading": "Networking Opportunities",
+        "bullets": [
+          "Hosts events for business networking and partnerships.",
+          "Connects SMEs with industry leaders and professionals."
+        ]
+      },
+      {
+        "heading": "Training and Development",
+        "bullets": [
+          "Conducts workshops and seminars for skills development.",
+          "Offers leadership and management training programs."
+        ]
+      },
+      {
+        "heading": "Advocacy and Representation",
+        "bullets": [
+          "Represents the interests of SMEs in policy discussions.",
+          "Works with the government to create a conducive business environment."
+        ]
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "Typescript",
+      "Kubernetes",
+      "React Js",
+      "Next Js",
+      "Postgress",
+      "Node Js",
+      "Express Js",
+      "Material UI",
+      "Stripe CRM"
+    ],
+    "images": [
+      {
+        "src": "/img/asme/img0.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/asme/img6.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://www.asme.org.sg/"
+  },
+
+  {
+    "id": 11,
+    "title": "GLUU : GAuthorize in Real time",
+    "logo": "/img/gluu/logo.png",
+    "description": "Gluu is an open-source Identity and Access Management (IAM) platform offering solutions for secure authentication, authorization, and identity management. It supports OAuth2, OpenID Connect, and SAML protocols, making it ideal for single sign-on (SSO) implementations. Gluu's flexibility allows for deployment in on-premises, cloud, or hybrid environments, and it offers advanced capabilities like adaptive authentication, real-time policy enforcement, and centralized identity orchestration.",
+    "companyName": "Freelance",
+    "companySite": "https://gluu.org/",
+    "workLogo": "/img/capauth/freelance.png",
+    "role": "Software Engineer",
+    "data": [
+      {
+        "heading": "Protocol Support",
+        "bullets": [
+          "Supports OAuth2, OpenID Connect, and SAML for secure authentication and authorization.",
+          "Provides Single Sign-On (SSO) capability across multiple applications."
+        ]
+      },
+      {
+        "heading": "Scalability",
+        "bullets": [
+          "Handles large-scale enterprise traffic with optimized performance.",
+          "Deployable in cloud, on-premises, or hybrid environments for flexibility."
+        ]
+      },
+      {
+        "heading": "Security",
+        "bullets": [
+          "Enables FIDO2 and passwordless authentication for enhanced security.",
+          "Supports multi-factor authentication (MFA) with adaptive policies."
+        ]
+      },
+      {
+        "heading": "Identity Orchestration",
+        "bullets": [
+          "Customizable identity flows for complex use cases.",
+          "Real-time policy enforcement with centralized access management."
+        ]
+      },
+      {
+        "heading": "Integration",
+        "bullets": [
+          "Easily integrates with third-party identity providers (e.g., Azure AD, Okta).",
+          "Supports diverse applications and custom plugins for extensibility."
+        ]
+      },
+      {
+        "heading": "User Experience",
+        "bullets": [
+          "Self-service portals for easy user and admin management.",
+          "Automated workflows for user provisioning and de-provisioning."
+        ]
+      }
+    ],
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Java",
+      "Python",
+      "Node.js",
+      "OpenID Connect",
+      "SAML",
+      "OAuth 2.0",
+      "FIDO2/WebAuthn",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "LDAP",
+      "OpenDJ",
+      "OpenLDAP",
+      "MySQL",
+      "PostgreSQL",
+      "Multi-Factor Authentication",
+      "Cryptographic Challenges",
+      "Passwordless Authentication",
+      "Push Notifications"
+    ],
+    "images": [
+      {
+        "src": "/img/gluu/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img6.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img7.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img8.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/gluu/img9.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://gluu.org/"
+  },
+
+  {
+    "id": 12,
+    "title": "NEEMIYA : Effective Lead Generation Platform",
+    "logo": "/img/neemiya/logo.png",
+    "description": "Neemiya is a platform that helps businesses create and manage landing pages to capture leads effectively. It provides tools like drag-and-drop builders, analytics, and CRM integrations, making it easier to optimize marketing campaigns and track performance. The platform is suitable for agencies and businesses aiming to enhance their lead generation and streamline client management.",
+    "companyName": "Freelance",
+    "companySite": "https://neemiya.com/",
+    "workLogo": "/img/capauth/freelance.png",
+    "role": "Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Landing Page Builder",
+        "bullets": [
+          "Create high-converting landing pages with a drag-and-drop interface.",
+          "Customize templates to fit your brand and campaign needs."
+        ]
+      },
+      {
+        "heading": "Lead Management",
+        "bullets": [
+          "Track and manage leads in one place.",
+          "Integrates with CRM systems like Salesforce, Pipedrive, and Hubspot."
+        ]
+      },
+      {
+        "heading": "A/B Testing",
+        "bullets": [
+          "Run A/B tests to identify the best-performing page variants.",
+          "Optimize campaigns based on performance data."
+        ]
+      },
+      {
+        "heading": "Analytics and Tracking",
+        "bullets": [
+          "Monitor page performance with in-depth analytics.",
+          "Gain insights into visitor behavior and conversion rates."
+        ]
+      },
+      {
+        "heading": "Agency Features",
+        "bullets": [
+          "Manage multiple client projects from a single dashboard.",
+          "Provide detailed performance reports for clients."
+        ]
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "Typescript",
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "Postgress",
+      "Strapi",
+      "Swagger",
+      "Kubernetes",
+      "Jest test",
+      "Material UI",
+      "CI/CD"
+    ],
+    "images": [
+      {
+        "src": "/img/neemiya/img1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img5.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/neemiya/img6.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "https://neemiya.com/"
+  },
+
+  {
+    "id": 13,
+    "title": "SHC - Singapore Home Cooks",
+    "logo": "/img/shc/SHC.jpg",
+    "description": "this is an innovative social commerce platform specifically designed to capture and process orders during Facebook Live sessions. It utilizes a powerful tech stack, including React and Redux on the frontend for a highly interactive and responsive user interface, while the backend is powered by Node.js. The system relies on PostgreSQL as the primary database, managed through Sequelize ORM to ensure efficient data handling and integrity. With this architecture, ORDRSTARTR provides a seamless, real-time shopping experience, enabling businesses to boost engagement and streamline purchases directly from live interactions.",
+    "companyName": "Freelance",
+    "companySite": "http://www.singaporehomecooks.com/",
+    "workLogo": "/img/capauth/freelance.png",
+    "role": "Project Manager & Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Order Management",
+        "bullets": [
+          "Edit and update orders in real-time.",
+          "Manage the order status and history."
+        ]
+      },
+      {
+        "heading": "Communication",
+        "bullets": [
+          "Send personalized messages to customers.",
+          "Send notifications and alerts to customers."
+        ]
+      },
+      {
+        "heading": "Product Management",
+        "bullets": [
+          "Add, edit, or remove products from the catalog.",
+          "Manage product inventory and availability."
+        ]
+      },
+      {
+        "heading": "Payment and Checkout",
+        "bullets": [
+          "Oversee and manage the payment processing.",
+          "Handle refunds, payment confirmations, and checkout issues."
+        ]
+      },
+      {
+        "heading": "User Profile Management",
+        "bullets": [
+          "Manage customer profiles with loyalty points and history.",
+          "Implement loyalty management and coupon distribution."
+        ]
+      },
+      {
+        "heading": "Promotions and Discounts",
+        "bullets": [
+          "Create and apply discount codes and special offers.",
+          "Track promotional campaigns and their effectiveness."
+        ]
+      },
+      {
+        "heading": "Live Stream Shopping",
+        "bullets": [
+          "Browse and interact with products showcased during live sessions.",
+          "View product details and ask questions in real-time."
+        ]
+      },
+      {
+        "heading": "Seamless Purchase Experience",
+        "bullets": [
+          "Purchase products directly from live streaming.",
+          "Receive instant checkout links for quick transactions."
+        ]
+      },
+      {
+        "heading": "Order Placement and Tracking",
+        "bullets": [
+          "Place orders during the live session without leaving the stream.",
+          "Track order status and receive updates on delivery."
+        ]
+      },
+      {
+        "heading": "Secure Checkout Process",
+        "bullets": [
+          "Complete the checkout using secure payment gateways.",
+          "Apply discounts and coupon codes during checkout."
+        ]
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "Typescript",
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Mongoose",
+      "Swagger",
+      "Docker",
+      "Jest test",
+      "Material UI",
+      "Strapi Payment",
+      "Stripe CRM"
+    ],
+    "images": [
+      {
+        "src": "/img/shc/SH1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH4.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/shc/SH5.png",
+        "alt": "Description of image 3"
+      }
+    ],
+    "link": "http://www.singaporehomecooks.com/"
   }
 ]
