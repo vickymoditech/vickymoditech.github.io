@@ -67,7 +67,7 @@ const Resume = () => {
 
   return (
     <Fragment>
-      <div id="content" >
+      <div id="content" style={{display: "flex", flexDirection: "column", gap: "5px"}}>
         <Page>
           <About />
           <div class="section">
