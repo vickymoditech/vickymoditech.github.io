@@ -494,10 +494,11 @@ body {
 
 .job-meta {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 14px;
     color: #666;
     margin-bottom: 10px;
+    gap: 30px;
 }
 
 .job-description {
