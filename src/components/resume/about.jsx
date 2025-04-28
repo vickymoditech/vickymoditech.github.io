@@ -1,59 +1,40 @@
 import React, { Fragment } from "react";
 
-// const style = {
-//   skill_divider: {
-//     gap: "20px",
-//     marginTop: "25px",
-//   },
-//   gap_20: {
-//     gap: "20px",
-//   },
-//   profile_margin: {
-//     marginBottom: 0,
-//   },
-//   skill_style: {
-//     marginTop: "3px",
-//     marginBottom: "3px",
-//     color: "#FFA500",
-//   },
-//   margin_50: {
-//     marginTop: "50px",
-//   },
-//   margin_30: {
-//     marginTop: "30px",
-//   },
-//   paddingLeft_50: {
-//     paddingLeft: "50px",
-//   },
-//   list_style: {
-//     marginBottom: "15px",
-//   },
-//   subheading: {
-//     fontWeight: "bold",
-//   },
-// };
-
 const About = () => {
   return (
     <Fragment>
       <div class="headers">
         <div>
-        <h1 class="name">Vicky Modi</h1>
-        <p class="title">Senior Full-Stack Developer</p>
+          <h1 class="name">Vicky Modi</h1>
+          <p class="title">
+            Senior / Lead Full Stack Developer (Node.js | NestJS | React |
+            Next.js | AWS)
+          </p>
         </div>
         <div class="contact-info">
           <div class="contact-item">
-            <span><i class="fa-solid fa-phone"></i></span>
-            <span><a href="tel:+918401060120">+91 8401060120</a></span>
+            <span>
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <span>
+              <a href="tel:+918401060120">+91 8401060120</a>
+            </span>
           </div>
           <div class="contact-item">
-            <span><i class="fa-solid fa-envelope"></i></span>
-            <span> <a href="mailto:vickymoditech@gmail.com">
-                      vickymoditech@gmail.com
-                    </a></span>
+            <span>
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            <span>
+              {" "}
+              <a href="mailto:vickymoditech@gmail.com">
+                vickymoditech@gmail.com
+              </a>
+            </span>
           </div>
           <div class="contact-item">
-            <span><i class="fa-solid fa-link"></i></span>
+            <span>
+              <i class="fa-solid fa-link"></i>
+            </span>
             <span>
               <a
                 href="https://vickymoditech.github.io"
@@ -70,16 +51,19 @@ const About = () => {
       <div class="section">
         <h2 class="section-header">About Me</h2>
         <p>
-          I'm a Senior Full Stack Developer with 6+ years of experience building
-          web and mobile apps that scale. I work with javaScript, typescript,
-          Node.js, React.js, AWS serverless lambda, and Python and I’m great
-          with databases like relational and non-relational Databases (MySQL,
-          PostgreSQL, DynamoDB and MongoDB). <br /> I’ve led projects from start
-          to finish, Improving performance (JS, FE , BE and DB query
-          optimization). I’m also skilled in implementing test cases, CI/CD
-          pipelines, adding real-time functionality and socket. I love finding
-          innovative solutions to make apps faster, more secure, and more
-          user-friendly!
+          I'm a Senior Full Stack Developer with over 9+ years of experience
+          building scalable, high-performance web and mobile applications. I
+          specialize in JavaScript, TypeScript, Node.js (Express/NestJS),
+          React.js, Next.js, and AWS serverless architecture (Lambda, Step
+          Functions, Cognito).
+          <br />
+          I'm proficient in designing RESTful APIs, microservices, and working
+          with both relational (MySQL, PostgreSQL) and NoSQL databases (MongoDB,
+          DynamoDB). Passionate about performance optimization, CI/CD
+          integration, real-time socket functionality, and test-driven
+          development.
+          <br />I thrive in fast-paced environments and love delivering secure,
+          scalable, and user-centric applications.
         </p>
       </div>
     </Fragment>
