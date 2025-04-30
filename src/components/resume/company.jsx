@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import CompanyHeader from "./components/companyHeader";
-import Skills from "./components/Skills";
+// import Skills from "./components/Skills";
 import Description from "./components/description";
 
 const Company = ({ company, isCompany = true }) => {
