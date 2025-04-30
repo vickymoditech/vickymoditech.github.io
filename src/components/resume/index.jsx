@@ -71,7 +71,9 @@ const Resume = () => {
         <Page>
           <About />
           <div class="section">
-            <h2 class="section-header">Work Experience</h2>
+            <h2 class="section-header">
+            <i class="fa-solid fa-briefcase"></i> &nbsp;
+              Work Experience</h2>
             {company.slice(0, 1).map((c, index) => (
               <Company company={c} key={index} />
             ))}
@@ -81,20 +83,19 @@ const Resume = () => {
         <Page>
           <div class="section">
             {/* <h2 class="section-header">Work Experience</h2> */}
-            {company.slice(1, 2).map((c, index) => (
+            {company.slice(1, 3).map((c, index) => (
               <Company company={c} key={index} />
             ))}
           </div>
         </Page>
 
-        <Page>
+        {/* <Page>
           <div class="section">
-            {/* <h2 class="section-header">Work Experience</h2> */}
             {company.slice(2, 3).map((c, index) => (
               <Company company={c} key={index} />
             ))}
           </div>
-        </Page>
+        </Page> */}
 
         <Page>
           <div class="section">
@@ -104,7 +105,9 @@ const Resume = () => {
             ))}
           </div>
           <div class="section">
-            <h2 class="section-header">Projects</h2>
+            <h2 class="section-header">
+            <i class="fa-solid fa-diagram-project"></i> &nbsp;
+              Projects</h2>
             <Project projects={[...projects.slice(0, 1)]} />
           </div>
         </Page>
@@ -134,10 +137,124 @@ const Resume = () => {
           <div class="section">
             {/* <h2 class="section-header">Projects</h2> */}
             <Project projects={[...projects.slice(12, 13)]} />
+            <div className="see-more">
+
+            <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://vickymoditech.github.io/#/projects"
+          >
+            See More Project &nbsp; <i class="fa-solid fa-angles-right"></i>
+          </a>
+            </div>
           </div>
 
+         
+
           <div class="section">
-            <h2 class="section-header">EDUCATION</h2>
+            <h2 class="section-header">
+            <i class="fa-solid fa-code"></i> &nbsp; Technical Skills</h2>
+
+            <div class="skills-lists">
+              <div className="main_skill">
+              <i class="fa-solid fa-database"></i> &nbsp;
+                Databases&nbsp;: <div className="line-div"></div></div>
+              <div class="skills-list">
+                {skill.slice(0, 7).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">
+              <i class="fa-solid fa-laptop-code"></i> &nbsp;
+                Back-end Development&nbsp;: <div className="line-div"></div></div>
+              <div class="skills-list">
+                {skill.slice(8, 16).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">
+              <i class="fa-solid fa-laptop-code"></i> &nbsp;
+                Front-end Development&nbsp;: <div className="line-div"></div></div>
+              <div class="skills-list">
+                {skill.slice(16, 27).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+
+
+          </div>
+        </Page>
+
+        <Page>
+          <div class="section">
+          <h2 class="section-header">
+          <i class="fa-solid fa-code"></i> &nbsp; Technical Skills</h2>
+
+           
+
+            <div class="skills-lists">
+              <div className="main_skill">
+              <i class="fa-brands fa-aws"></i> &nbsp;
+                AWS Cloud Services&nbsp;: <div className="line-div"></div></div>
+              <div class="skills-list">
+                {skill.slice(27, 37).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">
+              <i class="fa-solid fa-credit-card"></i> &nbsp;
+                Payment Integration&nbsp;: <div className="line-div"></div></div>
+              <div class="skills-list">
+                {skill.slice(37, 39).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div class="skills-lists">
+              <div className="main_skill">Extra&nbsp;: <div className="line-div"></div></div>
+              <div class="skills-list">
+                {skill.slice(39, 50).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+
+          <div class="section">
+            <h2 class="section-header">
+            <i class="fa-solid fa-user-graduate"></i> &nbsp;
+              EDUCATION</h2>
 
             <div class="education-item">
               <h3 class="degree">
@@ -148,89 +265,13 @@ const Resume = () => {
             </div>
           </div>
 
+
+
+
           <div class="section">
-            <h2 class="section-header">SKILLS</h2>
-
-            <div class="skills-lists">
-              <div className="main_skill">Databases&nbsp;:</div>
-              <div class="skills-list">
-                {skill.slice(0, 7).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} years</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div class="skills-lists">
-              <div className="main_skill">Back-end&nbsp;:</div>
-              <div class="skills-list">
-                {skill.slice(8, 16).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} years</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </Page>
-
-        <Page>
-          <div class="section">
-            <h2 class="section-header">SKILLS</h2>
-
-            <div class="skills-lists">
-              <div className="main_skill">Front-end&nbsp;:</div>
-              <div class="skills-list">
-                {skill.slice(16, 27).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} years</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div class="skills-lists">
-              <div className="main_skill">AWS&nbsp;:</div>
-              <div class="skills-list">
-                {skill.slice(27, 37).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} years</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div class="skills-lists">
-              <div className="main_skill">Payment Integration&nbsp;:</div>
-              <div class="skills-list">
-                {skill.slice(37, 39).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} years</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div class="skills-lists">
-              <div className="main_skill">Extra&nbsp;:</div>
-              <div class="skills-list">
-                {skill.slice(39, 50).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} years</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div class="section">
-            <h2 class="section-header">Social</h2>
+            <h2 class="section-header">
+            <i class="fa-solid fa-hashtag"></i> &nbsp;
+              Social</h2>
 
             <div class="contact-info" style={{ flexDirection: "row" }}>
               <div class="contact-item">

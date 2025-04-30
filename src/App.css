@@ -483,6 +483,13 @@ button:hover .button-text {
   height: 500px;
 }
 
+.thumbs-wrapper ul {
+  display: flex;
+  /* justify-content: center; */
+  overflow-x: auto;
+  align-items: center;
+}
+
 .control-arrow {
   width: 50px;
   height: 50px;
@@ -497,7 +504,7 @@ button:hover .button-text {
 
 
 .thumbs-wrapper .thumbs .thumb {
-  width: unset !important;
+  min-width: 120px !important;
  
 }
 
@@ -528,6 +535,7 @@ button:hover .button-text {
     height: 100vh;
     justify-content: space-between;
     align-items: center;
+    overflow-x: hidden;
 }
 
 
