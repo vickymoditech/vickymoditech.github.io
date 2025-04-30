@@ -1,7 +1,4 @@
 [
-
-
-
   {
     "id": 15,
     "designation": "Senior/Lead Full Stack Developer (Remote)",
@@ -11,8 +8,8 @@
     "skills": [
       "Javascript",
       "Typescript",
-      "Nest.js",
       "Node.Js",
+      "Nest.js",
       "React.js",
       "Next.Js",
       "Redux",
@@ -21,8 +18,8 @@
       "AWS Cognito",
       "AWS lambda",
       "Cloudmonitor",
-      "Cloudwatch",
-      "Secretmanager",
+      "CloudWatch",
+      "SecretManager",
       "Simple Notification Service",
       "S3 bucket",
       "Store parameter",
@@ -31,8 +28,10 @@
       "Axios",
       "Mongodb",
       "Mysql",
-      "Asp.net",
-      "ORM types",
+      "PostgreSQL",
+      "ORM",
+      "Sequelize",
+      "typeOrm",
       "CI/CD",
       "Payment Integration",
       "HTML",
@@ -48,7 +47,7 @@
       "Socket",
       "Postgresql",
       "Mongodb",
-      "ORM"
+      "Asp.net"
     ],
     "work": [
       "Work closely with Clients and business analysts to analyze the problem and to propose it’s related solution in a timely manner under an agile environment.",
@@ -68,11 +67,6 @@
     ],
     "project": [1]
   },
-
-
-
-
-
   {
     "id": 1,
     "name": "Guzman y Gomez (Australia)",
@@ -83,6 +77,7 @@
       "Javascript",
       "Typescript",
       "Node.Js",
+      "Nest.js",
       "React.js",
       "Next.Js",
       "Redux",
@@ -90,8 +85,8 @@
       "AWS",
       "AWS Cognito",
       "AWS lambda",
-      "Cloudmonitor",
-      "Cloudwatch",
+      "CloudMonitor",
+      "CloudWatch",
       "Secretmanager",
       "Simple Notification Service",
       "S3 bucket",
@@ -102,7 +97,8 @@
       "Mongodb",
       "Mysql",
       "Asp.net",
-      "ORM types",
+      "typeOrm",
+      "Sequelize",
       "CI/CD",
       "ORM"
     ],
@@ -291,62 +287,5 @@
       "Managed the full lifecycle of applications, from deployment to maintenance, and handled security measures."
     ],
     "project": [2]
-  },
-
-  {
-    "id": 5,
-    "designation": "Software Developer",
-    "name": "Cadabams Doctor App",
-    "url": "https://main.d1elo2e7inmz35.amplifyapp.com/login/physio",
-    "date": "Sept 2017 – May 2018",
-    "skills": [
-      "Javascript",
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "Tailwind CSS",
-      "Material UI",
-      "Strapi Payment",
-      "Stripe CRM"
-    ],
-    "work": [
-      "Developed comprehensive Electronic Health Records (EHR) system with secure document management",
-      "Implemented treatment planning and progress tracking features with automated reporting",
-      "Built real-time appointment management system with provider calendar integration",
-      "Created interactive exercise prescription system with multimedia demonstrations",
-      "Integrated billing system with payment gateway and insurance claims processing",
-      "Implemented staff management features including scheduling and performance evaluation",
-      "Developed operational dashboards and reporting systems for analytics"
-    ],
-    "project": [10]
-  },
-
-  {
-    "id": 6,
-    "designation": "Software Developer",
-    "name": "MyuniversalLab",
-    "url": "https://myuniversallab.app/login.aspx",
-    "date": "Sept 2017 – May 2018",
-    "skills": [
-      "Asp.net",
-      "AjaxControlToolkit",
-      "c#",
-      "Javascript",
-      "SQL Server",
-      "ASP.NET Identity",
-      "Bootstrap",
-      "Swagger",
-      "Entity Framework Core"
-    ],
-    "work": [
-      "Developed secure authentication system for patients, families, admins and employees",
-      "Built comprehensive dashboards with medical records, appointments and prescriptions access",
-      "Implemented family account management with dependent profiles",
-      "Created role-based administrative tools for user and system management",
-      "Developed appointment scheduling system with calendar integration",
-      "Built lab results and diagnostic reports management system",
-      "Implemented medical history tracking and reporting features"
-    ],
-    "project": [13]
   }
 ]
