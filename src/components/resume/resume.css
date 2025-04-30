@@ -208,6 +208,16 @@ body {
 
 .main_skill {
   font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.main_skill .line-div {
+  height: 1px;
+  background-color: #000;
+  display: none;
+  flex-grow: 1;
+  margin-left: 20px;
 }
 
 .resume .resume_right .resume_work .CompanyHeader li:before,
@@ -555,7 +565,7 @@ body {
   flex-direction: column;
   /* flex-wrap: wrap; */
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .skills-list {
@@ -573,8 +583,10 @@ body {
   justify-content: space-between;
     background-color: #f2f2f2;
     padding: 5px 15px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 14px;
+    border-left: 2px solid #000;
+
 }
 
 /* Strengths styles */
@@ -640,4 +652,15 @@ body {
     
   }
 
+}
+
+
+.see-more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.see-more a {
+ text-decoration: unset;
 }

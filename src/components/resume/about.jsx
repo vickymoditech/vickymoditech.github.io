@@ -49,7 +49,9 @@ const About = () => {
       </div>
 
       <div class="section">
-        <h2 class="section-header">About Me</h2>
+        <h2 class="section-header">
+        <i class="fa-solid fa-address-card"></i> &nbsp;
+          About Me</h2>
         <p>
           I'm a Senior Full Stack Developer with over 9+ years of experience
           building scalable, high-performance web and mobile applications. I

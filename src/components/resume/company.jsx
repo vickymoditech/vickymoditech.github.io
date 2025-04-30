@@ -10,7 +10,7 @@ const Company = ({ company, isCompany = true }) => {
       {isCompany && <CompanyHeader company={company} />}
       {isCompany && (
           <p class="job-description">
-            <Skills skills={company.skills} />
+            {/* <Skills skills={company.skills} /> */}
             <Description company={company} />
           </p>
         )}
