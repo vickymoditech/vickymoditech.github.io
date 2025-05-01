@@ -158,7 +158,7 @@ const Resume = () => {
             <div class="skills-lists">
               <div className="main_skill">
               <i class="fa-solid fa-database"></i> &nbsp;
-                Databases&nbsp;: <div className="line-div"></div></div>
+                Databases&nbsp; <div className="line-div"></div></div>
               <div class="skills-list">
                 {skill.slice(0, 7).map((s) => (
                   <span class="skill">
@@ -172,7 +172,7 @@ const Resume = () => {
             <div class="skills-lists">
               <div className="main_skill">
               <i class="fa-solid fa-laptop-code"></i> &nbsp;
-                Back-end Development&nbsp;: <div className="line-div"></div></div>
+                Back-end Development&nbsp; <div className="line-div"></div></div>
               <div class="skills-list">
                 {skill.slice(8, 16).map((s) => (
                   <span class="skill">
@@ -186,7 +186,7 @@ const Resume = () => {
             <div class="skills-lists">
               <div className="main_skill">
               <i class="fa-solid fa-laptop-code"></i> &nbsp;
-                Front-end Development&nbsp;: <div className="line-div"></div></div>
+                Front-end Development&nbsp; <div className="line-div"></div></div>
               <div class="skills-list">
                 {skill.slice(16, 27).map((s) => (
                   <span class="skill">
@@ -212,7 +212,7 @@ const Resume = () => {
             <div class="skills-lists">
               <div className="main_skill">
               <i class="fa-brands fa-aws"></i> &nbsp;
-                AWS Cloud Services&nbsp;: <div className="line-div"></div></div>
+                AWS Cloud Services&nbsp; <div className="line-div"></div></div>
               <div class="skills-list">
                 {skill.slice(27, 37).map((s) => (
                   <span class="skill">
@@ -226,7 +226,7 @@ const Resume = () => {
             <div class="skills-lists">
               <div className="main_skill">
               <i class="fa-solid fa-credit-card"></i> &nbsp;
-                Payment Integration&nbsp;: <div className="line-div"></div></div>
+                Payment Integration&nbsp; <div className="line-div"></div></div>
               <div class="skills-list">
                 {skill.slice(37, 39).map((s) => (
                   <span class="skill">
@@ -238,7 +238,7 @@ const Resume = () => {
             </div>
 
             <div class="skills-lists">
-              <div className="main_skill">Extra&nbsp;: <div className="line-div"></div></div>
+              <div className="main_skill">Extra&nbsp; <div className="line-div"></div></div>
               <div class="skills-list">
                 {skill.slice(39, 50).map((s) => (
                   <span class="skill">
