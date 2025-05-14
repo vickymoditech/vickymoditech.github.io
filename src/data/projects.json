@@ -101,7 +101,6 @@
     ],
     "link": "https://order.guzmanygomez.com.au/"
   },
-
   {
     "id": 2,
     "title": "GYG - Admin Panel for Restaurant Management (Resto 365)",
@@ -213,7 +212,6 @@
     ],
     "link": "https://resto365.prod.ops.gyg.com.au/"
   },
-
   {
     "id": 3,
     "title": "CREAT: Restaurant Reservation",
@@ -318,96 +316,6 @@
     ],
     "link": "https://creat.sg/"
   },
-
-  {
-    "id": 4,
-    "title": "GYG - Third-party delivery partners integration",
-    "logo": "/img/gyg-order/logo.png",
-    "description": "The integration system efficiently connects Guzman y Gomez’s internal infrastructure with third-party delivery partners to streamline order management and maintain real-time data synchronization with the restaurant’s POS system. The architecture is built to handle multiple external delivery platforms, such as UberEats, DoorDash, and Menulog, ensuring that orders are ingested, validated, and processed accurately.",
-    "companyName": "Guzman Y Gomez",
-    "companySite": "https://order.guzmanygomez.com.au/",
-    "workLogo": "/img/gyg-order/logo.png",
-    "role": "Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Order Ingestion via Node.js API",
-        "bullets": [
-          "The system begins by fetching orders from various delivery partners using a Node.js API.",
-          "Node.js handles communication with third-party APIs, parsing incoming data, and normalizing order details to match a consistent schema.",
-          "The Node API is designed to be highly resilient, employing retries, rate-limiting, and error handling to ensure orders are reliably ingested even under adverse network conditions."
-        ]
-      },
-      {
-        "heading": "Order Processing and Validation with .NET Service:",
-        "bullets": [
-          "Once the orders are received and standardized, the data is handed off to a .NET Service, which performs in-depth order processing and validation.",
-          "This service includes business logic for menu item mapping, price validation, discount handling, and other rules that need to be enforced before the orders are committed to the POS system.",
-          "The .NET service also ensures that each order adheres to internal requirements, such as menu availability and order timing constraints, providing a robust mechanism to flag and handle any discrepancies."
-        ]
-      },
-      {
-        "heading": "Database and Data Management:",
-        "bullets": [
-          "Validated order data is then stored using MySQL, leveraging ORM types for strong typing and simplified data access patterns.",
-          "The MySQL database acts as a centralized store for managing incoming orders, tracking order history, and maintaining logs for auditing and troubleshooting."
-        ]
-      },
-      {
-        "heading": "Internal System Integration:",
-        "bullets": [
-          "After processing and validation, the orders are inserted into the TASK POS system using the appropriate API endpoints.",
-          "This ensures that all validated orders are synchronized in real-time with the POS system, enabling restaurant staff to view, manage, and fulfill orders efficiently."
-        ]
-      },
-      {
-        "heading": "Monitoring and Logging:",
-        "bullets": [
-          "The system includes comprehensive monitoring using CloudWatch and custom logging mechanisms to track order states, API calls, and processing errors.",
-          "Alerts are configured to notify the support team of any anomalies, ensuring swift resolution of any issues that may arise."
-        ]
-      }
-    ],
-    "technologies": [
-      "Javascript",
-      "Typescript",
-      "React Js",
-      "C# services",
-      "Mysql",
-      "Sequelize ORM",
-      "Node Js",
-      "Express Js",
-      "Jest test Cases",
-      "Material UI"
-    ],
-    "images": [
-      {
-        "src": "/img/delivery-partner/D1.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/delivery-partner/D2.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/delivery-partner/D3.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/delivery-partner/D4.png",
-        "alt": "Description of image 4"
-      },
-      {
-        "src": "/img/delivery-partner/D5.png",
-        "alt": "Description of image 5"
-      },
-      {
-        "src": "/img/delivery-partner/D6.png",
-        "alt": "Description of image 6"
-      }
-    ],
-    "link": "https://order.guzmanygomez.com.au/"
-  },
-
   {
     "id": 5,
     "title": "Lucky Minute : The One Minute Gaming App",
@@ -497,7 +405,94 @@
     ],
     "link": "https://lucky-minute.com/"
   },
-
+  {
+    "id": 4,
+    "title": "GYG - Third-party delivery partners integration",
+    "logo": "/img/gyg-order/logo.png",
+    "description": "The integration system efficiently connects Guzman y Gomez’s internal infrastructure with third-party delivery partners to streamline order management and maintain real-time data synchronization with the restaurant’s POS system. The architecture is built to handle multiple external delivery platforms, such as UberEats, DoorDash, and Menulog, ensuring that orders are ingested, validated, and processed accurately.",
+    "companyName": "Guzman Y Gomez",
+    "companySite": "https://order.guzmanygomez.com.au/",
+    "workLogo": "/img/gyg-order/logo.png",
+    "role": "Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Order Ingestion via Node.js API",
+        "bullets": [
+          "The system begins by fetching orders from various delivery partners using a Node.js API.",
+          "Node.js handles communication with third-party APIs, parsing incoming data, and normalizing order details to match a consistent schema.",
+          "The Node API is designed to be highly resilient, employing retries, rate-limiting, and error handling to ensure orders are reliably ingested even under adverse network conditions."
+        ]
+      },
+      {
+        "heading": "Order Processing and Validation with .NET Service:",
+        "bullets": [
+          "Once the orders are received and standardized, the data is handed off to a .NET Service, which performs in-depth order processing and validation.",
+          "This service includes business logic for menu item mapping, price validation, discount handling, and other rules that need to be enforced before the orders are committed to the POS system.",
+          "The .NET service also ensures that each order adheres to internal requirements, such as menu availability and order timing constraints, providing a robust mechanism to flag and handle any discrepancies."
+        ]
+      },
+      {
+        "heading": "Database and Data Management:",
+        "bullets": [
+          "Validated order data is then stored using MySQL, leveraging ORM types for strong typing and simplified data access patterns.",
+          "The MySQL database acts as a centralized store for managing incoming orders, tracking order history, and maintaining logs for auditing and troubleshooting."
+        ]
+      },
+      {
+        "heading": "Internal System Integration:",
+        "bullets": [
+          "After processing and validation, the orders are inserted into the TASK POS system using the appropriate API endpoints.",
+          "This ensures that all validated orders are synchronized in real-time with the POS system, enabling restaurant staff to view, manage, and fulfill orders efficiently."
+        ]
+      },
+      {
+        "heading": "Monitoring and Logging:",
+        "bullets": [
+          "The system includes comprehensive monitoring using CloudWatch and custom logging mechanisms to track order states, API calls, and processing errors.",
+          "Alerts are configured to notify the support team of any anomalies, ensuring swift resolution of any issues that may arise."
+        ]
+      }
+    ],
+    "technologies": [
+      "Javascript",
+      "Typescript",
+      "React Js",
+      "C# services",
+      "Mysql",
+      "Sequelize ORM",
+      "Node Js",
+      "Express Js",
+      "Jest test Cases",
+      "Material UI"
+    ],
+    "images": [
+      {
+        "src": "/img/delivery-partner/D1.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D2.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D3.png",
+        "alt": "Description of image 3"
+      },
+      {
+        "src": "/img/delivery-partner/D4.png",
+        "alt": "Description of image 4"
+      },
+      {
+        "src": "/img/delivery-partner/D5.png",
+        "alt": "Description of image 5"
+      },
+      {
+        "src": "/img/delivery-partner/D6.png",
+        "alt": "Description of image 6"
+      }
+    ],
+    "link": "https://order.guzmanygomez.com.au/"
+  },
   {
     "id": 6,
     "title": "ORDRSTARTR : Facebook Live Selling System",
@@ -650,7 +645,6 @@
     ],
     "link": "https://ordrstartr-frontend.vercel.app/"
   },
-
   {
     "id": 7,
     "title": "Capauth: Django SSO Backend",
@@ -693,7 +687,6 @@
     "images": [],
     "link": "https://staging.platform.capabara.com/?next=/users"
   },
-
   {
     "id": 8,
     "title": "Cadabams Doctor App",
@@ -865,7 +858,6 @@
     ],
     "link": "https://main.d1elo2e7inmz35.amplifyapp.com/login/physio"
   },
-
   {
     "id": 9,
     "title": "MyUiversalLab",
@@ -986,7 +978,6 @@
     ],
     "link": "https://myuniversallab.app/login.aspx"
   },
-
   {
     "id": 10,
     "title": "ASME : Grow Your Bussiness Advertise With Asme",
@@ -1070,7 +1061,6 @@
     ],
     "link": "https://www.asme.org.sg/"
   },
-
   {
     "id": 11,
     "title": "GLUU : GAuthorize in Real time",
@@ -1189,7 +1179,6 @@
     ],
     "link": "https://gluu.org/"
   },
-
   {
     "id": 12,
     "title": "NEEMIYA : Effective Lead Generation Platform",
@@ -1278,7 +1267,6 @@
     ],
     "link": "https://neemiya.com/"
   },
-
   {
     "id": 13,
     "title": "SHC - Singapore Home Cooks",

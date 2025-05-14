@@ -1,6 +1,6 @@
 [
   {
-    "id": 15,
+    "id": 1,
     "designation": "Senior/Lead Full Stack Developer (Remote)",
     "name": "Freelance",
     "url": "https://vickymoditech.github.io/#/projects",
@@ -50,25 +50,21 @@
       "Asp.net"
     ],
     "work": [
-      "Work closely with Clients and business analysts to analyze the problem and to propose it’s related solution in a timely manner under an agile environment.",
-      "Project Planning and Management, Team Leadership and Mentoring",
-      "Technical Architecture and Design, Client Communication and Stakeholder Management",
-      "Code Review and Quality Assurance",
-      "Strategic Planning and Decision Making",
-      "Resource and Time Management",
-      "Problem Solving and Issue Resolution",
-      "Implementation of Agile/Scrum Methodologies",
-      "Documentation and Knowledge Sharing",
-      "Deployment and Release Management",
-      "Hiring and Talent Management",
-      "Business Development and Client Relations",
-      "Financial and Budget Management",
-      "Ensuring Compliance and Security"
+      "Led end-to-end project execution from requirement gathering to deployment, working closely with clients, stakeholders, and cross-functional teams in an agile environment.",
+      "Designed and implemented scalable, secure full-stack architectures using Node.js, NestJS, React, Next.js, PostgreSQL, MongoDB, and AWS services.",
+      "Managed project timelines, resource allocation, and sprint planning, ensuring high-quality deliverables on time and within budget.",
+      "Performed code reviews and enforced best practices in coding standards, test coverage, and architectural decisions.",
+      "Implemented CI/CD pipelines and automated deployment workflows across multiple environments using Git, AWS, and other DevOps tools.",
+      "Integrated third-party APIs and services, including payment gateways, JWT authentication, AWS Cognito, and real-time communication via WebSockets.",
+      "Handled AWS infrastructure setup and maintenance: EC2, S3, RDS, Lambda, CloudWatch, Secret Manager, and SNS for secure and efficient operations.",
+      "Mentored junior developers, led hiring processes, and contributed to technical documentation and knowledge-sharing initiatives.",
+      "Communicated with clients to provide updates, resolve issues, gather feedback, and propose solutions aligned with business goals.",
+      "Contributed to business development by converting client ideas into viable technical solutions and building long-term client relationships."
     ],
     "project": [1]
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Guzman y Gomez (Australia)",
     "url": "https://order.guzmanygomez.com.au",
     "designation": "Senior Full Stack Developer (Remote)",
@@ -118,7 +114,7 @@
     "project": [1]
   },
   {
-    "id": 2,
+    "id": 3,
     "designation": "Senior/Lead Full Stack Developer (Remote)",
     "name": "Freelance",
     "url": "https://vickymoditech.github.io/#/projects",
@@ -165,27 +161,20 @@
       "ORM"
     ],
     "work": [
-      "Work closely with Clients and business analysts to analyze the problem and to propose it’s related solution in a timely manner under an agile environment.",
-      "Project Planning and Management",
-      "Team Leadership and Mentoring",
-      "Technical Architecture and Design",
-      "Client Communication and Stakeholder Management",
-      "Code Review and Quality Assurance",
-      "Strategic Planning and Decision Making",
-      "Resource and Time Management",
-      "Problem Solving and Issue Resolution",
-      "Implementation of Agile/Scrum Methodologies",
-      "Documentation and Knowledge Sharing",
-      "Deployment and Release Management",
-      "Hiring and Talent Management",
-      "Business Development and Client Relations",
-      "Financial and Budget Management",
-      "Ensuring Compliance and Security"
+      "Led full-stack development projects from planning to deployment, collaborating closely with clients to define scope and deliver scalable solutions in an agile environment.",
+      "Architected and implemented secure, high-performance systems using Node.js, NestJS, React, AWS services (EC2, Lambda, S3, RDS, CloudWatch), and PostgreSQL/MySQL/MongoDB.",
+      "Oversaw CI/CD pipelines, infrastructure automation, and DevOps workflows to ensure smooth staging and production releases.",
+      "Managed and mentored cross-functional teams, performed code reviews, enforced best practices, and ensured high-quality code and documentation.",
+      "Integrated authentication and authorization mechanisms (JWT, AWS Cognito), and implemented secure role-based access controls.",
+      "Handled third-party integrations including payment gateways, AWS SNS notifications, and monitoring/logging tools for cloud-based systems.",
+      "Led Agile/Scrum practices including sprint planning, retrospectives, backlog grooming, and daily stand-ups to ensure delivery alignment.",
+      "Conducted client communications, stakeholder management, budget estimation, and resource allocation for successful project outcomes.",
+      "Supported hiring efforts, conducted technical interviews, and contributed to business development through solution design and consulting."
     ],
     "project": [2, 3, 4, 5, 6, 7]
   },
   {
-    "id": 3,
+    "id": 4,
     "designation": "Senior Full Stack Developer",
     "name": "Lanet Team Software Solution",
     "url": "#",
@@ -247,7 +236,7 @@
     "project": [2]
   },
   {
-    "id": 4,
+    "id": 5,
     "designation": "Software Developer - Training",
     "name": "Lanet Team Software Solution",
     "url": "#",
