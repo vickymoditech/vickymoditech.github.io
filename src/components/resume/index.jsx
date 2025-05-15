@@ -3,7 +3,6 @@ import React, { Fragment, useEffect } from "react";
 import Company from "./company";
 import Page from "./page";
 import About from "./about";
-// import SideBar from "./side";
 import company from "../../data/company.json";
 import projects from "../../data/projects.json";
 import skill from "../../data/skills.json";
