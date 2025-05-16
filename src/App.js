@@ -6,6 +6,7 @@ import ProjectDetail from "./components/projectDetail";
 import Home from "./components";
 import "./App.css";
 import Resume from "./components/resume";
+import ErrorPage from "./components/ErrorPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </Route>
         <Route path="/resume" element={<Resume />} />
         {/* Add more routes as needed */}
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
   );
