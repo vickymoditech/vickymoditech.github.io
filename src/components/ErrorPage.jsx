@@ -1,18 +1,15 @@
 import React from "react";
-import Player from "lottie-react";
-import animationData from "../assets/404-animation.json"; 
+// import Loading from "../assets/Loading.json";
+import Lottie from "lottie-react";
+import Error from "../assets/Error.json";
 
 const ErrorPage = () => {
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-       <Player
-        autoplay
-        loop
-        src={animationData}
-        style={{ height: "300px", width: "300px" }}
-      />
-      <h1>404</h1>
-      <p>Oops! The page you are looking for does not exist.</p>
+    <div style={{ textAlign: "center", marginTop: "50px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <Lottie animationData={Error} style={{ width: "300px", height: "300px" }} />
+      <p style={{ marginTop: "20px", fontSize: "18px", color: "#555" }}>
+        Oops! The page you are looking for does not exist.
+      </p>
     </div>
   );
 };

@@ -16,9 +16,8 @@ const Resume = () => {
 
   const pdfDownload = () => {
     window.scroll(0, 0);
-    const element = document.getElementById("content"); // Select the container for all pages
+    const element = document.getElementById("content");
 
-    // Configure options for html2pdf
     const options = {
       margin: 0,
       filename: "Vicky_Modi.pdf",
@@ -27,7 +26,6 @@ const Resume = () => {
       jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
     };
 
-    // Generate PDF from the selected element
     html2pdf().from(element).set(options).save();
   };
 
@@ -41,7 +39,7 @@ const Resume = () => {
           <About />
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-briefcase"></i> &nbsp; Work Experience
+              <i class="fa-solid fa-briefcase"></i>   Work Experience
             </h2>
             {company.slice(0, 1).map((c, index) => (
               <Company company={c} key={index} />
@@ -51,7 +49,6 @@ const Resume = () => {
 
         <Page>
           <div class="section">
-            {/* <h2 class="section-header">Work Experience</h2> */}
             {company.slice(1, 3).map((c, index) => (
               <Company company={c} key={index} />
             ))}
@@ -60,14 +57,13 @@ const Resume = () => {
 
         <Page>
           <div class="section">
-            {/* <h2 class="section-header">Work Experience</h2> */}
             {company.slice(3, 4).map((c, index) => (
               <Company company={c} key={index} />
             ))}
           </div>
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-diagram-project"></i> &nbsp; Projects
+              <i class="fa-solid fa-diagram-project"></i>   Projects
             </h2>
             <Project projects={[...projects.slice(0, 1)]} />
           </div>
@@ -75,7 +71,6 @@ const Resume = () => {
 
         <Page>
           <div class="section">
-            {/* <h2 class="section-header">Projects</h2> */}
             <Project projects={[...projects.slice(1, 5)]} />
           </div>
           <div className="see-more">
@@ -84,34 +79,20 @@ const Resume = () => {
               target="_blank"
               href="https://vickymoditech.github.io/#/projects"
             >
-              See More Projects &nbsp; <i class="fa-solid fa-angles-right"></i>
+              See More Projects   <i class="fa-solid fa-angles-right"></i>
             </a>
           </div>
         </Page>
 
-        {/* <Page>
-          <div class="section">
-            <h2 class="section-header">Projects</h2>
-            <Project projects={[...projects.slice(5, 9)]} />
-          </div>
-        </Page> */}
-
-        {/* <Page>
-          <div class="section">
-            <h2 class="section-header">Projects</h2>
-            <Project projects={[...projects.slice(9, 12)]} />
-          </div>
-        </Page> */}
-
         <Page>
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-code"></i> &nbsp; Technical Skills
+              <i class="fa-solid fa-code"></i>   Technical Skills
             </h2>
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-database"></i> &nbsp; Databases&nbsp;{" "}
+                <i class="fa-solid fa-database"></i>   Databases {" "}
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -126,8 +107,8 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i> &nbsp; Back-end
-                Development&nbsp; <div className="line-div"></div>
+                <i class="fa-solid fa-laptop-code"></i>   Back-end
+                Development  <div className="line-div"></div>
               </div>
               <div class="skills-list">
                 {skill.slice(9, 18).map((s) => (
@@ -141,11 +122,25 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i> &nbsp; Front-end
-                Development&nbsp; <div className="line-div"></div>
+                <i class="fa-solid fa-laptop-code"></i>   Front-end
+                Development  <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(18, 37).map((s) => (
+                {skill.slice(18, 36).map((s) => (
+                  <span class="skill">
+                    <span>{s.name}</span>
+                    <span> {s.year} yrs</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div class="skills-lists">
+              <div className="main_skill">
+                <i class="fa-brands fa-aws"></i>   AWS Cloud Services {" "}
+                <div className="line-div"></div>
+              </div>
+              <div class="skills-list">
+                {skill.slice(36, 54).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -154,32 +149,19 @@ const Resume = () => {
               </div>
             </div>
 
-            <div class="skills-lists">
-              <div className="main_skill">
-                <i class="fa-solid fa-credit-card"></i> &nbsp; Payment
-                Integration&nbsp; <div className="line-div"></div>
-              </div>
-              <div class="skills-list">
-                {skill.slice(55, 60).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
-              </div>
-            </div>
+           
           </div>
         </Page>
 
         <Page>
           <div class="section">
-            <div class="skills-lists">
+          <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-brands fa-aws"></i> &nbsp; AWS Cloud Services&nbsp;{" "}
-                <div className="line-div"></div>
+                <i class="fa-solid fa-credit-card"></i>   Payment
+                Integration  <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(37, 55).map((s) => (
+                {skill.slice(54, 59).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -188,12 +170,12 @@ const Resume = () => {
               </div>
             </div>
 
-            <div class="skills-lists">
+            <div class="skills-lists extra-skills">
               <div className="main_skill">
-                Extra&nbsp; <div className="line-div"></div>
+                Extra  <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(60, 100).map((s) => (
+                {skill.slice(59, 100).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -205,7 +187,7 @@ const Resume = () => {
 
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-user-graduate"></i> &nbsp; EDUCATION
+              <i class="fa-solid fa-user-graduate"></i>   EDUCATION
             </h2>
 
             <div class="education-item">
@@ -219,7 +201,7 @@ const Resume = () => {
 
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-hashtag"></i> &nbsp; Social
+              <i class="fa-solid fa-hashtag"></i>   Social
             </h2>
 
             <div class="contact-info" style={{ flexDirection: "row" }}>

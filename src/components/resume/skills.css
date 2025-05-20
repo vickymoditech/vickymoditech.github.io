@@ -1,0 +1,85 @@
+.skills-category {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 8px; /* Reduced gap between circles */
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+}
+
+.skill-name {
+  font-size: 12px;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.progress-circle-wrapper {
+  position: relative;
+  width: 50px; /* Increased size */
+  height: 50px;
+}
+
+.progress-circle {
+  transform: rotate(-90deg);
+}
+
+.progress-circle-bg {
+  fill: none;
+  stroke: #e0e0e0;
+  stroke-width: 4; /* Slightly thicker stroke for larger circle */
+}
+
+.progress-circle-fill {
+  fill: none;
+  stroke-width: 4;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+/* Category-specific colors */
+.progress-circle.databases .progress-circle-fill {
+  stroke: #1e88e5; /* Blue for Databases */
+}
+
+.progress-circle.backend .progress-circle-fill {
+  stroke: #43a047; /* Green for Back-end */
+}
+
+.progress-circle.frontend .progress-circle-fill {
+  stroke: #d81b60; /* Pink for Front-end */
+}
+
+.progress-circle.payment .progress-circle-fill {
+  stroke: #fb8c00; /* Orange for Payment Integration */
+}
+
+.progress-text {
+  font-size: 10px; /* Slightly larger text for readability */
+  fill: #555;
+  font-weight: bold;
+  text-anchor: middle;
+}
