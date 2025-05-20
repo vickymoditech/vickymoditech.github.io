@@ -19,8 +19,8 @@
  */
 
 /*!
- * html2pdf.js v0.10.2
- * Copyright (c) 2024 Erik Koopmans
+ * html2pdf.js v0.10.3
+ * Copyright (c) 2025 Erik Koopmans
  * Released under the MIT License.
  */
 
@@ -992,7 +992,7 @@
  */
 
 /**
- * @remix-run/router v1.19.2
+ * @remix-run/router v1.23.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -1010,7 +1010,7 @@
  */
 
 /**
- * React Router v6.26.2
+ * React Router v6.30.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -1058,7 +1058,7 @@
 /** @license
  *
  * jsPDF - PDF Document creation from JavaScript
- * Version 2.5.2 Built on 2024-09-17T13:29:57.859Z
+ * Version 3.0.1 Built on 2025-03-17T14:19:36.873Z
  *                      CommitID 00000000
  *
  * Copyright (c) 2010-2021 James Hall <james@parall.ax>, https://github.com/MrRio/jsPDF
@@ -1128,3 +1128,5 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * ====================================================================
  */
+
+//! goToAndStop must be relative to the start of the current segment
