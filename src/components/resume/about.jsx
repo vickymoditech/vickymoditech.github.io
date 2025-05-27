@@ -25,7 +25,6 @@ const About = () => {
               <i class="fa-solid fa-envelope"></i>
             </span>
             <span>
-              {" "}
               <a href="mailto:vickymoditech@gmail.com">
                 vickymoditech@gmail.com
               </a>
@@ -50,10 +49,10 @@ const About = () => {
 
       <div class="section">
         <h2 class="section-header">
-        <i class="fa-solid fa-address-card"></i> &nbsp;
-          About Me</h2>
+          <i class="fa-solid fa-address-card"></i> &nbsp; About Me
+        </h2>
         <p>
-          I'm a Senior Full Stack Developer with over 9+ years of experience
+          I'm a Senior Full Stack Developer with over 8+ years of experience
           building scalable, high-performance web and mobile applications. I
           specialize in JavaScript, TypeScript, Node.js (Express/NestJS),
           React.js, Next.js, and AWS serverless architecture (Lambda, Step
