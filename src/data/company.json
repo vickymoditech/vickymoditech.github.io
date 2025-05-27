@@ -2,8 +2,8 @@
   {
     "id": 1,
     "designation": "Senior/Lead Full Stack Developer (Remote)",
-    "name": "Freelance",
-    "url": "https://vickymoditech.github.io/#/projects",
+    "name": "CodEnvision Software Private limited",
+    "url": "https://codenvision.in/",
     "date": "Sept 2024 – Present",
     "skills": [
       "Javascript",
@@ -50,16 +50,16 @@
       "Asp.net"
     ],
     "work": [
-      "Led end-to-end project execution from requirement gathering to deployment, working closely with clients, stakeholders, and cross-functional teams in an agile environment.",
-      "Designed and implemented scalable, secure full-stack architectures using Node.js, NestJS, React, Next.js, PostgreSQL, MongoDB, and AWS services.",
-      "Managed project timelines, resource allocation, and sprint planning, ensuring high-quality deliverables on time and within budget.",
-      "Performed code reviews and enforced best practices in coding standards, test coverage, and architectural decisions.",
-      "Implemented CI/CD pipelines and automated deployment workflows across multiple environments using Git, AWS, and other DevOps tools.",
-      "Integrated third-party APIs and services, including payment gateways, JWT authentication, AWS Cognito, and real-time communication via WebSockets.",
-      "Handled AWS infrastructure setup and maintenance: EC2, S3, RDS, Lambda, CloudWatch, Secret Manager, and SNS for secure and efficient operations.",
-      "Mentored junior developers, led hiring processes, and contributed to technical documentation and knowledge-sharing initiatives.",
-      "Communicated with clients to provide updates, resolve issues, gather feedback, and propose solutions aligned with business goals.",
-      "Contributed to business development by converting client ideas into viable technical solutions and building long-term client relationships."
+      "Actively led and contributed to the full development lifecycle — from gathering requirements to deployment — while collaborating directly with clients, stakeholders, and agile teams.",
+      "Architected and developed scalable, secure full-stack solutions using Node.js, NestJS, React, Next.js, PostgreSQL, and MongoDB, handling critical backend and frontend components personally.",
+      "Took ownership of complex features and coding tasks while managing sprints, timelines, and team deliverables to ensure high-quality, on-time releases.",
+      "Regularly performed in-depth code reviews, contributed reusable modules, and upheld best practices in code structure, test coverage, and architecture.",
+      "Built and maintained CI/CD pipelines, automating deployments using Git, AWS services, and DevOps tools, ensuring consistency across environments.",
+      "Integrated external APIs and services hands-on, including payment gateways, JWT authentication, AWS Cognito, and WebSockets for real-time communication.",
+      "Personally handled AWS infrastructure provisioning and configurations — including EC2, S3, RDS, Lambda, CloudWatch, Secret Manager, and SNS — optimizing for security and scalability.",
+      "Mentored developers by pairing on complex tasks, sharing knowledge, conducting technical interviews, and contributing to robust internal documentation.",
+      "Maintained active client communication to deliver updates, troubleshoot issues, and align technical efforts with business objectives.",
+      "Played a direct role in converting client concepts into functional software by prototyping, coding, and deploying key features, strengthening long-term partnerships."
     ],
     "project": [1]
   },
@@ -99,17 +99,18 @@
       "ORM"
     ],
     "work": [
-      "Work as a Senior Full Stack Developer in the scrum team.",
-      "Developed, tested, deployed, and maintained scalable web and mobile applications.",
-      "Maintained existing software systems by identifying and correcting software defects.",
-      "Designed & Implemented complex menu structures for apps.",
-      "Built AWS step functions to sync product data from the POS(TASK) system.",
-      "Designed & Implemented social authentication flow using AWS Cognito (Google, Apple, Facebook).",
-      "Worked with AWS Lambda, AWS StepFunction, Sequelize + MySQL, and AWS Cognito for user management.",
-      "Designed & Implemented order processing flows for external vendors (Ubereats, Doordash, MenuLog, and Deliveroo)",
-      "Implemented Complex ETL process to bring the data from POS system",
-      "Implemented order processing, order validating and offer/coupon flow",
-      "Implemented Test cases for Micro services"
+      "Worked as a Senior Full Stack Developer within an agile scrum team, actively contributing to both feature development and architectural planning.",
+      "Designed, developed, tested, and deployed scalable web and mobile applications using React, Next.js, Node.js, and AWS services.",
+      "Led frontend architecture and implementation for internal tools and customer-facing features using React and Next.js, ensuring responsive design, optimized performance, and reusable component patterns.",
+      "Took responsibility for maintaining and refactoring existing systems by identifying and fixing bugs, optimizing performance, and enhancing maintainability.",
+      "Implemented dynamic and configurable menu structures across applications to support evolving business requirements.",
+      "Built AWS Step Functions to automate and synchronize product data ingestion from the POS (TASK) system to internal services.",
+      "Designed and implemented secure social login flows using AWS Cognito, integrating with Google, Apple, and Facebook providers.",
+      "Integrated backend logic with AWS Lambda, Step Functions, Sequelize, and MySQL to support high-availability services and smooth operations.",
+      "Engineered robust order processing pipelines to handle third-party platforms like UberEats, DoorDash, Menulog, and Deliveroo.",
+      "Built and optimized a complex ETL process to ingest and normalize transactional data from the POS system for analytics and reporting.",
+      "Developed logic for order validation, offer/coupon application, and transactional integrity checks across microservices.",
+      "Wrote unit and integration test cases for various microservices to ensure reliability, correctness, and regression safety."
     ],
     "project": [1]
   },
@@ -118,7 +119,7 @@
     "designation": "Senior/Lead Full Stack Developer (Remote)",
     "name": "Freelance",
     "url": "https://vickymoditech.github.io/#/projects",
-    "date": "April 2017 – April 2021",
+    "date": "April 2018 – April 2021",
     "skills": [
       "Javascript",
       "Typescript",
@@ -165,7 +166,7 @@
       "Architected and implemented secure, high-performance systems using Node.js, NestJS, React, AWS services (EC2, Lambda, S3, RDS, CloudWatch), and PostgreSQL/MySQL/MongoDB.",
       "Oversaw CI/CD pipelines, infrastructure automation, and DevOps workflows to ensure smooth staging and production releases.",
       "Managed and mentored cross-functional teams, performed code reviews, enforced best practices, and ensured high-quality code and documentation.",
-      "Integrated authentication and authorization mechanisms (JWT, AWS Cognito), and implemented secure role-based access controls.",
+      "Integrated authentication and authorization mechanisms (JWT, AWS Cognito)",
       "Handled third-party integrations including payment gateways, AWS SNS notifications, and monitoring/logging tools for cloud-based systems.",
       "Led Agile/Scrum practices including sprint planning, retrospectives, backlog grooming, and daily stand-ups to ensure delivery alignment.",
       "Conducted client communications, stakeholder management, budget estimation, and resource allocation for successful project outcomes.",
@@ -178,7 +179,7 @@
     "designation": "Senior Full Stack Developer",
     "name": "Lanet Team Software Solution",
     "url": "#",
-    "date": "Oct 2018 – May 2021",
+    "date": "Oct 2017 – May 2021",
     "skills": [
       "Javascript",
       "Typescript",
@@ -216,22 +217,13 @@
       "ORM"
     ],
     "work": [
-      "Led multiple projects from requirement analysis to deployment and maintenance.",
-      "Worked with React, Node.js, Python, C#, and APIs like Stripe and Firebase",
-      "Ensured high code quality through rigorous testing, code reviews, and documentation.",
-      "Collaborated with clients and internal teams to translate business needs into technical solutions.",
-      "Optimized system performance and implemented new technologies and best practices.",
-      "Implemented API swagger.",
-      "Integrated Payment Gateway.",
-      "Created Python script to migrate the major version changes.",
-      "Implemented API swagger",
-      "Integrated Payment Gateway (Stripe)",
-      "Integrated SMS Gateway (Mitto)",
-      "Created a custom component to create and move the table. Integrated IVRS - https://www.mitto.ch.",
-      "Utilized established development tools, guidelines, and conventions including but not limited to C#, Node.js, JavaScript, and React.",
-      "Mentored new and junior team members.",
-      "Collaborated with team members to find better, more efficient ways of doing things.",
-      "Provided technical expertise."
+      "Led full project lifecycle from requirement analysis to deployment and maintenance, delivering robust web applications across multiple domains.",
+      "Engineered full-stack solutions with React, Next.js, Node.js, Python, C#, and JavaScript, integrating APIs like Stripe, Firebase, and Mitto (SMS/IVRS).",
+      "Built dynamic and reusable frontend components in React and Next.js, implemented client-side validations, and wrote unit/UI test cases using modern testing frameworks.",
+      "Created custom UI tools such as dynamic table builders, enhanced user experiences, and followed responsive design best practices for cross-device compatibility.",
+      "Developed Python scripts for major version migrations and applied performance optimizations and architectural improvements across systems.",
+      "Documented APIs using Swagger, implemented third-party service integrations, and ensured smooth deployments through established DevOps workflows.",
+      "Maintained high code quality through testing, peer code reviews, and mentoring junior developers, while actively collaborating with teams and clients to align technical solutions with business needs."
     ],
     "project": [2]
   },

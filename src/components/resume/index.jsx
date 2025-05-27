@@ -49,19 +49,32 @@ const Resume = () => {
 
         <Page>
           <div class="section">
-            {company.slice(1, 3).map((c, index) => (
+            {company.slice(1, 2).map((c, index) => (
               <Company company={c} key={index} />
+            ))}
+
+            {company.slice(2, 3).map((c, index) => (
+              <Company company={c} key={index} bulletStart={0} bulletEnd={5} />
             ))}
           </div>
         </Page>
 
         <Page>
           <div class="section">
+            {company.slice(2, 3).map((c, index) => (
+              <Company
+                company={c}
+                key={index}
+                isCompany={false}
+                bulletStart={5}
+                bulletEnd={15}
+              />
+            ))}
+
             {company.slice(3, 4).map((c, index) => (
               <Company company={c} key={index} />
             ))}
-          </div>
-          <div class="section">
+
             <h2 class="section-header">
               <i class="fa-solid fa-diagram-project"></i>   Projects
             </h2>
@@ -92,7 +105,7 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-database"></i>   Databases {" "}
+                <i class="fa-solid fa-database"></i>   Databases 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -107,8 +120,8 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i>   Back-end
-                Development  <div className="line-div"></div>
+                <i class="fa-solid fa-laptop-code"></i>   Back-end Development 
+                <div className="line-div"></div>
               </div>
               <div class="skills-list">
                 {skill.slice(9, 18).map((s) => (
@@ -122,8 +135,8 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i>   Front-end
-                Development  <div className="line-div"></div>
+                <i class="fa-solid fa-laptop-code"></i>   Front-end Development 
+                <div className="line-div"></div>
               </div>
               <div class="skills-list">
                 {skill.slice(18, 36).map((s) => (
@@ -136,7 +149,7 @@ const Resume = () => {
             </div>
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-brands fa-aws"></i>   AWS Cloud Services {" "}
+                <i class="fa-brands fa-aws"></i>   AWS Cloud Services 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -148,17 +161,15 @@ const Resume = () => {
                 ))}
               </div>
             </div>
-
-           
           </div>
         </Page>
 
         <Page>
           <div class="section">
-          <div class="skills-lists">
+            <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-credit-card"></i>   Payment
-                Integration  <div className="line-div"></div>
+                <i class="fa-solid fa-credit-card"></i>   Payment Integration 
+                <div className="line-div"></div>
               </div>
               <div class="skills-list">
                 {skill.slice(54, 59).map((s) => (
@@ -210,7 +221,6 @@ const Resume = () => {
                   <i class="fa-brands fa-github"></i>
                 </span>
                 <span>
-                  {" "}
                   <a
                     rel="noreferrer"
                     target="_blank"
@@ -225,7 +235,6 @@ const Resume = () => {
                   <i class="fa-brands fa-linkedin"></i>
                 </span>
                 <span>
-                  {" "}
                   <a
                     rel="noreferrer"
                     target="_blank"
