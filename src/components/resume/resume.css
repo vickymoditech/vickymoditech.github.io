@@ -401,7 +401,7 @@ body {
 
 /* Header styles */
 .headers {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   justify-content: space-between;
 }
 
@@ -420,7 +420,7 @@ body {
 .contact-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
   font-size: 14px;
   color: #555;
 }
@@ -438,7 +438,7 @@ body {
 
 /* Section styles */
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .section-header {

@@ -14,14 +14,6 @@ const About = () => {
         <div class="contact-info">
           <div class="contact-item">
             <span>
-              <i class="fa-solid fa-phone"></i>
-            </span>
-            <span>
-              <a href="tel:+918401060120">+91 8401060120</a>
-            </span>
-          </div>
-          <div class="contact-item">
-            <span>
               <i class="fa-solid fa-envelope"></i>
             </span>
             <span>
@@ -44,9 +36,16 @@ const About = () => {
               </a>
             </span>
           </div>
+          <div class="contact-item">
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span>
+              208-512 Mohawk Road East, Hamilton, Ontario, L8V 2J2, Canada
+            </span>
+          </div>
         </div>
       </div>
-
       <div class="section">
         <h2 class="section-header">
           <i class="fa-solid fa-address-card"></i> &nbsp; About Me
