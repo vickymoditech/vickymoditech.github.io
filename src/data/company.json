@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "designation": "Senior/Lead Full Stack Developer (Remote)",
-    "name": "CodEnvision Software Private limited",
-    "url": "https://codenvision.in/",
-    "date": "Sept 2024 – Present",
+    "designation": "Lead Full Stack Developer (Node, Nest, React, Next, AWS)",
+    "name": "Inginim Software Private limited",
+    "url": "#",
+    "date": "Sept 2024 – June 2025",
     "skills": [
       "Javascript",
       "Typescript",
@@ -67,7 +67,7 @@
     "id": 2,
     "name": "Guzman y Gomez (Australia)",
     "url": "https://order.guzmanygomez.com.au",
-    "designation": "Senior Full Stack Developer (Remote)",
+    "designation": "Senior Backend Developer (Node, Nest, AWS)",
     "date": "April 2021 – Sept 2024",
     "skills": [
       "Javascript",
@@ -100,8 +100,7 @@
     ],
     "work": [
       "Worked as a Senior Full Stack Developer within an agile scrum team, actively contributing to both feature development and architectural planning.",
-      "Designed, developed, tested, and deployed scalable web and mobile applications using React, Next.js, Node.js, and AWS services.",
-      "Led frontend architecture and implementation for internal tools and customer-facing features using React and Next.js, ensuring responsive design, optimized performance, and reusable component patterns.",
+      "Designed, developed, tested, and deployed scalable web and mobile applications using Node.js, Nest.js and AWS services.",
       "Took responsibility for maintaining and refactoring existing systems by identifying and fixing bugs, optimizing performance, and enhancing maintainability.",
       "Implemented dynamic and configurable menu structures across applications to support evolving business requirements.",
       "Built AWS Step Functions to automate and synchronize product data ingestion from the POS (TASK) system to internal services.",
@@ -116,7 +115,7 @@
   },
   {
     "id": 3,
-    "designation": "Senior/Lead Full Stack Developer (Remote)",
+    "designation": "Senior/Lead Full Stack Developer (Node, Nest, React, Next, Java, Python, AWS)",
     "name": "Freelance",
     "url": "https://vickymoditech.github.io/#/projects",
     "date": "April 2018 – April 2021",
@@ -176,7 +175,7 @@
   },
   {
     "id": 4,
-    "designation": "Senior Full Stack Developer",
+    "designation": "Senior Backend Developer (.Net, Node, Nest, python, AWS)",
     "name": "Lanet Team Software Solution",
     "url": "#",
     "date": "Oct 2017 – May 2021",
