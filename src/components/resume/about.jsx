@@ -7,8 +7,8 @@ const About = () => {
         <div>
           <h1 class="name">Vicky Modi</h1>
           <p class="title">
-            Senior / Lead Full Stack Developer (Node.js | NestJS | React |
-            Next.js | AWS)
+            Senior Full Stack Developer (Node.js | NestJS | React | Next.js |
+            Java | Aws)
           </p>
         </div>
         <div class="contact-info">
