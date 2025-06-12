@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "designation": "Lead Full Stack Developer (Node, Nest, React, Next, AWS)",
+    "designation": "Lead Full Stack Developer",
     "name": "Inginim Software Private limited",
     "url": "#",
     "date": "Sept 2024 – June 2025",
@@ -67,7 +67,7 @@
     "id": 2,
     "name": "Guzman y Gomez (Australia)",
     "url": "https://order.guzmanygomez.com.au",
-    "designation": "Senior Backend Developer (Node, Nest, AWS)",
+    "designation": "Senior Backend Developer",
     "date": "April 2021 – Sept 2024",
     "skills": [
       "Javascript",
@@ -115,7 +115,7 @@
   },
   {
     "id": 3,
-    "designation": "Senior/Lead Full Stack Developer (Node, Nest, React, Next, Java, Python, AWS)",
+    "designation": "Senior/Lead Full Stack Developer",
     "name": "Freelance",
     "url": "https://vickymoditech.github.io/#/projects",
     "date": "April 2018 – April 2021",
@@ -175,7 +175,7 @@
   },
   {
     "id": 4,
-    "designation": "Senior Backend Developer (.Net, Node, Nest, python, AWS)",
+    "designation": "Senior Backend Developer",
     "name": "Lanet Team Software Solution",
     "url": "#",
     "date": "Oct 2017 – May 2021",
