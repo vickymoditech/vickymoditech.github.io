@@ -7,8 +7,8 @@ const About = () => {
         <div>
           <h1 class="name">Vicky Modi</h1>
           <p class="title">
-            Senior Full Stack Developer (Node.js | NestJS | React | Next.js |
-            Aws | Java | Python)
+            Senior Full Stack Developer (Node | Nest | React | Next | Aws | Java
+            | Python)
           </p>
         </div>
         <div class="contact-info">
@@ -53,15 +53,15 @@ const About = () => {
         <p>
           I'm a Senior Full Stack Developer with over 8+ years of experience
           building scalable, high-performance web and mobile applications. I
-          specialize in JavaScript, TypeScript, Node.js (Express/NestJS),
-          React.js, Next.js, and AWS serverless architecture (Lambda, Step
+          specialize in JavaScript, TypeScript, Node.js (NestJS), React.js
+          (Next.js), Monolithic and Microservices architecture (Lambda, Step
           Functions, Cognito).
           <br />
           I'm proficient in designing RESTful APIs, microservices, and working
-          with both relational (MySQL, PostgreSQL) and NoSQL databases (MongoDB,
-          DynamoDB). Passionate about performance optimization, CI/CD
-          integration, real-time socket functionality, and test-driven
-          development.
+          with both relational and NoSQL databases. Passionate about performance
+          optimization, CI/CD integration, web-socket, test-driven development
+          and AI development, I have a strong background in cloud services (AWS,
+          Azure) and DevOps practices.
           <br />I thrive in fast-paced environments and love delivering secure,
           scalable, and user-centric applications.
         </p>
