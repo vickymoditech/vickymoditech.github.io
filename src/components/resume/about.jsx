@@ -6,10 +6,7 @@ const About = () => {
       <div class="headers">
         <div>
           <h1 class="name">Vicky Modi</h1>
-          <p class="title">
-            Senior Full Stack Developer (Node | Nest | React | Next | Aws | Java
-            | Python)
-          </p>
+          <p class="title">Senior Full Stack Developer</p>
         </div>
         <div class="contact-info">
           <div class="contact-item">
@@ -51,19 +48,15 @@ const About = () => {
           <i class="fa-solid fa-address-card"></i> &nbsp; About Me
         </h2>
         <p>
-          I'm a Senior Full Stack Developer with over 8+ years of experience
-          building scalable, high-performance web and mobile applications. I
-          specialize in JavaScript, TypeScript, Node.js (NestJS), React.js
-          (Next.js), Monolithic and Microservices architecture (Lambda, Step
-          Functions, Cognito).
-          <br />
-          I'm proficient in designing RESTful APIs, microservices, and working
-          with both relational and NoSQL databases. Passionate about performance
-          optimization, CI/CD integration, web-socket, test-driven development
-          and AI development, I have a strong background in cloud services (AWS,
-          Azure) and DevOps practices.
-          <br />I thrive in fast-paced environments and love delivering secure,
-          scalable, and user-centric applications.
+          Senior Full Stack Developer with 8+ years of experience in building
+          scalable, high-performance web and mobile applications. Strong in both
+          Frontend (React.js, Next.js) and Backend (Node.js/NestJS, Java,
+          Python) development. Experienced in designing monolithic and
+          microservices architectures, system and database design, and
+          performance optimization. Proficient with AWS, Docker, Kubernetes,
+          CI/CD pipelines, and real-time communication (WebSockets). Passionate
+          about clean code, secure development, and delivering user-centric
+          solutions in fast-paced environments.
         </p>
       </div>
     </Fragment>

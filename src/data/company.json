@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "designation": "Lead Full Stack Developer",
+    "designation": "Senior Full Stack Developer",
     "name": "Inginim Software Private limited (Singapore 🇸🇬)",
     "url": "#",
     "date": "Sept 2024 – June 2025",
@@ -50,16 +50,16 @@
       "Asp.net"
     ],
     "work": [
-      "Actively led and contributed to the full development lifecycle — from gathering requirements to deployment — while collaborating directly with clients, stakeholders, and agile teams.",
-      "Architected and developed scalable, secure full-stack solutions using Node.js, NestJS, React, Next.js, PostgreSQL, and MongoDB, handling critical backend and frontend components personally.",
-      "Took ownership of complex features and coding tasks while managing sprints, timelines, and team deliverables to ensure high-quality, on-time releases.",
-      "Regularly performed in-depth code reviews, contributed reusable modules, and upheld best practices in code structure, test coverage, and architecture.",
-      "Built and maintained CI/CD pipelines, automating deployments using Git, AWS services, and DevOps tools, ensuring consistency across environments.",
-      "Integrated external APIs and services hands-on, including payment gateways, JWT authentication, AWS Cognito, and WebSockets for real-time communication.",
-      "Personally handled AWS infrastructure provisioning and configurations — including EC2, S3, RDS, Lambda, CloudWatch, Secret Manager, and SNS — optimizing for security and scalability.",
-      "Mentored developers by pairing on complex tasks, sharing knowledge, conducting technical interviews, and contributing to robust internal documentation.",
-      "Maintained active client communication to deliver updates, troubleshoot issues, and align technical efforts with business objectives.",
-      "Played a direct role in converting client concepts into functional software by prototyping, coding, and deploying key features, strengthening long-term partnerships."
+      "Actively led and contributed to the full development lifecycle, from requirements gathering to deployment, collaborating closely with clients, stakeholders, and agile teams.",
+      "Architected and developed scalable, secure backend solutions using NestJS, Python, Java, PostgreSQL, MySql and MongoDB, ensuring high performance and maintainability.",
+      "Built and maintained responsive, user-friendly frontend applications using React.js, Next.js, Redux, TypeScript, Tailwind CSS, and other UI libraries, ensuring seamless user experiences.",
+      "Designed microservices architectures and RESTful APIs",
+      "Integrated communication between microservices using AWS SQS, Kafka, RabbitMQ, and WebSockets.",
+      "Implemented Saga and Circuit Breaker patterns to enhance system resilience and fault tolerance.",
+      "Developed and optimized CI/CD pipelines using GitHub Actions, Docker, and AWS services to automate deployments and streamline development workflows.",
+      "Took ownership of complex features and development tasks, mentored junior developers, conducted code reviews, and promoted clean code practices.",
+      "Integrated third-party APIs, payment gateways, JWT authentication, AWS Cognito, and WebSockets for secure, real-time communication.",
+      "Adopted test-driven development (TDD) practices, writing unit and integration tests with Jest to ensure code quality and application reliability."
     ],
     "project": [1]
   },
@@ -99,17 +99,16 @@
       "ORM"
     ],
     "work": [
-      "Worked as a Senior Full Stack Developer within an agile scrum team, actively contributing to both feature development and architectural planning.",
-      "Designed, developed, tested, and deployed scalable web and mobile applications using Node.js, Nest.js and AWS services.",
-      "Took responsibility for maintaining and refactoring existing systems by identifying and fixing bugs, optimizing performance, and enhancing maintainability.",
+      "Worked as a Senior Backend Developer within an agile Scrum team, actively contributing to both feature development and architectural planning.",
+      "Designed, developed, tested, and deployed scalable microservices applications using Node.js, NestJS, AWS services (Lambda, Step-functions, API Gateway), Sequelize, and MySQL.",
+      "Took responsibility for maintaining and refactoring existing systems built on .NET, identifying and fixing bugs, optimizing performance, and improving maintainability.",
       "Implemented dynamic and configurable menu structures across applications to support evolving business requirements.",
-      "Built AWS Step Functions to automate and synchronize product data ingestion from the POS (TASK) system to internal services.",
+      "Built AWS Step Functions to automate and synchronize product data from the POS (TASK) system to internal services.",
       "Designed and implemented secure social login flows using AWS Cognito, integrating with Google, Apple, and Facebook providers.",
-      "Integrated backend logic with AWS Lambda, Step Functions, Sequelize, and MySQL to support high-availability services and smooth operations.",
-      "Engineered robust order processing pipelines to handle third-party platforms like UberEats, DoorDash, Menulog, and Deliveroo.",
-      "Built and optimized a complex ETL process to ingest and normalize transactional data from the POS system for analytics and reporting.",
-      "Developed logic for order validation, offer/coupon application, and transactional integrity checks across microservices.",
-      "Wrote unit and integration test cases for various microservices to ensure reliability, correctness, and regression safety."
+      "Engineered robust order processing pipelines to support third-party platforms like UberEats, DoorDash, Menulog, and Deliveroo.",
+      "Built and optimized complex ETL processes to ingest and normalize transactional data from the POS system for analytics and reporting.",
+      "Developed business logic for order validation, offer/coupon application, and transactional integrity checks across microservices using Saga patterns.",
+      "Wrote unit and integration test cases for various microservices to ensure reliability, accuracy, and regression safety."
     ],
     "project": [1]
   },
@@ -161,15 +160,18 @@
       "ORM"
     ],
     "work": [
-      "Led full-stack development projects from planning to deployment, collaborating closely with clients to define scope and deliver scalable solutions in an agile environment.",
-      "Architected and implemented secure, high-performance systems using Node.js, NestJS, React, AWS services (EC2, Lambda, S3, RDS, CloudWatch), and PostgreSQL/MySQL/MongoDB.",
-      "Oversaw CI/CD pipelines, infrastructure automation, and DevOps workflows to ensure smooth staging and production releases.",
-      "Managed and mentored cross-functional teams, performed code reviews, enforced best practices, and ensured high-quality code and documentation.",
-      "Integrated authentication and authorization mechanisms (JWT, AWS Cognito)",
-      "Handled third-party integrations including payment gateways, AWS SNS notifications, and monitoring/logging tools for cloud-based systems.",
-      "Led Agile/Scrum practices including sprint planning, retrospectives, backlog grooming, and daily stand-ups to ensure delivery alignment.",
-      "Conducted client communications, stakeholder management, budget estimation, and resource allocation for successful project outcomes.",
-      "Supported hiring efforts, conducted technical interviews, and contributed to business development through solution design and consulting."
+      "Led full-stack development projects from planning to deployment, working closely with clients to define scope and deliver scalable solutions in agile environments.",
+      "Architected and implemented 10+ high-performance, secure backend systems using Node.js, NestJS, AWS services, and PostgreSQL/MySQL/MongoDB.",
+      "Developed 15+ responsive, user-centric frontend applications with React.js, Next.js, Redux, TypeScript, Tailwind CSS, Bootstrap, Material UI, and Hero UI.",
+      "Designed and developed scalable RESTful APIs and microservices, integrating third-party services and payment gateways like Stripe and PayPal for e-commerce platforms.",
+      "Implemented Saga patterns to manage distributed transactions, ensuring data consistency across microservices.",
+      "Enhanced system resilience with Circuit Breaker patterns, reducing downtime during service failures.",
+      "Built microservice communication using AWS SQS, Kafka, RabbitMQ, and WebSockets for real-time data updates.",
+      "Containerized applications with Docker to maintain consistent development, staging, and production environments.",
+      "Oversaw CI/CD pipelines, infrastructure automation, and DevOps workflows to support reliable and efficient deployments.",
+      "Integrated secure authentication and authorization systems using JWT, AWS Cognito, and OAuth.",
+      "Conducted code reviews, enforced best practices, and maintained high-quality documentation.",
+      "Managed client communications, stakeholder engagement, budget estimations, and resource allocation to ensure successful project delivery."
     ],
     "project": [2, 3, 4, 5, 6, 7]
   },
@@ -216,11 +218,12 @@
       "ORM"
     ],
     "work": [
-      "Led full project lifecycle from requirement analysis to deployment and maintenance, delivering robust web applications across multiple domains.",
-      "Engineered full-stack solutions with React, Next.js, Node.js, Python, C#, and JavaScript, integrating APIs like Stripe, Firebase, and Mitto (SMS/IVRS).",
-      "Built dynamic and reusable frontend components in React and Next.js, implemented client-side validations, and wrote unit/UI test cases using modern testing frameworks.",
+      "Developed RestFull apis using Node.js, .Net core, implementing JWT authentication and authorization for secure access.",
+      "Developed Responsive Web Applications using React.js, and Redux, ensuring cross-browser compatibility and performance optimization.",
+      "Built dynamic and reusable frontend components in React, implemented client-side validations, and wrote unit/UI test cases using modern testing frameworks.",
       "Created custom UI tools such as dynamic table builders, enhanced user experiences, and followed responsive design best practices for cross-device compatibility.",
-      "Developed Python scripts for major version migrations and applied performance optimizations and architectural improvements across systems.",
+      "Developed Python scripts for major version migrations",
+      "Applied performance optimizations and architectural improvements across systems.",
       "Documented APIs using Swagger, implemented third-party service integrations, and ensured smooth deployments through established DevOps workflows.",
       "Maintained high code quality through testing, peer code reviews, and mentoring junior developers, while actively collaborating with teams and clients to align technical solutions with business needs."
     ],

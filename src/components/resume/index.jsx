@@ -54,7 +54,7 @@ const Resume = () => {
             ))}
 
             {company.slice(2, 3).map((c, index) => (
-              <Company company={c} key={index} bulletStart={0} bulletEnd={5} />
+              <Company company={c} key={index} bulletStart={0} bulletEnd={7} />
             ))}
           </div>
         </Page>
@@ -66,7 +66,7 @@ const Resume = () => {
                 company={c}
                 key={index}
                 isCompany={false}
-                bulletStart={5}
+                bulletStart={7}
                 bulletEnd={15}
               />
             ))}
@@ -109,7 +109,7 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(0, 9).map((s) => (
+                {skill.slice(0, 6).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -124,7 +124,7 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(9, 18).map((s) => (
+                {skill.slice(6, 25).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -139,7 +139,7 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(18, 36).map((s) => (
+                {skill.slice(25, 43).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -153,7 +153,7 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(36, 54).map((s) => (
+                {skill.slice(43, 61).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -172,7 +172,7 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(54, 59).map((s) => (
+                {skill.slice(61, 64).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -186,7 +186,7 @@ const Resume = () => {
                 Extra  <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(59, 100).map((s) => (
+                {skill.slice(64, 100).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
