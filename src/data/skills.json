@@ -17,7 +17,7 @@
   { "name": "RabbitMQ", "year": 2 },
   { "name": "Kafka", "year": 2 },
   { "name": "Saga Pattern", "year": 4 },
-  { "name": "Circute Breaker", "year": 4 },
+  { "name": "Circuit Breaker", "year": 4 },
   { "name": "WebSockets", "year": 4 },
   { "name": "Query Optimization", "year": 4 },
   { "name": "Docker", "year": 4 },

@@ -48,15 +48,21 @@ const About = () => {
           <i class="fa-solid fa-address-card"></i> &nbsp; About Me
         </h2>
         <p>
-          Senior Full Stack Developer with 8+ years of experience in building
-          scalable, high-performance web and mobile applications. Strong in both
-          Frontend (React.js, Next.js) and Backend (Node.js/NestJS, Java,
-          Python) development. Experienced in designing monolithic and
-          microservices architectures, system and database design, and
-          performance optimization. Proficient with AWS, Docker, Kubernetes,
-          CI/CD pipelines, and real-time communication (WebSockets). Passionate
-          about clean code, secure development, and delivering user-centric
-          solutions in fast-paced environments.
+          Senior Full Stack Developer with over 8 years of experience delivering
+          robust, scalable, and secure web and mobile applications across global
+          markets including Singapore, Australia, the UK, and the US. Skilled in
+          both frontend (React.js, Next.js, Angular, Vue) and backend (Node.js,
+          NestJS, Python, Java, ASP.NET) development, with deep expertise in
+          microservices and monolithic architectures. Proven ability to lead
+          projects from concept to production in agile environments, with
+          hands-on experience in AWS (Cognito, Lambda, EC2, S3, RDS), database
+          design (PostgreSQL, MySQL, MongoDB), DevOps (CI/CD, Docker, GitHub
+          Actions), and secure real-time communication (WebSockets, SQS, Kafka,
+          RabbitMQ). Known for implementing clean code practices, mentoring
+          teams, integrating payment systems, and aligning technical solutions
+          with business goals. Passionate about solving real-world problems
+          through high-quality, performance-optimized, and user-centric
+          software.
         </p>
       </div>
     </Fragment>
