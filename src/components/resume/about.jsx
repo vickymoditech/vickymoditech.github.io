@@ -35,6 +35,34 @@ const About = () => {
           </div>
           <div class="contact-item">
             <span>
+              <i class="fa-brands fa-github"></i>
+            </span>
+            <span>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/vickymoditech/"
+              >
+                github.com/vickymoditech
+              </a>
+            </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+            <span>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.linkedin.com/in/vicky-modi-a01885186"
+              >
+                vickymodi@linkedin
+              </a>
+            </span>
+          </div>
+          <div class="contact-item">
+            <span>
               <i class="fa-solid fa-location-dot"></i>
             </span>
             <span>

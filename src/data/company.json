@@ -2,7 +2,7 @@
   {
     "id": 1,
     "designation": "Senior Full Stack Developer",
-    "name": "Inginim Software Private limited (Singapore 🇸🇬)",
+    "name": "Freelance | Contract (UK 🇬🇧, USA 🇺🇸, Australia 🇦🇺, Singapore 🇸🇬)",
     "url": "#",
     "date": "Sept 2024 – June 2025",
     "skills": [
@@ -50,16 +50,16 @@
       "Asp.net"
     ],
     "work": [
-      "Actively led and contributed to the full development lifecycle, from requirements gathering to deployment, collaborating closely with clients, stakeholders, and agile teams.",
-      "Architected and developed scalable, secure backend solutions using NestJS, Python, Java, PostgreSQL, MySql and MongoDB, ensuring high performance and maintainability.",
-      "Built and maintained responsive, user-friendly frontend applications using React.js, Next.js, Redux, TypeScript, Tailwind CSS, and other UI libraries, ensuring seamless user experiences.",
-      "Designed microservices architectures and RESTful APIs",
-      "Integrated communication between microservices using AWS SQS, Kafka, RabbitMQ, and WebSockets.",
-      "Implemented Saga and Circuit Breaker patterns to enhance system resilience and fault tolerance.",
-      "Developed and optimized CI/CD pipelines using GitHub Actions, Docker, and AWS services to automate deployments and streamline development workflows.",
-      "Took ownership of complex features and development tasks, mentored junior developers, conducted code reviews, and promoted clean code practices.",
-      "Integrated third-party APIs, payment gateways, JWT authentication, AWS Cognito, and WebSockets for secure, real-time communication.",
-      "Adopted test-driven development (TDD) practices, writing unit and integration tests with Jest to ensure code quality and application reliability."
+      "Led end-to-end full-stack development for 10+ projects, collaborating with clients and teams across planning, design, and deployment phases.",
+      "Architected scalable backend systems using NestJS, Node.js, Python, and Java with PostgreSQL, MySQL, and MongoDB.",
+      "Built secure, responsive frontend applications with React.js, Next.js, TypeScript, Tailwind CSS, and Redux.",
+      "Integrated secure authentication and authorization with JWT, AWS Cognito, and OAuth.",
+      "Implemented REST APIs, microservices, and third-party integrations including Stripe, PayPal, and social login providers.",
+      "Applied architectural patterns like Saga and Circuit Breaker to ensure resilience and consistency.",
+      "Managed real-time data flow using AWS SQS, Kafka, RabbitMQ, and WebSockets.",
+      "Developed CI/CD pipelines with GitHub Actions and Docker for streamlined deployment workflows.",
+      "Wrote comprehensive unit/integration tests using Jest and maintained API documentation with Swagger.",
+      "Mentored junior developers, enforced code quality standards, and improved team velocity."
     ],
     "project": [1]
   },
@@ -99,23 +99,20 @@
       "ORM"
     ],
     "work": [
-      "Worked as a Senior Backend Developer within an agile Scrum team, actively contributing to both feature development and architectural planning.",
-      "Designed, developed, tested, and deployed scalable microservices applications using Node.js, NestJS, AWS services (Lambda, Step-functions, API Gateway), Sequelize, and MySQL.",
-      "Took responsibility for maintaining and refactoring existing systems built on .NET, identifying and fixing bugs, optimizing performance, and improving maintainability.",
-      "Implemented dynamic and configurable menu structures across applications to support evolving business requirements.",
-      "Built AWS Step Functions to automate and synchronize product data from the POS (TASK) system to internal services.",
-      "Designed and implemented secure social login flows using AWS Cognito, integrating with Google, Apple, and Facebook providers.",
-      "Engineered robust order processing pipelines to support third-party platforms like UberEats, DoorDash, Menulog, and Deliveroo.",
-      "Built and optimized complex ETL processes to ingest and normalize transactional data from the POS system for analytics and reporting.",
-      "Developed business logic for order validation, offer/coupon application, and transactional integrity checks across microservices using Saga patterns.",
-      "Wrote unit and integration test cases for various microservices to ensure reliability, accuracy, and regression safety."
+      "Designed and deployed scalable microservices using Node.js, NestJS, Sequelize, and AWS (Lambda, Step Functions, API Gateway).",
+      "Automated menu and product data sync with POS systems via Step Functions, reducing manual overhead by 70%.",
+      "Built order processing logic and third-party platform integration (UberEats, DoorDash, Menulog), ensuring transactional accuracy.",
+      "Enhanced authentication flows with AWS Cognito including Apple, Google, and Facebook logins.",
+      "Refactored legacy .NET systems for performance and maintainability, reducing downtime and bug rates.",
+      "Engineered robust ETL pipelines for transactional analytics across platforms.",
+      "Implemented test coverage across all services, ensuring system stability during frequent feature releases."
     ],
     "project": [1]
   },
   {
     "id": 3,
     "designation": "Senior Full Stack Developer",
-    "name": "Freelance (UK 🇬🇧, USA 🇺🇸, Australia 🇦🇺, Singapore 🇸🇬)",
+    "name": "Inginim Software Private limited (Singapore 🇸🇬)",
     "url": "https://vickymoditech.github.io/#/projects",
     "date": "April 2018 – April 2021",
     "skills": [
@@ -160,18 +157,12 @@
       "ORM"
     ],
     "work": [
-      "Led full-stack development projects from planning to deployment, working closely with clients to define scope and deliver scalable solutions in agile environments.",
-      "Architected and implemented 10+ high-performance, secure backend systems using Node.js, NestJS, AWS services, and PostgreSQL/MySQL/MongoDB.",
-      "Developed 15+ responsive, user-centric frontend applications with React.js, Next.js, Redux, TypeScript, Tailwind CSS, Bootstrap, Material UI, and Hero UI.",
-      "Designed and developed scalable RESTful APIs and microservices, integrating third-party services and payment gateways like Stripe and PayPal for e-commerce platforms.",
-      "Implemented Saga patterns to manage distributed transactions, ensuring data consistency across microservices.",
-      "Enhanced system resilience with Circuit Breaker patterns, reducing downtime during service failures.",
-      "Built microservice communication using AWS SQS, Kafka, RabbitMQ, and WebSockets for real-time data updates.",
-      "Containerized applications with Docker to maintain consistent development, staging, and production environments.",
-      "Oversaw CI/CD pipelines, infrastructure automation, and DevOps workflows to support reliable and efficient deployments.",
-      "Integrated secure authentication and authorization systems using JWT, AWS Cognito, and OAuth.",
-      "Conducted code reviews, enforced best practices, and maintained high-quality documentation.",
-      "Managed client communications, stakeholder engagement, budget estimations, and resource allocation to ensure successful project delivery."
+      "Delivered 10+ web applications across fintech, e-commerce, and HR domains.",
+      "Built dynamic UIs and dashboards with React, Bootstrap, Tailwind CSS, and Material UI.",
+      "Integrated and maintained secure APIs using Node.js and .NET Core.",
+      "Authored Python scripts for data migration and tooling automation.",
+      "Created tools like dynamic table builders and real-time charts for enhanced UX.",
+      "Championed TDD, peer reviews, and CI/CD to uphold high-quality standards."
     ],
     "project": [2, 3, 4, 5, 6, 7]
   },
@@ -218,56 +209,12 @@
       "ORM"
     ],
     "work": [
-      "Developed RestFull apis using Node.js, .Net core, implementing JWT authentication and authorization for secure access.",
-      "Developed Responsive Web Applications using React.js, and Redux, ensuring cross-browser compatibility and performance optimization.",
-      "Built dynamic and reusable frontend components in React, implemented client-side validations, and wrote unit/UI test cases using modern testing frameworks.",
-      "Created custom UI tools such as dynamic table builders, enhanced user experiences, and followed responsive design best practices for cross-device compatibility.",
-      "Developed Python scripts for major version migrations",
-      "Applied performance optimizations and architectural improvements across systems.",
-      "Documented APIs using Swagger, implemented third-party service integrations, and ensured smooth deployments through established DevOps workflows.",
-      "Maintained high code quality through testing, peer code reviews, and mentoring junior developers, while actively collaborating with teams and clients to align technical solutions with business needs."
-    ],
-    "project": [2]
-  },
-  {
-    "id": 5,
-    "designation": "Software Developer - Training",
-    "name": "Lanet Team Software Solution (India 🇮🇳)",
-    "url": "#",
-    "date": "Sept 2017 – May 2018",
-    "skills": [
-      "Javascript",
-      "Typescript",
-      "Node.Js",
-      "React.js",
-      "Vue Js",
-      "Redux",
-      "Jwt",
-      "AWS",
-      "S3 bucket",
-      "Axios",
-      "Mongodb",
-      "Mysql",
-      "Asp.net",
-      "ORM types",
-      "HTML",
-      "CSS",
-      "SCSS",
-      "Figma Design Implement",
-      "Design DataBase",
-      "Jest - Test Cases Integration",
-      "Python",
-      "Java",
-      "Mongodb",
-      "ORM",
-      "Socket"
-    ],
-    "work": [
-      "Designed and developed scalable web applications from scratch.",
-      "Integrated real-time functionalities using PubNub and other socket technologies.",
-      "Worked with MySQL and MongoDB databases, optimizing queries with indexing.",
-      "Built APIs, implemented business requirements, and conducted software quality testing.",
-      "Managed the full lifecycle of applications, from deployment to maintenance, and handled security measures."
+      "Built and maintained RESTful APIs using Java Spring Boot, Hibernate, Node.js, and Django for robust backend logic.",
+      "Developed modern frontend interfaces with React.js and Redux, ensuring responsive, cross-device compatibility.",
+      "Integrated authentication with JWT and OAuth providers, and secured applications via TDD and code reviews.",
+      "Authored custom UI components and internal tools improving team productivity by 30%.",
+      "Managed deployments with Docker, GitHub Actions, and CI/CD workflows.",
+      "Collaborated with QA and product teams to deliver high-quality releases in agile environments."
     ],
     "project": [2]
   }
