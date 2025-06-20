@@ -57,6 +57,8 @@
       "Implemented REST APIs, microservices, and third-party integrations including Stripe, PayPal, and social login providers.",
       "Applied architectural patterns like Saga and Circuit Breaker to ensure resilience and consistency.",
       "Managed real-time data flow using AWS SQS, Kafka, RabbitMQ, and WebSockets.",
+      "Optimized database performance with indexing, query optimization, and caching strategies.",
+      "Optimized Front-end applications with code splitting, lazy loading, and performance profiling.",
       "Developed CI/CD pipelines with GitHub Actions and Docker for streamlined deployment workflows.",
       "Wrote comprehensive unit/integration tests using Jest and maintained API documentation with Swagger.",
       "Mentored junior developers, enforced code quality standards, and improved team velocity."

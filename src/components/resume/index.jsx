@@ -58,12 +58,12 @@ const Resume = () => {
         <Page>
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-code"></i>   Technical Skills
+              <i class="fa-solid fa-code" />   Technical Skills
             </h2>
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-database"></i>   Databases 
+                <i class="fa-solid fa-database" />   Databases 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -78,7 +78,7 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i>   Back-end Development 
+                <i class="fa-solid fa-laptop-code" />   Back-end Development 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -93,7 +93,7 @@ const Resume = () => {
 
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i>   Front-end Development 
+                <i class="fa-solid fa-laptop-code" />   Front-end Development 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -107,7 +107,7 @@ const Resume = () => {
             </div>
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-brands fa-aws"></i>   AWS Cloud Services 
+                <i class="fa-brands fa-aws" />   AWS Cloud Services 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -121,7 +121,7 @@ const Resume = () => {
             </div>
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-credit-card"></i>   Payment Integration 
+                <i class="fa-solid fa-credit-card" />   Payment Integration 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -135,7 +135,7 @@ const Resume = () => {
             </div>
             <div class="skills-lists">
               <div className="main_skill">
-                <i class="fa-solid fa-credit-card" />   Extra 
+                <i class="fa-solid fa-laptop-code" />   Extra 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
@@ -153,12 +153,23 @@ const Resume = () => {
         <Page>
           <div class="section">
             <h2 class="section-header">
-              <i class="fa-solid fa-diagram-project"></i>   Projects
+              <i class="fa-solid fa-diagram-project" />   Projects
             </h2>
+
             <Project projects={[...projects.slice(0, 3)]} />
 
+            <div className="see-more">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://vickymoditech.github.io/#/projects"
+              >
+                See More Projects   <i class="fa-solid fa-angles-right"></i>
+              </a>
+            </div>
+
             <h2 class="section-header">
-              <i class="fa-solid fa-user-graduate"></i>   EDUCATION
+              <i class="fa-solid fa-user-graduate" />   EDUCATION
             </h2>
 
             <div class="education-item">

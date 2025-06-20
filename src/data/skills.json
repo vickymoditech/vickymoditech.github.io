@@ -50,5 +50,7 @@
   { "name": "JWT, OAuth2.0", "year": 4 },
   { "name": "Query Optimization", "year": 4 },
   { "name": "Docker, CI/CD", "year": 4 },
-  { "name": "Serverless Architecture", "year": 3 }
+  { "name": "Serverless", "year": 3 },
+  { "name": "Azure DevOps", "year": 2 },
+  { "name": "Kubernetes", "year": 2 }
 ]

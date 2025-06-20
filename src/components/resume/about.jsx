@@ -78,9 +78,9 @@ const About = () => {
         <p>
           Senior Full Stack Developer with over 8 years of experience delivering
           robust, scalable, and secure web and mobile applications across global
-          markets including Singapore, Australia, the UK, and the US. Skilled in
-          both frontend (React.js, Next.js, Angular, Vue) and backend (Node.js,
-          NestJS, Python, Java, ASP.NET) development, with deep expertise in
+          markets including Singapore, Australia, UK, and US. Skilled in both
+          frontend (React.js, Next.js, Angular, Vue) and backend (Node.js,
+          NestJS, Java, Python, c#) development, with deep expertise in
           microservices and monolithic architectures. Proven ability to lead
           projects from concept to production in agile environments, with
           hands-on experience in AWS (Cognito, Lambda, EC2, S3, RDS), database
