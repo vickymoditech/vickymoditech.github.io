@@ -2,9 +2,9 @@
   {
     "id": 1,
     "designation": "Senior Full Stack Developer",
-    "name": "Freelance | Contract (UK 🇬🇧, USA 🇺🇸, Australia 🇦🇺, Singapore 🇸🇬)",
+    "name": "DOT Compliance Group (USA 🇺🇸)",
     "url": "#",
-    "date": "Sept 2024 – June 2025",
+    "date": "Oct 2024 – June 2025",
     "skills": [
       "Javascript",
       "Typescript",
@@ -50,18 +50,17 @@
       "Asp.net"
     ],
     "work": [
-      "Led end-to-end full-stack development for 10+ projects, collaborating with clients and teams across planning, design, and deployment phases.",
-      "Architected scalable backend systems using NestJS, Node.js, Python, and Java with PostgreSQL, MySQL, and MongoDB.",
-      "Built secure, responsive frontend applications with React.js, Next.js, TypeScript, Tailwind CSS, and Redux.",
-      "Integrated secure authentication and authorization with JWT, AWS Cognito, and OAuth.",
-      "Implemented REST APIs, microservices, and third-party integrations including Stripe, PayPal, and social login providers.",
-      "Applied architectural patterns like Saga and Circuit Breaker to ensure resilience and consistency.",
-      "Managed real-time data flow using AWS SQS, Kafka, RabbitMQ, and WebSockets.",
-      "Optimized database performance with indexing, query optimization, and caching strategies.",
-      "Optimized Front-end applications with code splitting, lazy loading, and performance profiling.",
-      "Developed CI/CD pipelines with GitHub Actions and Docker for streamlined deployment workflows.",
-      "Wrote comprehensive unit/integration tests using Jest and maintained API documentation with Swagger.",
-      "Mentored junior developers, enforced code quality standards, and improved team velocity."
+      "Developed an AI-powered solution using Lamma AI to automatically read, classify, and act on incoming emails, streamlining operational workflows.",
+      "Implemented logic to identify email intent and type based on message body, improving automation and routing accuracy.",
+      "Built a secure KYC signature verification flow, ensuring compliance with digital identity and verification standards.",
+      "Developed a document validation system to ensure correct and complete file uploads.",
+      "Created a custom ETL process to convert static government-issued PDFs into dynamic webforms, enabling seamless data collection.",
+      "Built an automated system to generate completed PDFs from webform submissions for direct submission to U.S. Government portals.",
+      "Designed and integrated various compliance forms, including Form 150, into the customer onboarding workflow.",
+      "Refactored and enhanced the project’s codebase and architecture for improved maintainability and scalability.",
+      "Set up and maintained a CI/CD pipeline to automate testing, building, and deployment.",
+      "Performed query optimization to improve API performance and reduce response times.",
+      "Collaborated with cross-functional teams to deliver features aligned with DOT compliance and regulatory standards."
     ],
     "project": [1]
   },
@@ -116,7 +115,7 @@
     "designation": "Senior Full Stack Developer",
     "name": "Inginim Software Private limited (Singapore 🇸🇬)",
     "url": "https://vickymoditech.github.io/#/projects",
-    "date": "April 2018 – April 2021",
+    "date": "June 2020 – April 2021",
     "skills": [
       "Javascript",
       "Typescript",
@@ -160,7 +159,7 @@
     ],
     "work": [
       "Delivered 10+ web applications across fintech, e-commerce, and HR domains.",
-      "Built dynamic UIs and dashboards with React, Bootstrap, Tailwind CSS, and Material UI.",
+      "Built dynamic UIs and dashboards with React, Vue.js, Bootstrap, Tailwind CSS, and Material UI.",
       "Integrated and maintained secure APIs using Node.js and .NET Core.",
       "Authored Python scripts for data migration and tooling automation.",
       "Created tools like dynamic table builders and real-time charts for enhanced UX.",
@@ -173,7 +172,7 @@
     "designation": "Senior Backend Developer",
     "name": "Lanet Team Software Solution (India 🇮🇳)",
     "url": "#",
-    "date": "Oct 2017 – May 2021",
+    "date": "Oct 2017 – May 2020",
     "skills": [
       "Javascript",
       "Typescript",

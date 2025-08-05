@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-info">
           <p>Phone</p>
           <p>
-            <a href="tel:+918401060120">+91 8401060120</a>
+            <a href="tel:+1 (365) 889-6562">+1 (365) 889-6562</a>
           </p>
         </div>
         <div className="footer-info">
@@ -35,7 +35,10 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i style={{ color: "#000", fontSize: "25px" }} className="fab fa-github"></i>
+              <i
+                style={{ color: "#000", fontSize: "25px" }}
+                className="fab fa-github"
+              ></i>
             </a>
           </div>
         </div>

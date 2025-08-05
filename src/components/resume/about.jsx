@@ -63,10 +63,14 @@ const About = () => {
           </div>
           <div class="contact-item">
             <span>
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <span>+1 (365) 889-6562</span>
+            <span>
               <i class="fa-solid fa-location-dot"></i>
             </span>
             <span>
-              208-512 Mohawk Road East, Hamilton, Ontario, L8V 2J2, Canada
+              609-512 Mohawk Road East, Hamilton, Ontario, L8V 2J2, Canada
             </span>
           </div>
         </div>
