@@ -67,12 +67,10 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(0, 4).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
+                {skill
+                  .slice(0, 6)
+                  .map((s) => s.name)
+                  .join(", ")}
               </div>
             </div>
 
@@ -82,12 +80,10 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(4, 13).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
+                {skill
+                  .slice(6, 15)
+                  .map((s) => s.name)
+                  .join(", ")}
               </div>
             </div>
 
@@ -97,66 +93,63 @@ const Resume = () => {
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(13, 24).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
+                {skill
+                  .slice(15, 26)
+                  .map((s) => s.name)
+                  .join(", ")}
               </div>
             </div>
+
             <div class="skills-lists">
               <div className="main_skill">
                 <i class="fa-brands fa-aws" />   AWS Cloud Services 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(24, 35).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
+                {skill
+                  .slice(26, 39)
+                  .map((s) => s.name)
+                  .join(", ")}
               </div>
             </div>
+
             <div class="skills-lists">
               <div className="main_skill">
                 <i class="fa-solid fa-credit-card" />   Payment Integration 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(35, 38).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
+                {skill
+                  .slice(39, 42)
+                  .map((s) => s.name)
+                  .join(", ")}
               </div>
             </div>
+
             <div class="skills-lists">
               <div className="main_skill">
                 <i class="fa-solid fa-laptop-code" />   Extra 
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(38, 60).map((s) => (
-                  <span class="skill">
-                    <span>{s.name}</span>
-                    <span> {s.year} yrs</span>
-                  </span>
-                ))}
+                {skill
+                  .slice(42, 60)
+                  .map((s) => s.name)
+                  .join(", ")}
               </div>
             </div>
+
+            <h2 class="section-header">
+              <i class="fa-solid fa-diagram-project" />   Projects
+            </h2>
+
+            <Project projects={[...projects.slice(0, 2)]} />
           </div>
         </Page>
 
         <Page>
           <div class="section">
-            <h2 class="section-header">
-              <i class="fa-solid fa-diagram-project" />   Projects
-            </h2>
-
-            <Project projects={[...projects.slice(0, 3)]} />
+            <Project projects={[...projects.slice(2, 3)]} />
 
             <div className="see-more">
               <a
@@ -174,7 +167,7 @@ const Resume = () => {
 
             <div class="education-item">
               <h3 class="degree">
-                Master of Science in Information Technology (MSC IT)
+                Master of Science in Information Technology (MSC-IT)
               </h3>
               <p class="school">UKA TARSADIA UNIVERSITY</p>
               <p class="education-years">Sep 2012 - Oct 2017</p>

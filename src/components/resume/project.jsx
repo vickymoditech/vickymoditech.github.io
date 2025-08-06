@@ -15,8 +15,8 @@ const Project = ({ projects }) => {
             style={{
               display: "flex",
               flexDirection: "column",
-              gap: "10px",
-              padding: "10px 0 30px",
+              // gap: "10px",
+              padding: "10px 0 7px",
             }}
           >
             <ProjectDescription description={p.description} />
