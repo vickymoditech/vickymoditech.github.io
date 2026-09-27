@@ -3,16 +3,15 @@ import React from "react";
 const CompanyHeader = ({ company }) => {
   return (
     <>
-      <h3 class="job-title job-titles">{company.designation}</h3>
-      {/* <p class="company">Harvey</p> */}
-      <div class="job-meta">
+      <h3 className="job-title">{company.designation}</h3>
+      <div className="job-meta">
         <span>
           <a rel="noreferrer" target="_blank" href={company.url}>
             {company.name}
           </a>
         </span>
 
-        <span><i class="fa-solid fa-calendar-days"></i>&nbsp;{company.date}</span>
+        <span><i className="fa-solid fa-calendar-days" aria-hidden="true"></i>&nbsp;{company.date}</span>
       </div>
     </>
   );

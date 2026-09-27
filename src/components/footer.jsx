@@ -3,45 +3,20 @@ import "../App.css";
 
 function Footer() {
   return (
-    <footer>
-      <div className="footer-content">
-        <div className="footer-info">
-          <p>Phone</p>
-          <p>
-            <a href="tel:+1 (365) 889-6562">+1 (365) 889-6562</a>
-          </p>
+    <footer className="site-footer">
+      <div className="footer-inner">
+        <div>
+          <p className="footer-kicker">Contact</p>
+          <a className="footer-email" href="mailto:vickymoditech@gmail.com">
+            vickymoditech@gmail.com <span aria-hidden="true">↗</span>
+          </a>
         </div>
-        <div className="footer-info">
-          <p>Email</p>
-          <p>
-            <a href="mailto:vickymoditech@gmail.com">vickymoditech@gmail.com</a>
-          </p>
+        <div className="footer-links">
+          <a href="https://www.linkedin.com/in/vicky-modi-a01885186" target="_blank" rel="noopener noreferrer">LinkedIn profile <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/vickymoditech/" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          <a href="https://www.youtube.com/@VickyModi123" target="_blank" rel="noopener noreferrer">YouTube · study &amp; projects <span aria-hidden="true">↗</span></a>
         </div>
-        <div className="footer-social">
-          <p>Follow Me</p>
-          <div className="social-logo">
-            <a
-              href="https://www.linkedin.com/in/vicky-modi-a01885186"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i
-                style={{ color: "#000", fontSize: "25px" }}
-                className="fab fa-linkedin"
-              ></i>
-            </a>
-            <a
-              href="https://github.com/vickymoditech/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i
-                style={{ color: "#000", fontSize: "25px" }}
-                className="fab fa-github"
-              ></i>
-            </a>
-          </div>
-        </div>
+        <p className="footer-note">Portfolio of Vicky Modi · Lead Full-Stack Developer · Hamilton, Ontario</p>
       </div>
     </footer>
   );

@@ -1,48 +1,23 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../App.css";
 
 const Header = () => {
-  const navigate = useNavigate();
-
-  const click = (path) => {
-    navigate(path);
-  };
-
   return (
-    <header className="header">
-      <div className="logo"></div>
-      <div className="menu">
-        <ul>
-          <li>
-            <span
-              onClick={() => {
-                click("/");
-              }}
-            >
-              About
-            </span>
-          </li>
-          <li>
-            <span
-              onClick={() => {
-                click("/resume");
-              }}
-            >
-              Resume
-            </span>
-          </li>
-          <li>
-            <span
-              onClick={() => {
-                click("/projects");
-              }}
-            >
-              Projects
-            </span>
-          </li>
-        </ul>
-      </div>
+    <header className="site-header">
+      <NavLink className="brand" to="/" aria-label="Vicky Modi home">
+        <span className="brand-mark">VM</span>
+        <span className="brand-name">Vicky Modi</span>
+      </NavLink>
+      <nav className="nav-links" aria-label="Main navigation">
+        <NavLink to="/" end>Overview</NavLink>
+        <NavLink to="/projects">Selected work</NavLink>
+        <NavLink to="/videos">Videos</NavLink>
+        <NavLink to="/resume">Résumé</NavLink>
+      </nav>
+      <a className="header-contact" href="mailto:vickymoditech@gmail.com">
+        Let&apos;s talk <span aria-hidden="true">↗</span>
+      </a>
     </header>
   );
 };

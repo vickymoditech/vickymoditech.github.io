@@ -6,11 +6,10 @@ const Description = ({ company, bulletStart, bulletEnd }) => {
       ? company.work.slice(bulletStart, bulletEnd)
       : company.work;
 
-  console.log(company.work.slice(bulletStart, bulletEnd));
   return (
-    <ul class="achievements">
-      {works.map((work) => (
-        <li> {work} </li>
+    <ul className="achievements">
+      {works.map((work, index) => (
+        <li key={`${company.id}-${index}`}>{work}</li>
       ))}
     </ul>
   );

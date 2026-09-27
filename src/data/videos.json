@@ -1,0 +1,114 @@
+[
+  {
+    "id": "rLVXjazbVUs",
+    "title": "Lab Experiment 4: Redis Cache Strategies | Single Flight, Negative Cache & Bloom Filter",
+    "published": "2026-09-27",
+    "category": "Backend performance",
+    "labExperiment": true,
+    "description": "Tests Redis caching strategies for high traffic: Single Flight to prevent cache stampedes, negative caching, and Bloom filters to reduce unnecessary database lookups."
+  },
+  {
+    "id": "hrYftOJl67Q",
+    "title": "Lab Experiment 3: NestJS Cluster Mode Performance | 10 Instances & 100 DB Connections",
+    "published": "2026-09-21",
+    "category": "Backend performance",
+    "labExperiment": true,
+    "description": "Benchmarks a NestJS application with ten cluster instances and up to 100 database connections, examining throughput, CPU use, pool behavior, and bottlenecks."
+  },
+  {
+    "id": "f3cIrdikXxY",
+    "title": "Lab Experiment 2: NestJS SELECT Query Performance Under Heavy Load",
+    "published": "2026-09-20",
+    "category": "Backend performance",
+    "labExperiment": true,
+    "description": "Load-tests a NestJS GET API against 15,000 database records and measures throughput, CPU usage, query impact, and performance bottlenecks."
+  },
+  {
+    "id": "z5RlyMvZhg4",
+    "title": "Lab Experiment 1: Almost 100k requests per second.",
+    "published": "2026-09-14",
+    "category": "Backend performance",
+    "labExperiment": true,
+    "description": "Introduces the Lab Experiment series with practical performance tests around request throughput, backend scalability, and database load."
+  },
+  {
+    "id": "-BMSujBsAks",
+    "title": "Image Portrait in Java",
+    "published": "2017-06-16",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "A Java image-portrait project that creates a portrait using a custom message."
+  },
+  {
+    "id": "gqSu-wbBYEQ",
+    "title": "screen sever",
+    "published": "2017-06-10",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "A Java screensaver project demonstrating collision detection."
+  },
+  {
+    "id": "DL8932dVamA",
+    "title": "Library Management",
+    "published": "2017-05-29",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "A Java library management system built with the Struts framework."
+  },
+  {
+    "id": "LCP6PGwpoj0",
+    "title": "mango classification using own shape number and svm image processing",
+    "published": "2017-02-16",
+    "category": "Image processing",
+    "labExperiment": false,
+    "description": "An image-processing project that classifies mangoes using shape-number features and an SVM."
+  },
+  {
+    "id": "W8DNu9lTPO0",
+    "title": "Java Through Get Angle",
+    "published": "2016-12-23",
+    "category": "Java study",
+    "labExperiment": false,
+    "description": "A small Java exercise that calculates an angle from three points."
+  },
+  {
+    "id": "ZNwGqACRBoM",
+    "title": "Java E-Commerce Web Application",
+    "published": "2016-12-02",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "A Java e-commerce application with visitor, customer, dealer, and admin roles, billing, and special offers."
+  },
+  {
+    "id": "UtYQI2j68Vk",
+    "title": "Sequence Master",
+    "published": "2016-11-04",
+    "category": "JavaFX game",
+    "labExperiment": false,
+    "description": "A brain-training game built with JavaFX."
+  },
+  {
+    "id": "-K5fZB2nVn4",
+    "title": "Special Message Write Into The Images And Read it...",
+    "published": "2016-09-17",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "An image-based experiment for writing a special message into an image and reading it back."
+  },
+  {
+    "id": "oQs6_Cf9suQ",
+    "title": "ScreenSaver with LocalGraphicsEnvironment in Java",
+    "published": "2016-08-19",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "A Java fullscreen screensaver example using LocalGraphicsEnvironment and sprite animation."
+  },
+  {
+    "id": "jlRyrLbgsDU",
+    "title": "Java 2d Game Engine",
+    "published": "2016-06-27",
+    "category": "Java project",
+    "labExperiment": false,
+    "description": "A beginner-oriented Java 2D game development video."
+  }
+]

@@ -8,9 +8,9 @@ const Project = ({ projects }) => {
 
   return (
     <Fragment>
-      {projects.map((p, index) => (
-        <Fragment>
-          <ProjectsHeader project={p} key={index} />
+      {projects.map((p) => (
+        <Fragment key={p.id}>
+          <ProjectsHeader project={p} />
           <div
             style={{
               display: "flex",

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import CompanyHeader from "./components/companyHeader";
 // import Skills from "./components/Skills";
 import Description from "./components/description";
@@ -10,20 +10,17 @@ const Company = ({
   bulletEnd = undefined,
 }) => {
   return (
-    <Fragment>
-      <div class="job">
+      <div className="job">
         {isCompany && <CompanyHeader company={company} />}
 
-        <p class="job-description">
-          {/* <Skills skills={company.skills} /> */}
+        <div className="job-description">
           <Description
             company={company}
             bulletStart={bulletStart}
             bulletEnd={bulletEnd}
           />
-        </p>
+        </div>
       </div>
-    </Fragment>
   );
 };
 

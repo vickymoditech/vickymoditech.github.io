@@ -1,5 +1,31 @@
 [
   {
+    "id": 5,
+    "designation": "Lead Software Developer",
+    "name": "TELUS (Canada 🇨🇦)",
+    "url": "https://www.telus.com/",
+    "date": "Dates to confirm",
+    "skills": [],
+    "work": [
+      "Implemented the TELUS dispute flow end to end across frontend and backend.",
+      "Built a clear dispute journey with predictable workflow progression and input validation."
+    ],
+    "project": [14]
+  },
+  {
+    "id": 6,
+    "designation": "Lead Software Developer",
+    "name": "Intuit · QuickBooks (Canada 🇨🇦)",
+    "url": "https://quickbooks.intuit.com/",
+    "date": "Dates to confirm",
+    "skills": [],
+    "work": [
+      "Implemented the QuickBooks tax-filing flow end to end across frontend and backend.",
+      "Focused on accurate data handling, validation, and clear progress through the filing workflow."
+    ],
+    "project": [15]
+  },
+  {
     "id": 1,
     "designation": "Senior Full Stack Developer",
     "name": "DOT Compliance Group (USA 🇺🇸)",

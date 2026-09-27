@@ -1,104 +1,29 @@
-import React, { Fragment } from "react";
+import React from "react";
 
-const About = () => {
-  return (
-    <Fragment>
-      <div class="headers">
-        <div>
-          <h1 class="name">Vicky Modi</h1>
-          <p class="title">Senior Full Stack Developer</p>
-        </div>
-        <div class="contact-info">
-          <div class="contact-item">
-            <span>
-              <i class="fa-solid fa-envelope"></i>
-            </span>
-            <span>
-              <a href="mailto:vickymoditech@gmail.com">
-                vickymoditech@gmail.com
-              </a>
-            </span>
-          </div>
-          <div class="contact-item">
-            <span>
-              <i class="fa-solid fa-link"></i>
-            </span>
-            <span>
-              <a
-                href="https://vickymoditech.github.io"
-                rel="noreferrer"
-                target="_blank"
-              >
-                vickymoditech.github.io
-              </a>
-            </span>
-          </div>
-          <div class="contact-item">
-            <span>
-              <i class="fa-brands fa-github"></i>
-            </span>
-            <span>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/vickymoditech/"
-              >
-                github.com/vickymoditech
-              </a>
-            </span>
-          </div>
-          <div class="contact-item">
-            <span>
-              <i class="fa-brands fa-linkedin"></i>
-            </span>
-            <span>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.linkedin.com/in/vicky-modi-a01885186"
-              >
-                vickymodi@linkedin
-              </a>
-            </span>
-          </div>
-          <div class="contact-item">
-            <span>
-              <i class="fa-solid fa-phone"></i>
-            </span>
-            <span>+1 (365) 889-6562</span>
-            <span>
-              <i class="fa-solid fa-location-dot"></i>
-            </span>
-            <span>
-              609-512 Mohawk Road East, Hamilton, Ontario, L8V 2J2, Canada
-            </span>
-          </div>
-        </div>
+const About = () => (
+  <header className="resume-intro">
+    <div className="resume-intro-top">
+      <div className="resume-name-block">
+        <p className="eyebrow">Professional profile</p>
+        <h1 className="resume-name">Vicky Modi</h1>
+        <p className="resume-title">Lead Full-Stack Developer</p>
       </div>
-      <div class="section">
-        <h2 class="section-header">
-          <i class="fa-solid fa-address-card"></i> &nbsp; About Me
-        </h2>
-        <p>
-          Senior Full Stack Developer with over 8 years of experience delivering
-          robust, scalable, and secure web and mobile applications across global
-          markets including Singapore, Australia, UK, and US. Skilled in both
-          frontend (React.js, Next.js, Angular, Vue) and backend (Node.js,
-          NestJS, Java, Python, c#) development, with deep expertise in
-          microservices and monolithic architectures. Proven ability to lead
-          projects from concept to production in agile environments, with
-          hands-on experience in AWS (Cognito, Lambda, EC2, S3, RDS), database
-          design (PostgreSQL, MySQL, MongoDB), DevOps (CI/CD, Docker, GitHub
-          Actions), and secure real-time communication (WebSockets, SQS, Kafka,
-          RabbitMQ). Known for implementing clean code practices, mentoring
-          teams, integrating payment systems, and aligning technical solutions
-          with business goals. Passionate about solving real-world problems
-          through high-quality, performance-optimized, and user-centric
-          software.
-        </p>
-      </div>
-    </Fragment>
-  );
-};
+      <address className="resume-contact" aria-label="Contact information">
+        <a href="mailto:vickymoditech@gmail.com"><span>Email</span>vickymoditech@gmail.com</a>
+        <a href="tel:+13658896562"><span>Phone</span>+1 (365) 889-6562</a>
+        <a href="https://www.linkedin.com/in/vicky-modi-a01885186" target="_blank" rel="noreferrer"><span>LinkedIn</span>Profile</a>
+        <a href="https://github.com/vickymoditech/" target="_blank" rel="noreferrer"><span>GitHub</span>Profile</a>
+        <a href="https://www.youtube.com/@VickyModi123" target="_blank" rel="noreferrer"><span>YouTube</span>Study &amp; project videos</a>
+        <span className="resume-location"><span>Location</span>Hamilton, Ontario</span>
+      </address>
+    </div>
+    <div className="resume-profile-summary">
+      <p className="eyebrow">Profile</p>
+      <p className="resume-summary">
+        Lead Full-Stack Developer with 8+ years building production software across hospitality, compliance, e-commerce, and fintech. Leads delivery across React applications, Node.js services, AWS infrastructure, and data systems. Experienced in workflow automation, performance optimization, and cross-functional technical leadership.
+      </p>
+    </div>
+  </header>
+);
 
 export default About;

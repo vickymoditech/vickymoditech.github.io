@@ -1,71 +1,82 @@
 import React from "react";
 import "../App.css";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import projectsData from "../data/projects.json";
+import ProjectVisual from "./ProjectVisual";
 
 function About() {
-  const navigate = useNavigate();
-
-  const click = (path) => {
-    navigate(path);
-  };
+  const featuredProjects = [
+    ...projectsData.filter((project) => project.featured),
+    projectsData.find((project) => project.id === 1),
+  ].filter(Boolean).slice(0, 3);
 
   return (
-    <div className="container">
-      {/* <!-- Diagonal line decoration --> */}
-      <div className="diagonal-line"></div>
-
-      {/* <!-- Header section --> */}
-      <header className="header_div">
-        <h1 className="greeting">
-          Hello,
-          <br />
-          Vicky Modi
-        </h1>
-      </header>
-
-      {/* <!-- Main content --> */}
-      <main className="content">
-        {/* <!-- Profile image --> */}
-        <div className="profile-image">
-          <img src="/img/profile.jpg" alt="Profile" width={300} height={400} />
-        </div>
-
-        {/* <!-- About section --> */}
-        <div className="about" style={{ padding: "10px" }}>
-          <h2>About me</h2>
-          <p>
-            I’m Vicky, your tech guru by day and a dedicated husband all the
-            time! I’ve been coding up a storm, but my latest project? Mastering
-            husband life! I’ve gone from tackling complex algorithms to solving
-            the mystery of “what’s for dinner.” <br />I bring my signature
-            brilliance to both the office and home.
-            <br /> Known for my sharp tech skills and smooth moves in keeping
-            the Wi-Fi and my partner’s patience running smoothly, I’m now
-            juggling the roles of innovator and world-class husband.
-            <br /> With my charm and humor, there’s no bug I can’t fix or chore
-            I can’t “debug”!
+    <div className="home-page">
+      <section className="hero-section">
+        <div className="hero-copy">
+          <p className="eyebrow"><span className="status-dot" /> Portfolio <span className="eyebrow-divider">/</span> Hamilton, Ontario</p>
+          <h1>Lead Full-Stack <span>Developer.</span></h1>
+          <p className="hero-summary">
+            I&apos;m Vicky Modi, a lead full-stack developer with 8+ years delivering production web and mobile products across hospitality, compliance, and e-commerce. I combine architecture, backend systems, and React delivery with a focus on performance and reliable workflows.
           </p>
-
-          <div className="button-group">
-            <span onClick={() => click("/resume")}>
-              <button className="learn-more">
-                <span className="circle" aria-hidden="true">
-                  <span className="icon arrow"></span>
-                </span>
-                <span className="button-text">My Resume</span>
-              </button>
-            </span>
-            <span onClick={() => click("/projects")}>
-              <button className="learn-more">
-                <span className="circle" aria-hidden="true">
-                  <span className="icon arrow"></span>
-                </span>
-                <span className="button-text">My Projects</span>
-              </button>
-            </span>
+          <p className="hero-note">My least optimized workflow? Deciding what to have for dinner.</p>
+          <div className="hero-actions">
+            <Link className="button-primary" to="/projects">View selected projects <span aria-hidden="true">↗</span></Link>
+            <Link className="button-text-link" to="/resume">Résumé &amp; experience <span aria-hidden="true">↓</span></Link>
+            <a className="button-text-link" href="https://www.youtube.com/@VickyModi123" target="_blank" rel="noopener noreferrer">Study &amp; project videos <span aria-hidden="true">↗</span></a>
+          </div>
+          <div className="hero-proof" aria-label="Career highlights">
+            <div><strong>8+</strong><span>years building<br />production software</span></div>
+            <div><strong>4</strong><span>countries where I&apos;ve<br />worked and shipped</span></div>
+            <div><strong>70%</strong><span>less manual effort<br />through automation</span></div>
           </div>
         </div>
-      </main>
+        <div className="hero-portrait-wrap">
+          <div className="portrait-frame">
+            <img src="/img/profile.jpg" alt="Portrait of Vicky Modi" />
+          </div>
+          <div className="portrait-caption"><span className="caption-line" /> Product-minded engineering, end to end</div>
+          <div className="portrait-index" aria-hidden="true">01 / 04</div>
+        </div>
+      </section>
+
+      <section className="featured-section" aria-labelledby="featured-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">Selected work</p><h2 id="featured-title">Selected projects.</h2></div>
+          <Link className="button-text-link" to="/projects">All projects <span aria-hidden="true">↗</span></Link>
+        </div>
+        <div className="featured-grid">
+          {featuredProjects.map((project, index) => (
+            <Link className="featured-card" to={`/projectDetail/${project.id}`} key={project.id}>
+              <div className="featured-image">
+                {project.images?.[0]?.src || project.logo ? (
+                  <img src={project.images?.[0]?.src || project.logo} alt={`${project.title} interface`} loading="lazy" />
+                ) : (
+                  <ProjectVisual project={project} />
+                )}
+                <span className="featured-number">0{index + 1}</span>
+                <span className="featured-arrow" aria-hidden="true">↗</span>
+              </div>
+              <div className="featured-meta"><span>{project.companyName}</span><span>{project.role}</span></div>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="approach-strip">
+        <p className="eyebrow">Across teams &amp; products</p>
+        <p>I&apos;ve led end-to-end product workflows, automated recurring work, and improved backend performance across telecom, tax, hospitality, and compliance products.</p>
+        <div className="approach-tags" aria-label="Companies and products">
+          <span>TELUS</span>
+          <span>Intuit · QuickBooks</span>
+          <span>Guzman y Gomez</span>
+          <span>DOT Compliance</span>
+          <span>Inginim Software</span>
+          <span>Lanet Team</span>
+        </div>
+      </section>
     </div>
   );
 }

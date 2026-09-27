@@ -1,136 +1,91 @@
-// import React from "react";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
 import projectsData from "../data/projects.json";
-import { useParams } from "react-router-dom";
 import "../App.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import ProjectVisual from "./ProjectVisual";
 
 function ProjectDetail() {
   const { id } = useParams();
-  const project = projectsData.find((proj) => proj.id === parseInt(id));
-  window.scroll(0, 0);
+  const project = projectsData.find((item) => item.id === Number(id));
+  const projectBadges = project?.technologies?.length ? project.technologies : project?.focus || [];
 
   if (!project) {
     return (
       <div className="project-not-found">
         <h2>Project Not Found</h2>
         <p>The project you are looking for does not exist.</p>
+        <Link className="button-text-link" to="/projects">Back to projects <span aria-hidden="true">↗</span></Link>
       </div>
     );
   }
 
-  // https://www.npmjs.com/package/react-responsive-carousel
-  var React = require("react");
-  // var ReactDOM = require("react-dom");
-  var Carousel = require("react-responsive-carousel").Carousel;
-
   return (
-    <div className="product-section">
-      <h1 className="w3-animate-bottom" style={{ fontSize: "45px" }}>
-        {project.title}
-      </h1>
-      <section
-        className="profile-section"
-        style={{ flexDirection: "column", justifyContent: "space-around" }}
-      >
-        <div
-          className="profile-content"
-          style={{ width: "100%", maxWidth: "unset" }}
-        >
-          <div className="w3-animate-bottom profile-details">
-            <h2>Description</h2>
-            <ul style={{ paddingLeft: "50px" }}>
-              <li style={{ listStyle: "disc" }}>
-                {project.description
-                  .split(".")
-                  .filter((d) => d)
-                  .map((d) => (
-                    <p>{d}.</p>
-                  ))}
-              </li>
-            </ul>
-          </div>
-        </div>
+    <article className="detail-page">
+      <Link className="back-link" to="/projects"><span aria-hidden="true">←</span> All work</Link>
+      <header className="detail-intro">
+        <p className="eyebrow">{project.companyName} <span className="eyebrow-divider">/</span> {project.role}</p>
+        <h1>{project.title}</h1>
+        <p className="detail-summary">{project.description}</p>
+        {project.link && project.link !== "#" && (
+          <a className="button-primary" href={project.link} target="_blank" rel="noopener noreferrer">Visit product <span aria-hidden="true">↗</span></a>
+        )}
+      </header>
 
-        {project.data.map((dt, index) => {
-          return (
-            <div
-              className="profile-content"
-              style={{ width: "100%", maxWidth: "unset" }}
-              key={index}
-            >
-              <div className="w3-animate-bottom profile-details">
-                <h2>{dt.heading}</h2>
-                <ul style={{ paddingLeft: "50px" }}>
-                  {dt.bullets.map((item, index) => (
-                    <li style={{ listStyle: "disc" }} key={index}>
-                      <p>{item}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          );
-        })}
-        <div
-          className="profile-content"
-          style={{ width: "100%", maxWidth: "unset" }}
-        >
-          <div className="technologies">
-            <h2>Technologies</h2>
-            <div className="technologies-logo">
-              {project.technologies.map((technology, index) => (
-                <div className="click-chip background-blue" key={index}>
-                  {technology}
-                </div>
-              ))}
-            </div>
-          </div>
+      {project.images?.[0] && (
+        <figure className="detail-hero-image">
+          <img
+            src={project.images[0].src}
+            alt={project.images[0].alt && !project.images[0].alt.startsWith("Description of image") ? project.images[0].alt : `${project.title} product screen`}
+          />
+        </figure>
+      )}
+      {!project.images?.[0] && project.visualTheme && (
+        <figure className="detail-project-art">
+          <ProjectVisual project={project} />
+        </figure>
+      )}
+
+      <section className="detail-content">
+        <div className="detail-aside">
+          <p className="eyebrow">Implementation</p>
+          <h2>End-to-end ownership</h2>
+          <p>My role: <strong>{project.role}</strong></p>
+          <p>Team: <strong>{project.companyName}</strong></p>
         </div>
-        <div className="button-group">
-          <button
-            className="url-button"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => {
-              window.open(project.link, "_blank");
-            }}
-          >
-            <svg
-              height="24"
-              width="24"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path
-                d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
-                fill="currentColor"
-              ></path>
-            </svg>
-            <span>URL</span>
-          </button>
+        <div className="detail-sections">
+          {project.data.map((section) => (
+            <section className="detail-section" key={section.heading}>
+              <h3>{section.heading}</h3>
+              <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>
+            </section>
+          ))}
         </div>
       </section>
 
-      <Carousel>
-        {project.images &&
-          project.images.map((img, index) => (
-            <div key={index} style={{ width: "auto", height: "500px" }}>
-              <img src={img.src} alt="Restaurant Reservation" />
-            </div>
-          ))}
-      </Carousel>
+      {projectBadges.length > 0 && (
+        <section className="detail-tech">
+          <p className="eyebrow">{project.technologies.length ? "Tools & technologies" : "Project focus"}</p>
+          <div className="project-tags">{projectBadges.map((badge) => <span key={badge}>{badge}</span>)}</div>
+        </section>
+      )}
 
-      {/* <div
-        className="product-image"
-        style={{ maxWidth: "unset", maxHeight: "unset", height: "auto" }}
-      >
-        {project.images &&
-          project.images.map((img, index) => (
-            <img src={img.src} alt="Restaurant Reservation" key={index} />
-          ))}
-      </div> */}
-    </div>
+      {project.images?.length > 1 && (
+        <section className="gallery-section">
+          <div className="section-heading"><div><p className="eyebrow">Screens</p><h2>Inside the product.</h2></div></div>
+          <div className="detail-gallery">
+            {project.images.slice(1).map((image, index) => (
+              <figure key={image.src}>
+                <img
+                  src={image.src}
+                  alt={image.alt && !image.alt.startsWith("Description of image") ? image.alt : `${project.title} screen ${index + 2}`}
+                  loading="lazy"
+                />
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+    </article>
   );
 }
 

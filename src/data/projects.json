@@ -1392,5 +1392,81 @@
       }
     ],
     "link": "http://www.singaporehomecooks.com/"
+  },
+  {
+    "id": 14,
+    "title": "TELUS - Dispute Flow",
+    "logo": "",
+    "visualTheme": "telus",
+    "visualLabel": "TELUS",
+    "visualSubtitle": "Dispute flow",
+    "featured": true,
+    "description": "As Lead Software Developer, I implemented the TELUS dispute flow end to end across frontend and backend. In a telecommunications support journey, clear progression and reliable state handling are essential.",
+    "companyName": "TELUS",
+    "companySite": "https://www.telus.com/",
+    "role": "Lead Software Developer",
+    "data": [
+      {
+        "heading": "Lead contribution",
+        "bullets": [
+          "Implemented the TELUS dispute flow end to end as Lead Software Developer.",
+          "Owned delivery across the frontend and backend."
+        ]
+      },
+      {
+        "heading": "Engineering focus",
+        "bullets": [
+          "Focused on clear, predictable progression through the dispute journey.",
+          "Prioritized reliable state changes, accurate input handling, and maintainable hand-offs."
+        ]
+      }
+    ],
+    "focus": [
+      "Lead ownership",
+      "Workflow design",
+      "State management",
+      "Input validation"
+    ],
+    "technologies": [],
+    "images": [],
+    "link": ""
+  },
+  {
+    "id": 15,
+    "title": "QuickBooks - Tax Filing Flow",
+    "logo": "",
+    "visualTheme": "intuit",
+    "visualLabel": "intuit",
+    "visualSubtitle": "QuickBooks · Tax filing flow",
+    "featured": true,
+    "description": "As Lead Software Developer, I implemented the QuickBooks tax-filing flow end to end across frontend and backend. In a high-trust filing journey, accurate data handling and clear progress are essential.",
+    "companyName": "Intuit",
+    "companySite": "https://quickbooks.intuit.com/",
+    "role": "Lead Software Developer",
+    "data": [
+      {
+        "heading": "Lead contribution",
+        "bullets": [
+          "Implemented the QuickBooks tax-filing flow end to end as Lead Software Developer.",
+          "Owned delivery across the frontend and backend."
+        ]
+      },
+      {
+        "heading": "Engineering focus",
+        "bullets": [
+          "Focused on guiding users through a complex tax-filing journey.",
+          "Prioritized data validation and clear handling of edge cases."
+        ]
+      }
+    ],
+    "focus": [
+      "Lead ownership",
+      "Tax workflow design",
+      "Data validation",
+      "Edge-case handling"
+    ],
+    "technologies": [],
+    "images": [],
+    "link": ""
   }
 ]
