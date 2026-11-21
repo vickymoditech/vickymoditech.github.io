@@ -60,6 +60,16 @@ function Videos() {
 
       <section className="video-feature" id="video-player" ref={videoFeatureRef} tabIndex={-1} aria-labelledby="active-video-title">
         <div className="video-player">
+          <button
+            className="video-move-handle"
+            type="button"
+            data-layout-handle
+            aria-label="Drag video player"
+            title="Drag to reposition the video player"
+          >
+            <span aria-hidden="true">⠿</span>
+            <span>Move player</span>
+          </button>
           <iframe
             key={activeVideo.id}
             src={`https://www.youtube.com/embed/${activeVideo.id}?rel=0`}
